@@ -10,7 +10,7 @@ url: "https://joseph-jekyll.netlify.app" # the base hostname & protocol for your
 # Author Settings
 author:
   name: Kien Pham
-  bio: I'm working in Gustave Eiffel University, under the project ClearDoc - City of Tomorrow - MSCA Cofund . I also a freelance education & scholarship consultant.
+  bio: I'm working at Gustave Eiffel University, under the project ClearDoc - City of Tomorrow - MSCA Cofund . I also a freelance education & scholarship consultant.
   avatar: '/images/01-1.jpg'
 
 social:
@@ -26,7 +26,7 @@ social:
 # Hero Settings
 hero:
   hero__title: Hey, I’m Kien! PhD Fellow & Photographer.
-  hero__description: I'm working in Gustave Eiffel University, under the project ClearDoc - City of Tomorrow - MSCA Cofund . I also a freelance education & scholarship consultant.
+  hero__description: I'm working at Gustave Eiffel University, under the project ClearDoc - City of Tomorrow - MSCA Cofund . I also a freelance education & scholarship consultant.
   hero__image: '/images/01-1.jpg'
 
 
