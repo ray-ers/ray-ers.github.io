@@ -14,12 +14,10 @@ author:
   avatar: '/images/01.jpg'
 
 social:
-- {icon: "ion-logo-twitter", label: Twitter, link: "https://twitter.com"}
-- {icon: "ion-logo-facebook", label: Facebook, link: "https://facebook.com"}
-- {icon: "ion-logo-pinterest", label: Pinterest, link: "https://pinterest.com"}
-- {icon: "ion-logo-dribbble", label: Dribbble, link: "https://dribbble.com"}
-- {icon: "ion-logo-instagram", label: Instagram, link: "https://instagram.com"}
-- {icon: "ion ion-logo-vimeo", label: Vimeo, link: "https://vimeo.com"}
+- {icon: "ion-logo-twitter", label: Twitter, link: "https://twitter.com/kien_env"}
+- {icon: "ion-logo-facebook", label: Facebook, link: "https://www.facebook.com/kin.theawesome/"}
+- {icon: "ion-logo-linkedin", label: Linkedin, link: "https://www.linkedin.com/in/phamkien/"}
+- {icon: "ion-logo-instagram", label: Instagram, link: "https://www.instagram.com/ray_theurbanist/"}
 
 # Example of adding a new link to the author section and footer - {icon: "ion-logo-github", label: Github, link: "https://github.com"}
 # Other icons can be found at https://ionicons.com/v4/
