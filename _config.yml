@@ -1,6 +1,6 @@
 #-------------------------------
 # General Site Settings
-title: Joseph Lawrence
+title: Kien Pham
 logo: # You can add own logo. For example '/images/logo.png'.
 description: Joseph is a super minimal content focus theme for Jekyll.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -9,8 +9,8 @@ url: "https://joseph-jekyll.netlify.app" # the base hostname & protocol for your
 #-------------------------------
 # Author Settings
 author:
-  name: Joseph Lawrence
-  bio: I'm a designer & products creator. I teach designers code and developers design. Passionate about people, health, & design systems.
+  name: Kien Pham
+  bio: I'm a PhD student in Gustave Eiffel University. I also a freelance education & scholarship consultant. Passionate about ecosystem, urban development, & health.
   avatar: '/images/01.jpg'
 
 social:
