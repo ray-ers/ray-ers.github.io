@@ -42,7 +42,7 @@ mailchimp__button__text: Join # Add your button text
 #-------------------------------
 # Contact Settings
 contact:
-  email: https://formspree.io/f/meqnbpaq # Add your email for contact form
+  email: f/meqnbpaq # Add your email for contact form
   description: # Add a description of your form
 
 # NOTE
