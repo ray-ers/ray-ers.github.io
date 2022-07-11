@@ -27,7 +27,7 @@ social:
 # Hero Settings
 hero:
   hero__title: Hey, I’m Kien! PhD Fellow & Scholarship Consultant.
-  hero__description: I'm working at Gustave Eiffel University, under the project ClearDoc - City of Tomorrow - MSCA Cofund. I also a freelance education & scholarship consultant.
+  hero__description: I'm working at Gustave Eiffel University under the ClearDoc project. I'm an environmental scientist and an amateur photographer. I'm also a big fan of science communication and visualization, writing, and health.
   hero__image: '/images/01-1.jpg'
 
 
@@ -44,7 +44,7 @@ mailchimp__button__text: Join # Add your button text
 # Contact Settings
 contact:
   email: your@email.com # Add your email for contact form
-  description: Joseph comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
+  description: # Add a description of your form
 
 # NOTE
 # Joseph comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
