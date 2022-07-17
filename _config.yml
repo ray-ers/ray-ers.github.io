@@ -2,7 +2,7 @@
 # General Site Settings
 title: Kien Pham
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Joseph is a super minimal content focus theme for Jekyll.
+description: 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://joseph-jekyll.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -15,7 +15,7 @@ author:
 
 social:
 - {icon: "logo-twitter", label: Twitter, link: "https://twitter.com/kien_env"}
-- {icon: "ion-logo-facebook", label: Facebook, link: "https://www.facebook.com/kin.theawesome/"}
+- {icon: "logo-facebook", label: Facebook, link: "https://www.facebook.com/kin.theawesome/"}
 - {icon: "logo-linkedin", label: Linkedin, link: "https://www.linkedin.com/in/phamkien/"}
 - {icon: "logo-instagram", label: Instagram, link: "https://www.instagram.com/ray_theurbanist/"}
 - {icon: "cafe-outline", label: Ko-fi, link: "https://ko-fi.com/kienphamtrung"}
