@@ -35,7 +35,7 @@ hero:
 mailchimp: true # To enable the mailchimp form, use the value 'true'. To disable the form, use the value 'false' or leave the field blank.
 mailchimp__title: Get interesting news # Add your Title
 mailchimp__text: Subscribe to our newsletter and we’ll send you the emails of latest posts. # Add your description.
-mailchimp__identifier: https://kien-pham.us9.list-manage.com/subscribe/post?u=448369886e33234793205a1e9&amp;id=9ac65d85d2 # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+mailchimp__identifier: kien-pham.us9.list-manage.com/subscribe/post?u=448369886e33234793205a1e9&amp;id=9ac65d85d2 # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
 mailchimp__button__text: Join # Add your button text
 
 
