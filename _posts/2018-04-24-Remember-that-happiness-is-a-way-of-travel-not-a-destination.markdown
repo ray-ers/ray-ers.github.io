@@ -1,25 +1,53 @@
 ---
 layout: post
-title:  Remember that happiness is a way of travel, not a destination
-description: Sin tantum est boni praeter summam voluptatem, et eam sempiternam. Cur post Tarentum ad Archytam. Qua ex cognitione facilior facta est investigatio rerum occultissimarum, empull...
-date:   2018-04-24 15:01:35 +0300
+title:  Mạn bàn về chuyện viết lách hồ sơ
+description: >Bài viết có đính kèm một số link hướng dẫn viết Personal Statement/Letter of Motivation/Cover Letter
+date:   2022-07-17 17:18:35 +0700
 image:  '/images/13.jpg'
-tags:   [fashion, story, rest]
+tags:   [duhoc, motivationletter, coverletter]
 ---
-Sin tantum est boni praeter summam voluptatem, et eam sempiternam. Cur post Tarentum ad Archytam. Qua ex cognitione facilior facta est investigatio rerum occultissimarum, empulla enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit. Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. Natura sic ab iis investigata est, ut nulla pars caelo, mari, terra, ut poëtice loquar, praetermissa sit. Eadem nunc mea adversum te oratio est. Mihi quidem Homerus huius modi quiddam vidisse videatur in iis, quae de Sirenum cantibus ages tandem finxerit.
+Mấy hôm nay học bổng Ministry of Education (MOE) và Huayu Enrichment Scholarship (HES) bắt đầu có kết quả, mặc dù năm nay mình không nộp hồ sơ nhưng lại vẫn thấp thỏm chờ, chờ mấy đứa báo tin trúng hay trượt :)). Do số người nhờ mình sửa bài viết không nhiều, đâm ra mình nhớ hết. Mấy hôm nay có hai bạn báo kết quả đỗ làm mình cũng mừng, một bạn nhận HES 3 tháng và một bạn nhỏ nhận MOE đại học, không biết mọi người khác thì thế nào. Mình rất hi vọng mọi người đều có kết quả tốt, hoặc giả kết quả chưa được như ý, thì bên cạnh đó còn nhiều con đường khác chúng ta có thể bước tiếp. Mọi nỗ lực đều đáng giá và đáng được trân trọng mà.
 
 ![Rest]({{site.baseurl}}/images/13-1.jpg)
 *Photo by [Drew Murphy](https://unsplash.com/photos/EDryHzAOy28) on [Unsplash](https://unsplash.com/)*
 
-In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. Natura sic ab iis investigata est, ut nulla pars caelo, mari, terra, ut poëtice loquar, praetermissa sit; Eadem nunc mea adversum te oratio est. Mihi quidem Homerus huius modi quiddam vidisse videatur in iis, quae de Sirenum cantibus finxerit.
+Nhìn lại một năm vừa rồi, từ lúc viết những bài chia sẻ chuẩn bị hồ sơ nộp học bổng cho tới hiện tại, dù mình khá hài lòng với những bài viết đó nhưng cũng tự thấy bản thân còn nhiều thiếu sót và hấp tấp. Có lẽ điều làm mình chưa vừa ý nhất là đã chia sẻ study plan (SP) rộng rãi! Tất nhiên, lý do không phải mình muốn bảo mật thông tin hay điều này ảnh hưởng tiêu cực tới mình, trái lại nếu chia sẻ SP mà giúp được mọi người thì mình đã public hẳn nó lên đây. Sau một thời gian, mình nhận ra với mỗi một bộ hồ sơ và mỗi cá nhân sẽ có cách tiếp cận và viết SP/SOP/LOM khác nhau. Chính vì thế, SP của mình không thể nào dùng để áp dụng rộng rãi cho mọi người được. Lúc viết bài mình đã lờ mờ nhận ra điều này nhưng chỉ nghĩ đơn giản là "share SP để tham khảo". Cuối cùng, mình rất sợ có nhiều bạn áp dụng theo bài viết của mình dẫn tới kết quả không như ý.
 
-> The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
+Bởi thế, mình đã dừng share SP từ khá là lâu và đổi sang hình thức giúp một số bạn sửa bài viết qua email. Mình thường chỉ đều nhận xét về bố cục, cách hành văn cũng như giúp các bạn chỉ ra một số chỗ thiếu sót trong bài viết và hầu như không sửa nội dung mà các bạn muốn truyền đạt. Mình cũng học cách đứng ở lập trường một người ngoài cuộc và nhìn vào bài viết của các bạn, từ đó hi vọng chỉ ra những ý/câu chưa thuận theo mạch văn của bài viết.
 
-In omni enim arte vel studio vel quavis scientia vel in ipsa virtute optimum quidque rarissimum est. Quod est, ut dixi, habere ea, quae secundum naturam sint, vel omnia vel plurima et maxima. Quodsi ipsam honestatem undique pertectam atque absolutam. Tecum optime, deinde etiam cum mediocri amico. Neque enim disputari sine reprehensione nec cum iracundia aut pertinacia recte disputari potest. An, partus ancillae sitne in fructu habendus, disseretur inter principes civitatis, P. Ut in geometria, prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sit conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles. Servari enim iustitia nisi a forti viro, nisi a sapiente potest.
+Vậy làm thế nào để viết được một bài viết phù hợp? (chúng ta chưa bàn tới việc hay hay dở).
+
+Các bạn nên đọc thêm về cách phân biệt Purpose of Study/Personal Statement/Letter of purpose ở blog của c Ngân: https://bit.ly/38OpJEs 
+
+Mình sẽ bắt đầu bằng quá trình tự hỏi, tự hỏi về bản thân. Chúng ta thường quá chú tâm vào việc đọc vị người khác nhưng lại thường bỏ qua chính bản thân mình. Cái tôi cá nhân, kỷ niệm, nỗi buồn, niềm vui, bạn bè, xã hội xung quanh bạn, tất cả những điều này là một phần định hình nên "Bạn", là nền tảng cho bất kỳ dự định, kế hoạch và tương lai. Hãy dành thời gian để cân nhắc và tìm hiểu chính mình :)
+
+Mình có một số câu hỏi để các bạn suy nghĩ trong thời gian rảnh như:
+
+Why are you unique?
+What have you done in your life?
+How many times you failed? 
+What did you learn?
+
+Dưới đây là một số hướng dẫn viết CV và bài luận của một số trường đại học (bằng tiếng anh) mọi người có thể tham khảo thêm:
+
+Cover Letter và CV guide từ The London school of Economics and Political Science: https://bit.ly/2ZyHvZA
+
+Cover Letter guide từ National University of Singapore: https://nus.edu/3jbU6K2
+
+Personal Statement từ University of Washington: https://bit.ly/2ZEsiGx
+
+Personal Statement từ Yale: https://bit.ly/2ZDeago
+
+Letter of Motivation từ University of Heidelberg: https://bit.ly/3h66WYm
+
+Letter of Motivation từ University College of Northern Denmark: https://bit.ly/2WthjgU
+
+Nếu như, thay vì viết về một sự thành công, chúng ta viết về một sự thất bại? Chúng ta không kể chuyện, mà chia sẻ. Chia sẻ nỗi cô đơn, sự bất lực, chia sẻ cảm xúc của ta. Đây có thể là một cách tiếp cận khác, có tốt hơn hay chăng thì tùy vào từng người. Nó không phải cách tiếp cận tốt nhất, cũng không phải cách tốt hơn, có chăng chỉ là một hướng khác mà thôi. Mình nghĩ rằng không có một công thức chung cho một bài luận hay, có thì chỉ có các tiêu chí để xét duyệt bài luận đó thôi. Nên tùy vào mỗi người mà chúng ta có cách tiếp cận cho riêng mình.
+
+Mình cũng là một người học và gặp nhiều khó khăn trong quá trình viết, số lần mình nộp và trượt hồ sơ nhiều không đếm nổi. Mỗi lần ngã xuống chỉ muốn nằm đấy luôn, chẳng muốn cố, xong vẫn đứng dậy, tìm => viết => nộp => trượt. Tất nhiên cũng có những lần thành công, nhưng đa số là thất bại. Nhưng cuối cùng, chỉ có thành công là được mọi người nhìn nhận, còn thất bại thì bị quên lãng thật nhanh. Cuối cùng, hãy dũng cảm, thất bại chưa bao giờ là dấu chấm hết.
 
 ![Rest]({{site.baseurl}}/images/13-2.jpg)
 *Photo by [Anthony Fomin](https://unsplash.com/photos/OpmzKMCwjJU) on [Unsplash](https://unsplash.com/)*
 
-Ego quoque, inquit, didicerim libentius si quid attuleris, quam te rephenderim. Iam insipientes alios ita esse, ut nullo modo ad sapientiam possent pervenire, alios, qui possent, si id egissent, sapientiam consequi. Id quaeris, inquam, in quo, utrum respondero, verses te huc atque illuc necesse est. Sed quid ages tandem, si utilitas ab amicitia, ut fit saepe, defecerit? Sed isti ipsi, qui voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper adesse quod velit quam quod nolit? Quae quidem sapientes sequuntur duce natura tamquam videntes; Quod enim dissolutum sit, id esse sine sensu, quod autem sine sensu sit, id nihil ad nos pertinere omnino. Idne consensisse de Calatino plurimas gentis arbitramur, primarium populi fuisse, quod praestantissimus fuisset in conficiendis voluptatibus? Utram tandem linguam nescio? Quod dicit Epicurus etiam de voluptate, quae minime sint voluptates.
 
-An, partus ancillae sitne in fructu habendus, disseretur inter principes civitatis, P. Ut in geometria, prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sit conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles. Servari enim iustitia nisi a forti viro, nisi sapiente potest. Tecum optime, deinde etiam cum.
+> Con đường mỗi người luôn có bấp bênh, có khó khăn, nhưng cũng có niềm vui và hạnh phúc. Tuy vậy hạnh phúc và niềm vui không phải đích đến của một quá trình, không phải mục tiêu của sự cố gắng, mà nó tồn tại trong từng giây phút, từng mảnh ghép của mỗi người, nó là cả một quãng đời. Đừng tốn thời gian so sánh bản thân của mình với người khác, người duy nhất bạn cần so sánh là chính bản thân bạn ngày hôm qua. Hãy sống một cuộc sống hạnh phúc, chứ không phải theo đuổi một cuộc sống hạnh phúc. 
