@@ -9,7 +9,6 @@ image:
 <br>
 <div align="justify">Một chút thông tin về cá nhân: Mình tốt nghiệp đại học Nha Trang năm 2018 với hai học kỳ trao đổi tại Cộng hòa Séc và Đài Loan thông qua Erasmus+ Mobility và Taiwan TEEP. Sau một năm gap year, mình nhận được hai học bổng Đài Loan từ Bộ Giáo Dục (MOE) và Quỹ Hợp tác Phát Triển Đài Loan (ICDF) cho chương trình thạc sĩ môi trường tại Feng Chia University và National Central University. Năm 2022, mình trở thành ứng viên tiến sĩ tại Université Gustave Eiffel với cofund fellowship từ Marie Skłodowska-Curie Actions. Định hướng nghiên cứu của mình tập trung tới dịch vụ sinh thái đô thị. </div>
 <br>
-<div align="justify"> Hiện tại, các bạn vẫn có thể đặt lịch tư vấn cá nhân 1-1 với mình dưới link sau: </div> 
 <div align="justify"> Bạn cũng có thể support căn nhà nhỏ này thông qua nền tảng <a href="[www.eldlrjn.wordpress.com](https://ko-fi.com/kienphamtrung)">Ko-fi</a> </div>
 <br><br>
 
