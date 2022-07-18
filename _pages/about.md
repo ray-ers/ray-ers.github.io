@@ -19,7 +19,7 @@ Xin chào, mình là Kiên, hoặc Ray, mình sinh năm 95. Đây là nhà mới
 ***  
  <div align="justify"> 
   
-Một chút thông tin về cá nhân: Mình tốt nghiệp đại học Nha Trang năm 2018 với hai học kỳ trao đổi tại Cộng hòa Séc và Đài Loan thông qua Erasmus+ Mobility và Taiwan TEEP. Sau một năm gap year, mình nhận được hai học bổng Đài Loan từ Bộ Giáo Dục (MOE) và Quỹ Hợp tác Phát Triển Đài Loan (ICDF) cho chương trình thạc sĩ môi trường tại Feng Chia University và National Central University. Năm 2022, mình may mắn nhận được Cofund Fellowship từ Marie Skłodowska-Curie Actions cho chương trình học tiến sĩ tại Université Gustave Eiffel. Chuyên ngành nghiên cứu chính của mình tập trung tới dịch vụ sinh thái, bảo tồn sinh thái và sinh thái đô thị.
+Một chút thông tin về cá nhân: Mình tốt nghiệp đại học Nha Trang năm 2018 với hai học kỳ trao đổi tại Cộng hòa Séc và Đài Loan thông qua Erasmus+ Mobility và Taiwan TEEP. Sau một năm gap year, mình nhận được hai học bổng Đài Loan từ Bộ Giáo Dục (MOE) và Quỹ Hợp tác Phát Triển Đài Loan (ICDF) cho chương trình thạc sĩ môi trường tại Feng Chia University và National Central University. Năm 2022, mình may mắn nhận được Cofund Fellowship từ Marie Skłodowska-Curie Actions cho chương trình học tiến sĩ tại Université Gustave Eiffel. Định hướng nghiên cứu của mình tập trung tới dịch vụ sinh thái, bảo tồn sinh thái và sinh thái đô thị.
    
 </div>
   
