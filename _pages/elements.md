@@ -2,7 +2,7 @@
 layout: page
 title: Services
 permalink: /elements/
-image: '/images/11.jpg'
+image:
 ---
 
 Trang đang được hoàn thiện 
