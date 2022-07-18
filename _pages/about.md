@@ -4,7 +4,8 @@ title: About
 permalink: /about/
 image: '/images/01-1.jpg'
 ---
-
+<div align="justify">
+  
 [English bellow]
 
 Xin chào, mình là Kiên, mình sinh năm 95. Đây là nhà mới của mình sau một thời gian dài viết blog trên [nền tảng wordpress](www.eldlrjn.wordpress.com). Mình tốt nghiệp đại học Nha Trang năm 2018 với hai học kỳ trao đổi tại Cộng hòa Séc và Đài Loan. Sau một năm gap year, mình nhận được hai học bổng Đài Loan từ Bộ Giáo Dục (MOE) và Quỹ Hợp tác Phát Triển Đài Loan (ICDF) cho chương trình thạc sĩ môi trường. Năm 2022, mình may mắn nhận được Cofund Fellowship từ Marie Skłodowska-Curie Actions cho chương trình học tiến sĩ tại Université Gustave Eiffel. 
@@ -15,6 +16,7 @@ Mình bắt đầu viết blog từ 2014, nhưng tới 2016 mình mới bắt đ
 
 Các bạn có thể ủng hộ mình một tách cafe ở [Ko-fi](https://ko-fi.com/kienphamtrung)
 
+</div>
 ***
 
 ![Workflow]({{site.baseurl}}/images/09-1.jpg)
