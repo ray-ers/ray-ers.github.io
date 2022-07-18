@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-image: '/images/01-about1.jpg'
+image:
 ---
   
 <div align="justify"> Xin chào, mình là Kiên, hoặc Ray, mình sinh năm 95. Đây là nhà mới của mình sau một thời gian dài viết blog trên nền tảng <a href="www.eldlrjn.wordpress.com">wordpress</a>. Mình bắt đầu viết blog từ 2014, nhưng tới 2016 mình mới bắt đầu viết thường xuyên hơn và được mọi người ghé qua đọc. Các bài viết của mình chủ yếu tập trung về chuẩn bị hồ sơ du học cũng như việc làm visa cho các bạn muốn đi học ở Đài Loan. Tính từ thời điểm bắt đầu chia sẻ về việc nộp các học bổng MOE và TaiwanICDF, mình đã có cơ hội đồng hành và giúp đỡ hai bạn nhận MOE bậc đại học, hai bạn nhận ICDF bậc thạc sĩ, một bạn nhận HES, và rất nhiều các bạn khác nhận được học bổng trường và tự xin visa. Do trách nhiệm công việc ngày càng nhiều, mình không còn nhận sửa bài miễn phí nữa. Ở căn nhà mới này, mình sẽ vẫn tập trung viết về kinh nghiệm nộp hồ sơ và viết các bài luận, nhưng sẽ không còn gói gọn ở Đài Loan mà mở rộng hơn. Hi vọng các bài viết của mình sẽ giúp ích cho các bạn trong con đường phát triển bản thân.</div>
