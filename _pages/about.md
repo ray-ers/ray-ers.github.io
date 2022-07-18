@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-image: '/images/01-about.jpg'
+image: '/images/01-about1.jpg'
 ---
 
 <div align="justify"> 
