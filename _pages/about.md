@@ -13,30 +13,3 @@ image:
 <div align="justify"> Bạn cũng có thể support căn nhà nhỏ này thông qua nền tảng <a href="[www.eldlrjn.wordpress.com](https://ko-fi.com/kienphamtrung)">Ko-fi</a> </div>
 <br><br>
 
-![Workflow]({{site.baseurl}}/images/09-1.jpg)
-*Photo by [Daniel Romero](https://unsplash.com/@rmrdnl) on Unsplash*
-
-In 
-
-***
-
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/images/09-2.jpg">
-    <img src="/images/09-3.jpg">
-  </div>
-  <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
-</div>
-
-In 
-
-> The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
-
-Ego 
-***
-
-<p><iframe src="https://player.vimeo.com/video/107654760" width="640" height="360" frameborder="0" allowfullscreen></iframe></p>
-
-***
-
-An
