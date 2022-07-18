@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Services
-permalink: /elements/
+permalink: /services/
 image:
 ---
 
