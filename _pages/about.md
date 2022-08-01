@@ -10,5 +10,5 @@ image:
 <div align="justify">Một chút thông tin về cá nhân: Mình tốt nghiệp đại học Nha Trang năm 2018 với hai học kỳ trao đổi tại Cộng hòa Séc và Đài Loan thông qua Erasmus+ Mobility và Taiwan TEEP. Sau một năm gap year, mình nhận được hai học bổng Đài Loan từ Bộ Giáo Dục (MOE) và Quỹ Hợp tác Phát Triển Đài Loan (ICDF) cho chương trình thạc sĩ môi trường tại Feng Chia University và National Central University. Năm 2022, mình trở thành ứng viên tiến sĩ tại Université Gustave Eiffel và Vietnamese-German University với cofund fellowship từ Marie Skłodowska-Curie Actions. Định hướng nghiên cứu của mình tập trung tới dịch vụ sinh thái đô thị. </div>
 <br>
 <div align="justify"> Nếu thấy các bài viết của mình hữu ích, bạn có thể ủng hộ mình một ly cafe thông qua nền tảng <a href="https://ko-fi.com/kienphamtrung"><b>Ko-fi</b></a> </div>
-<div align="justify"> Bạn cũng có hể liên hệ mình thông qua <a href="https://kien-pham.com/contact/"><b>Contact</b></a> hoặc email trong trường hợp cần thiết: eldlrjn@gmail.com </div>
+<div align="justify"> Bạn cũng có thể liên hệ mình thông qua <a href="https://kien-pham.com/contact/"><b>Contact</b></a> hoặc email trong trường hợp cần thiết: eldlrjn@gmail.com </div>
 <br><br>
