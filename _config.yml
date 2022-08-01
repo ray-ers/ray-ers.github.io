@@ -9,9 +9,9 @@ url: "https://joseph-jekyll.netlify.app" # the base hostname & protocol for your
 #-------------------------------
 # Author Settings
 author:
-  name: Kien Pham
-  bio: Work at Gustave Eiffel University under the ClearDoc project. A big fan of science communication, visualization, writing, and health.
-  avatar: '/images/01-1.jpg'
+  name:
+  bio:
+  avatar:
 
 social:
 - {icon: "ion-logo-twitter", label: Twitter, link: "https://twitter.com/kien_env"}
