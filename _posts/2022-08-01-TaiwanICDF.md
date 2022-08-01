@@ -2,6 +2,7 @@
 layout: post
 title: Học bổng chính phủ Taiwan ICDF
 date: 2022-08-01 19:30:00 +0700
+image:  '/images/ICDF.jpg'
 tags: [scholarship, hoc-bong, du-hoc, taiwan]
 ---
 <div align="justify"><p><span style="color:#003300;font-family:Tahoma;"><i>Bài viết được update ngày 01/08/2022.</i></span></p></div>
