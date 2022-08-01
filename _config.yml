@@ -49,12 +49,6 @@ contact:
 # NOTE
 # Joseph comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
 
-
-#-------------------------------
-# Comment Section (Disqus)
-disqus-identifier: anvodstudio-demo # add your shortname for Disqus Comment. For example anvodstudio-demo
-
-
 #-------------------------------
 # Google Analytics
 google-analytics: G-SEF15G74N4 # Add your identifier. For example UA-99631805-1.
