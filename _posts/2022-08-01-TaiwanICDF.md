@@ -10,11 +10,10 @@ tags: [scholarship, hoc-bong, du-hoc, taiwan]
 
 <div align="justify"><p><span style="color:#003300;font-family:Tahoma;">Nói về chương trình học và học bổng, nếu bạn nào quen thuộc với Erasmus Mundus sẽ nhận ra ICDF có tổ chức cực kỳ giống với E+. ICDF cấp học bổng cho một số chương trình đại học, thạc sĩ và tiến sĩ nhất định trong Đài Loan, đặc biệt chú trọng tới phát triển kinh tế, môi trường, nông nghiệp và sức khỏe cộng đồng (<a href="https://www.icdf.org.tw/wSite/DownloadFile?type=attach&file=f1646496795738.pdf&realname=Study+Programs+for+2022+Scholarship+Application.pdf">Chương trình học 2022</a>). Các chương trình này đều là Master by coursework, nghĩa là chỉ học và viết luận văn cuối kỳ chứ không đặt nặng nghiên cứu khoa học, đặc biệt là các bạn master of arts. Bạn vẫn cần sớm tìm supervisor và làm nghiên cứu nha không ảnh hưởng gì cả, đặc biệt là các bạn học master of science. Học bổng cung cấp 12,000 Đài tệ sinh hoạt phí cho các bạn bậc đại học, 15,000 cho bậc thạc sĩ và 17,000 cho bậc tiến sĩ. Các bạn cũng được miễn học phí, vé máy bay, sách và phí ký túc xá. Cá nhân mình thấy đây là mức vừa đủ với bậc đại học và thạc sĩ</span></p></div>
 
-![Rest]({{site.baseurl}}/images/ICDF.jpg)
 
 <div align="justify"><p><span style="color:#003300;font-family:Tahoma;">Ngoài ra học ICDF cũng rất độc lập. Do tiền của bạn tới từ quỹ chứ không phải từ giáo viên hướng dẫn và từ trường nên rất tự do. Không cần phải tham gia bất kỳ dự án nào của giáo viên, không phải chạy deadline hay trễ project ảnh hưởng tới việc ra trường. Auto ra trường nha các bạn =)) Bạn học cũng phần lớn là sinh viên quốc tế (châu á, châu mỹ la tinh và các quốc đảo), giúp bạn trải nhiệm một môi trường đa văn hóa. Như mình học 5 người thì mỗi người một nước.</span></p></div>
 
----
+![Rest]({{site.baseurl}}/images/ICDF.jpg)
 
 <p><span style="color:#003300;font-family:Tahoma;">Hồ sơ bao gồm đăng ký ICDF bao gồm:</span></p>
 <p><span style="color:#003300;font-family:Tahoma;">- Bản scan hộ chiếu<br>- Bảng điểm, bằng tốt nghiệp (tiếng anh).<br>- Bằng ngoại ngữ (IELTS/TOEFL/TOEIC/Phỏng vấn trực tiếp.<br>- 2 thư giới thiệu.<br>- Phiếu đăng ký học bổng ICDF.<br>- Các giấy tờ khác (kế hoạch học tập, research proposal, CV, etc.)</span></p>
