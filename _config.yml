@@ -7,6 +7,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://joseph-jekyll.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
 
 #-------------------------------
+# Author Settings
+author:
+  name: Kien Pham (Ray)
+  bio: Work at Gustave Eiffel University under the ClearDoc project. A big fan of science communication, visualization, writing, and health.
+  avatar:
+  
 social:
 - {icon: "ion-logo-twitter", label: Twitter, link: "https://twitter.com/kien_env"}
 - {icon: "ion-logo-facebook", label: Facebook, link: "https://www.facebook.com/kin.theawesome/"}
