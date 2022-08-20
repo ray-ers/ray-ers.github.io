@@ -5,7 +5,7 @@ description: Học bổng dạng merit-based không hoàn lại mở một năm 
 date: 2022-08-20 14:30:00 +0700
 tags: [scholarship, hoc-bong, du-hoc, taiwan]
 ---
-<div align="justify"><p><span style="font-family:Tahoma;"><b>HỌC BỔNG TAIWAN MINISTRY OF EDUCATION (Taiwan MOE)</b></span></p></div>
+<div align="center"><p><span style="font-family:Tahoma;"><b>HỌC BỔNG TAIWAN MINISTRY OF EDUCATION (Taiwan MOE)</b></span></p></div>
 
 <p><strong><span style="font-family:Tahoma">Học bổng bao gồm:</span></strong>
 
