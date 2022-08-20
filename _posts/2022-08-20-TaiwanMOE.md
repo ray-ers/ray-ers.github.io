@@ -20,6 +20,6 @@ tags: [scholarship, hoc-bong, du-hoc, taiwan]
 
 <div align="justify"><p><span style="font-family:Tahoma;"><b>Địa chỉ nộp hồ sơ:<b></span></p></div>
 
-<div align="justify"><p><span style="font-family:Tahoma;">Văn phòng Kinh tế và Văn hóa Đài Bắc tại Hà Nội, Việt Nam (Dành cho các bạn có hộ khẩu ngoài bắc)<br>Địa chỉ: Tầng 20A(KT), Tòa nhà PVI, Số 1 Phạm Văn Bạch, Cầu Giấy, Hà Nội<br>Phòng Giáo dục, Văn phòng Kinh tế và Văn hóa Đài Bắc tại Hồ Chí Minh (Dành cho các bạn có hộ khẩu trong miền nam)<br>Địa chỉ: 336 Nguyễn Tri Phương, Phường 4, Quận 10, Hồ Chí Minh</span></p></div>
+<div align="justify"><p><span style="font-family:Tahoma;">Dành cho các bạn có hộ khẩu ngoài bắc: Văn phòng Kinh tế và Văn hóa Đài Bắc tại Hà Nội, Việt Nam<br>Địa chỉ: Tầng 20A(KT), Tòa nhà PVI, Số 1 Phạm Văn Bạch, Cầu Giấy, Hà Nội<br>Dành cho các bạn có hộ khẩu trong miền nam: Phòng Giáo dục, Văn phòng Kinh tế và Văn hóa Đài Bắc tại Hồ Chí Minh<br>Địa chỉ: 336 Nguyễn Tri Phương, Phường 4, Quận 10, Hồ Chí Minh</span></p></div>
 
 <div align="justify"><p><span style="font-family:Tahoma;"><i><b>*Note: Nhớ ghi rõ "Hồ sơ nộp học bổng Đài Loan MOE" ngoài phong bì nhé.</i></b></span></p></div>
