@@ -35,7 +35,7 @@ tags: [scholarship, hoc-bong, du-hoc, taiwan]
 <p><span style="font-family: Tahoma">Dưới đây là một số bước cần thiết để chuẩn bị hồ sơ nộp MOE Taiwan.</span></p>
 <hr>
 <p><strong><span style="font-family: Tahoma">CÔNG VIỆC VÀ MỐC THỜI GIAN CẦN HOÀN THÀNH:</span></strong></p>
-<p><span style="font-family: Tahoma"><strong>Chọn trường và chương trình học</strong>:
+<p><span style="font-family: Tahoma"><strong>Chọn trường và chương trình học:</strong></p>
 <ol>
 <ol>
 <li><span style="font-family: Tahoma">Trước hết các bạn phải tìm hiểu các chương trình dạy từ trang <a href="https://www.studyintaiwan.org">Study in Taiwan</a>, chọn ra các chương trình phù hợp với bản thân nhất. Công việc này các bạn nên làm càng sớm càng tốt, khoảng từ tháng 5-8 hằng năm.</span></li>
@@ -56,7 +56,7 @@ tags: [scholarship, hoc-bong, du-hoc, taiwan]
 <li><span style="font-family: Tahoma">Bạn nào chưa có hộ chiếu thì đi làm hộ chiếu, nếu có khúc mắc về hộ khẩu cũng nên giải quyết cho xong vì đây là hai giấy tờ bắt buộc nhé.</span></li><hr>
 </ol>
 </ol>
-<p><span style="font-family: Tahoma"><strong>Xin thư giới thiệu</strong><span style="font-size: 95%; color: #003300; font-family: Tahoma;">: Để chuẩn bị được hai bức thư giới thiệu mạnh, có một số việc bạn cần chuẩn bị trước:</span>
+<p><span style="font-family: Tahoma"><strong>Xin thư giới thiệu</strong><span style="font-family: Tahoma">: Để chuẩn bị được hai bức thư giới thiệu mạnh, có một số việc bạn cần chuẩn bị trước:</span>
 <ol>
 <ol>
 <li><span style="font-family: Tahoma">Xây dựng mối quan hệ tốt với giáo viên đại học, trăm lợi không hại. Được GV/sếp ưu ái tương đương có cơ hội cao hơn tham gia vào các đề tài và dự án. Đây cũng là cơ hội tốt để bạn tìm hiểu thêm về chuyên ngành của từng giảng viên và tranh thủ xin hướng dẫn sớm nếu thích.</span></li>
@@ -67,7 +67,7 @@ tags: [scholarship, hoc-bong, du-hoc, taiwan]
 <li><span style="font-family: Tahoma">Cần chuẩn bị thư và bì thư nếu không xin được từ trường hoặc giáo viên. Bạn có thể tự chèn logo trường vào thư và bì thư, nhớ thêm địa chỉ, số điện thoại và fax nếu có nhé.</span></li><hr>
 </ol>
 </ol>
-<p><span style="font-family: Tahoma"><strong>Trên mạng có rất nhiều các blog, trang web hướng dẫn các bạn chuẩn bị hồ sơ học bổng nói chung, bao gồm nhiều kinh nghiệm mà các anh chị đi trước có được. Mình sẽ liệt kê một số ra đây, nhiệm vụ của các bạn là phải đọc, đọc và đọc thật nhiều, tổng hợp và tự chuẩn bị cho con đường tương lai của mình. Chúc các bạn thật may mắn nha! </span></strong>
+<p><span style="font-family: Tahoma"><strong>Trên mạng có rất nhiều các blog, trang web hướng dẫn các bạn chuẩn bị hồ sơ học bổng nói chung, bao gồm nhiều kinh nghiệm mà các anh chị đi trước có được. Mình sẽ liệt kê một số ra đây, nhiệm vụ của các bạn là phải đọc, đọc và đọc thật nhiều, tổng hợp và tự chuẩn bị cho con đường tương lai của mình. Chúc các bạn thật may mắn nha!</strong>
 <p><span style="font-family: Tahoma"><a href="https://5continents4oceans.com">5 Continents 4 Ocean</a> của chị Thu Ngân, các bài của chị được viết ngắn gọn với giọng văn nhẹ nhàng vui vẻ và rất hữu ích</span></p>
 <p><span style="font-family: Tahoma">Các bài viết tại website và facebook của các nhóm mentor săn học bổng gồm: <a href="https://hannahed.co">HannahEd - Scholarship for Vietnamese Studens</a>; <a href="https://scholarshipplanet.info/vi/">Scholarship Planet</a>; <a href="https://www.hotcourses.vn">Hot courses Vietnam</a>; <a href="https://www.facebook.com/official.vietnam.scholarship.forum/">Official Vietnam Scholarship Forum</a>; <a href="http://www.facebook.com/ScholarshipHuntingwithAlumni">Săn Học Bổng cùng Alumni/ Scholarship Hunting with Alumni</a>; <a href="https://www.facebook.com/DuHocSanHocBong">Opportunity Hunting;</a>&nbsp;<a href="https://www.facebook.com/doortotherworld/">Door to the World</a> và hàng trăm bài viết khác từ tất cả các anh chị đi trước đã thành công trong việc xin học bổng tự túc.</span></p>
 
