@@ -2,7 +2,7 @@
 layout: post
 title: Học bổng chính phủ Taiwan MOE
 description: Học bổng dạng merit-based không hoàn lại mở một năm một lần đối với tất cả các chuyên ngành bậc đại học, thạc sĩ và tiến sĩ. Học bổng bao gồm tiền học phí và sinh hoạt phí.
-date: 2022-08-20 19:30:00 +0700
+date: 2022-08-20 14:30:00 +0700
 tags: [scholarship, hoc-bong, du-hoc, taiwan]
 ---
 <div align="justify"><p><span style="font-family:Tahoma;"><b>HỌC BỔNG TAIWAN MINISTRY OF EDUCATION (Taiwan MOE)</b></span></p></div>
