@@ -10,7 +10,7 @@ url: "https://joseph-jekyll.netlify.app" # the base hostname & protocol for your
 # Author Settings
 author:
   name: Kien Pham (Ray)
-  bio: I am a doctoral candidate that works at Gustave Eiffel University under the ClearDoc project. A big fan of science communication, visualization, writing, and health.
+  bio: I am a doctoral candidate working at Gustave Eiffel University under the ClearDoc project. A big fan of science communication, visualization, writing, and health.
   avatar: '/images/Author.jpg'
   
 social:
