@@ -11,5 +11,5 @@ image:
 <br>
 <div align="justify"><span style="font-family:Tahoma;"> Nếu thấy các bài viết của mình hữu ích, bạn có thể ủng hộ mình một ly cafe thông qua nền tảng <a href="https://ko-fi.com/kienphamtrung"><b>Ko-fi</b></a></span></div>
 
-<div align="justify"><span style="font-family:Tahoma"> Bạn cũng có thể <a></a> href="https://kien-pham.com/contact/"><liên hệ mình thông qua form<a></a> hoặc email tại: works@kien-pham.com</span></div>
+<div align="justify"><span style="font-family:Tahoma"> Bạn cũng có thể <a href="https://kien-pham.com/contact/"><liên hệ mình thông qua form</a> hoặc email tại: works@kien-pham.com</span></div>
 <br><br>
