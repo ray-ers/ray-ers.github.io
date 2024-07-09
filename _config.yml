@@ -10,14 +10,12 @@ url: "https://joseph-jekyll.netlify.app" # the base hostname & protocol for your
 # Author Settings
 author:
   name: Kien Pham (Ray)
-  bio: I am a doctoral candidate working at Gustave Eiffel University under the ClearDoc project. A big fan of science communication, visualization, writing, and health.
+  bio: I am a doctoral candidate working at Gustave Eiffel University under the ClearDoc project. Fan of science communication, visualization, writing, and health.
   avatar: '/images/Author.jpg'
   
 social:
 - {icon: "ion-logo-twitter", label: Twitter, link: "https://twitter.com/kien_env"}
-- {icon: "ion-logo-facebook", label: Facebook, link: "https://www.facebook.com/kin.theawesome/"}
 - {icon: "ion-logo-linkedin", label: Linkedin, link: "https://www.linkedin.com/in/phamkien/"}
-- {icon: "ion-logo-instagram", label: Instagram, link: "https://www.instagram.com/ray_theurbanist/"}
 - {icon: "ion-ios-cafe", label: Ko-fi, link: "https://ko-fi.com/kienphamtrung"}
 
 # Example of adding a new link to the author section and footer - {icon: "ion-logo-github", label: Github, link: "https://github.com"}
