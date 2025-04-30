@@ -4,6 +4,7 @@ title: Học bổng chính phủ Taiwan ICDF
 description: Học bổng dạng merit-based không hoàn lại mở một năm một lần đối với một số chuyên ngành nhất định bậc đại học, thạc sĩ và tiến sĩ. Học bổng bao gồm tiền học phí, sinh hoạt phí, ký túc xá, sách, và vé máy bay.
 date: 2022-08-01 19:30:00 +0700
 tags: [scholarship, hoc-bong, du-hoc, taiwan]
+published: false
 ---
 <div align="center"><p><span style="font-family:Tahoma;"><i>Bài viết được update ngày 01/08/2022.</i></span></p></div>
 <div align="justify"><p><span style="font-family:Tahoma;"><a href="https://www.icdf.org.tw/wSite/np?ctNode=31561">Học bổng ICDF</a> do quỹ Phát triển và hợp tác quốc tế Đài Loan hỗ trợ (International Cooporation and Development Fund). Nói cũng trùng hợp, ICDF khởi nguồn từ một dự án hỗ trợ nông nghiệp của Taiwan cho Việt Nam vào năm 1959. Hiện tại quỹ đã trở thành một bộ phận quan trọng trong việc duy trì quan hệ - quảng bá hình ảnh của Taiwan tới các nước đồng minh và khu vực. Trong đó có đầu tư hỗ trợ nhân lực, phát triển kinh tế, chống biến đổi khí hậu và đói nghèo. Một phần tiền của quỹ dùng để cấp học bổng hằng năm cho các chương trình riêng của ICDF.</span></p></div>
