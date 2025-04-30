@@ -14,18 +14,18 @@ author:
   avatar: '/images/Author.jpg'
   
 social:
-- {icon: "ion-logo-twitter", label: Twitter, link: "https://twitter.com/kien_env"}
 - {icon: "ion-logo-linkedin", label: Linkedin, link: "https://www.linkedin.com/in/phamkien/"}
 - {icon: "ion-ios-cafe", label: Ko-fi, link: "https://ko-fi.com/kienphamtrung"}
 
 # Example of adding a new link to the author section and footer - {icon: "ion-logo-github", label: Github, link: "https://github.com"}
 # Other icons can be found at https://ionicons.com/v4/
+#- {icon: "ion-logo-twitter", label: Twitter, link: "https://twitter.com/kien_env"}
 
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hey, I’m Kien! Your Writing Assistant.
-  hero__description: My website is dedicated to writing about undergrad/master/phd scholarship applications. The content is primarily Vietnamese.
+  hero__title: Hey, I’m Kien :) 
+  hero__description: While working on my thesis, I might be available to assist you with colleague applications. 
   hero__image: '/images/01-1.jpg'
 
 
