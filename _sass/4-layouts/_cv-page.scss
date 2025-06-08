@@ -1,0 +1,126 @@
+/*
+ * =================================================
+ * CV Page Specific Styles
+ * =================================================
+ */
+
+.cv-container {
+    // This removes the narrow width from the default .page class
+    // and lets the content spread to the main container width.
+    max-width: none;
+}
+
+.cv-header {
+    text-align: center;
+    padding-bottom: ($base-spacing-unit * 2);
+    margin-bottom: ($base-spacing-unit * 2);
+    border-bottom: 1px solid var(--border-color);
+
+    &__name {
+        font-size: $font-size-h1 * 1.5; // Make name larger
+        margin-bottom: ($base-spacing-unit / 2);
+    }
+
+    &__tagline {
+        font-size: $font-size-h4;
+        color: var(--text-alt-color);
+        margin-bottom: $base-spacing-unit;
+    }
+
+    &__contact-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: $base-spacing-unit;
+        font-size: 14px;
+    }
+}
+
+.contact-item {
+    display: inline-flex;
+    align-items: center;
+    // Remove the default underline from links within the CV content area
+    border-bottom: none;
+
+    &__icon {
+        width: 16px;
+        height: 16px;
+        margin-right: 8px;
+        color: var(--text-alt-color);
+    }
+
+    &:hover {
+        color: var(--link-color-hover);
+        border-bottom: none;
+        .contact-item__icon {
+            color: var(--link-color-hover);
+        }
+    }
+}
+
+.cv-section {
+    padding-top: ($base-spacing-unit * 2);
+    border-top: 1px solid var(--border-color);
+
+    // The first section doesn't need a top border
+    &:first-of-type {
+        padding-top: 0;
+        border-top: none;
+    }
+
+    &__title {
+        margin-bottom: ($base-spacing-unit * 1.5);
+    }
+}
+
+.cv-item {
+    margin-bottom: ($base-spacing-unit * 1.5);
+    
+    // Remove link underlines for all children of a CV item
+    a {
+        border-bottom: none;
+        &:hover {
+            border-bottom: none;
+        }
+    }
+
+    &__title {
+        font-family: $heading-font-family;
+        font-weight: $heading-font-weight;
+        font-size: $font-size-h4;
+        color: var(--heading-font-color);
+        margin-bottom: 4px;
+    }
+
+    &__meta {
+        font-size: 14px;
+        color: var(--text-alt-color);
+        margin-bottom: $base-spacing-unit;
+    }
+
+    &__list {
+        margin-top: ($base-spacing-unit / 2);
+    }
+}
+
+.cv-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.cv-skill-badge {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 20px;
+    background-color: var(--border-color);
+    color: var(--text-color);
+    transition: $global-transition;
+
+    &:hover {
+        background-color: var(--brand-color);
+        color: var(--white);
+    }
+}
