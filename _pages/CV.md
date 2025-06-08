@@ -1,11 +1,12 @@
 ---
 layout: page 
-title: Curriculum Vitae 
+title: CV
 permalink: /cv/
 ---
 <section class="cv-section">
     <p>
-        This CV focuses on my extracurricular activities. For more details on my academic background and full work experience, please visit my <a href="https://linkedin.com/in/phamkien" target="_blank">LinkedIn profile</a>.
+        <center> This CV focuses on my extracurricular activities. For more details on my academic background and full work experience, please visit my <a href="https://linkedin.com/in/phamkien" target="_blank">LinkedIn profile</a>.
+        </center>
     </p>
 </section>
 
@@ -40,7 +41,7 @@ permalink: /cv/
     </div>
     <div class="cv-item">
         <h3 class="cv-item__title">Master of Science in Environment and Sustainable Development</h3>
-        <p class="cv-item__meta">National Central University | Sep 2019 - June 2021</p>
+        <p class="cv-item__meta">National Central University | Sep 2019 - Jun 2021</p>
         <ul class="cv-item__list">
             <li>Funding body: Taiwan International Cooperation and Development Fund.</li>
         </ul>
