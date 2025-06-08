@@ -57,7 +57,7 @@ permalink: /cv/
             </div>
             <div class="mb-6">
                 <h3 class="text-xl font-semibold text-gray-800">Master of Science in Environment and Sustainable Development</h3>
-                <p class="text-gray-600 text-sm mb-2">University of Technology | Sep 2019 - June 2021</p>
+                <p class="text-gray-600 text-sm mb-2">National Central University | Sep 2019 - June 2021</p>
                 <ul class="list-disc ml-6 text-gray-700 leading-relaxed">
                     <li>Funding body: Taiwan International Cooperation and Development Fund.</li>
                     <li>Thesis: "Effects of urbanization on Ecosystem Service Valuation in Nha Trang, Vietnam."</li>
