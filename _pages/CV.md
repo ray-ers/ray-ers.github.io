@@ -24,9 +24,8 @@ permalink: /cv/
         </div>
     </header>
     <section class="section-content">
-        <h2 class="text-2xl font-semibold mb-4">Summary</h2>
-        <p class="text-gray-700 leading-relaxed">
-            This CV focuses on my extracurricular activities and academic journey. For more details on my professional background and full work experience, please visit my <a href="https://linkedin.com/in/phamkien" target="_blank" class="text-blue-600 hover:underline">LinkedIn profile</a>.
+        <p class="text-gray-700 leading-relaxed">This CV focuses on my extracurricular activities and academic journey. For more details on my professional background and full work experience, please visit my <a href="https://linkedin.com/in/phamkien" target="_blank" class="text-blue-600 hover:underline">LinkedIn profile</a>.</p>
+        <p class="text-gray-700 leading-relaxed">             
         </p>
     </section>
     <section class="section-content">
@@ -78,7 +77,6 @@ permalink: /cv/
             <span class="skill-badge">Environmental Monitoring</span>
             <span class="skill-badge">Data Analysis</span>
             <span class="skill-badge">GIS</span>
-            <span class="skill-badge">Qualitative Research</span>
             <span class="skill-badge">Project Management</span>
             <span class="skill-badge">Academic Writing</span>
             <span class="skill-badge">Mentoring</span>
@@ -86,7 +84,7 @@ permalink: /cv/
             <span class="skill-badge">Public Speaking</span>
             <span class="skill-badge">Cross-cultural Communication</span>
             <span class="skill-badge">Resource Nexus Analysis</span>
-            <span class="skill-badge">Nature-Based Solutions (NBS)</span>
+            
         </div>
     </section>
     <!--
