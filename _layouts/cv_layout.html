@@ -4,42 +4,37 @@ layout: default
 <style>
     /* Custom styles for the CV page */
     body {
-        font-family: 'Tahoma', sans-serif;
-        background-color: #f3f4f6; /* Light gray background */
-        color: #374151; /* Dark gray text */
+        /* The specific font-family has been removed to inherit the site-wide font. */
+        background-color: #f3f4f6;
+        color: #374151;
     }
     .container {
-        max-width: 960px; /* Max width for content */
+        /* --- CHANGE IS HERE --- */
+        /* The max-width has been increased from 960px to 1140px for a wider layout. */
+        max-width: 1140px; 
     }
     h1, h2, h3 {
-        font-family: 'Tahoma', sans-serif;
-        color: #1f2937; /* Darker headings */
-        font-weight: 700; /* Bold headings */
+        /* The specific font-family has been removed to inherit the site-wide font. */
+        color: #1f2937;
+        font-weight: 700;
     }
-    h1 { font-size: 2.5rem; } /* Larger for name */
-    
-    /* --- CHANGE IS HERE --- */
-    h2 { 
-        font-size: 1.75rem; 
-        /* The border, padding, and margin that created the line have been removed. */
-    } 
-    /* --- END OF CHANGE --- */
-
-    h3 { font-size: 1.25rem; } /* Sub-section titles */
+    h1 { font-size: 2.5rem; }
+    h2 { font-size: 1.75rem; } 
+    h3 { font-size: 1.25rem; }
     .section-content {
-        margin-bottom: 2rem; /* Spacing between sections */
+        margin-bottom: 2rem;
     }
     ul {
-        list-style-type: disc; /* Default disc for lists */
-        padding-left: 1.5rem; /* Indent list items */
+        list-style-type: disc;
+        padding-left: 1.5rem;
     }
     .skill-badge {
-        background-color: #d1fae5; /* Light green for skill badges */
-        color: #065f46; /* Dark green text */
+        background-color: #d1fae5;
+        color: #065f46;
         padding: 0.3rem 0.75rem;
-        border-radius: 9999px; /* Fully rounded */
-        font-size: 0.875rem; /* Small font size */
-        font-weight: 600; /* Semi-bold */
+        border-radius: 9999px;
+        font-size: 0.875rem;
+        font-weight: 600;
     }
     /* Responsive adjustments */
     @media (max-width: 768px) {
@@ -47,7 +42,7 @@ layout: default
         h2 { font-size: 1.5rem; }
         h3 { font-size: 1.125rem; }
         .container {
-            padding: 1rem; /* More padding on smaller screens */
+            padding: 1rem;
         }
     }
 </style>
