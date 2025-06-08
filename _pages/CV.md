@@ -24,13 +24,13 @@ permalink: /cv/
         </div>
     </header>
     <section class="section-content">
-        <p class="text-gray-700 leading-relaxed">This CV focuses on my extracurricular activities. For more details on my academic background and full work experience, please visit my <a href="https://linkedin.com/in/phamkien" target="_blank" class="text-blue-600 hover:underline">LinkedIn profile</a>.</p>
-        <p class="text-gray-700 leading-relaxed">             
+        <h2 class="text-2xl font-semibold mb-4 pb-4 border-b-2 border-gray-200"></h2>
+        <p class="text-gray-700 leading-relaxed">
+            This CV focuses on my extracurricular activities. For more details on my academic background and full work experience, please visit my <a href="https://linkedin.com/in/phamkien" target="_blank" class="text-blue-600 hover:underline">LinkedIn profile</a>.
         </p>
-        <hr>
     </section>
     <section class="section-content">
-        <h3 class="text-2xl font-semibold mb-4">Work Experience</h3>
+        <h2 class="text-2xl font-semibold mb-4 pb-4 border-b-2 border-gray-200">Work Experience</h2>
         <div class="mb-6">
             <p class="font-semibold text-gray-600">Doctoral Candidate</p>
             <p class="text-gray-600 text-sm mb-2">Gustave Eiffel University | Dec 2022 - Present</p>
@@ -45,8 +45,7 @@ permalink: /cv/
         </div>
     </section>
     <section class="section-content">
-    <hr>
-        <h3 class="text-2xl font-semibold mb-4">Education</h3>
+        <h2 class="text-2xl font-semibold mb-4 pb-4 border-b-2 border-gray-200">Education</h2>
         <div class="mb-6">
             <p class="font-semibold text-gray-600">Doctor of Philosophy in Environment and Earth Science</p>
             <p class="text-gray-600 text-sm mb-2">Gustave Eiffel University | Nov 2022 - Oct 2025</p>
@@ -70,9 +69,8 @@ permalink: /cv/
             </ul>
         </div>
     </section>
-    <hr>
     <section class="section-content">
-        <h3 class="text-2xl font-semibold mb-4ibold mb-4">Skills</h3>
+        <h2 class="text-2xl font-semibold mb-4 pb-4 border-b-2 border-gray-200">Skills</h2>
         <div class="flex flex-wrap gap-2">
             <span class="skill-badge">Urban Planning</span>
             <span class="skill-badge">Sustainability Assessment</span>
