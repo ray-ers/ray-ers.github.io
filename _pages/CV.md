@@ -24,7 +24,7 @@ permalink: /cv/
         </div>
     </header>
     <section class="section-content">
-        <p class="text-gray-700 leading-relaxed">This CV focuses on my extracurricular activities and academic journey. For more details on my professional background and full work experience, please visit my <a href="https://linkedin.com/in/phamkien" target="_blank" class="text-blue-600 hover:underline">LinkedIn profile</a>.</p>
+        <p class="text-gray-700 leading-relaxed">This CV focuses on my extracurricular activities. For more details on my academic background and full work experience, please visit my <a href="https://linkedin.com/in/phamkien" target="_blank" class="text-blue-600 hover:underline">LinkedIn profile</a>.</p>
         <p class="text-gray-700 leading-relaxed">             
         </p>
     </section>
