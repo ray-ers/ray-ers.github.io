@@ -74,7 +74,8 @@
 }
 
 .cv-item {
-    margin-bottom: ($base-spacing-unit * 1.5);
+    // --- CHANGE #1: Reduced the space between items ---
+    margin-bottom: $base-spacing-unit; // Was ($base-spacing-unit * 1.5)
     
     // Remove link underlines for all children of a CV item
     a {
@@ -86,7 +87,8 @@
 
     &__title {
         font-family: $heading-font-family;
-        font-weight: $heading-font-weight;
+        // --- CHANGE #2: Made the font normal weight (not bold) ---
+        font-weight: normal; // Was $heading-font-weight
         font-size: $font-size-h4;
         color: var(--heading-font-color);
         margin-bottom: 4px;
@@ -95,7 +97,7 @@
     &__meta {
         font-size: 14px;
         color: var(--text-alt-color);
-        margin-bottom: $base-spacing-unit;
+        margin-bottom: ($base-spacing-unit / 2); // Reduced from $base-spacing-unit
     }
 
     &__list {
