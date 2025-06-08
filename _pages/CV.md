@@ -27,49 +27,52 @@ permalink: /cv/
         <p class="text-gray-700 leading-relaxed">This CV focuses on my extracurricular activities. For more details on my academic background and full work experience, please visit my <a href="https://linkedin.com/in/phamkien" target="_blank" class="text-blue-600 hover:underline">LinkedIn profile</a>.</p>
         <p class="text-gray-700 leading-relaxed">             
         </p>
+        <hr></hr>
     </section>
     <section class="section-content">
-        <h3 class="text-xl font-semibold mb-4">Work Experience</h3>
+        <h3 class="text-2xl font-semibold mb-4">Work Experience</h3>
         <div class="mb-6">
-            <h3 class="font-semibold text-gray-600">Doctoral Candidate</h3>
+            <p class="font-semibold text-gray-600">Doctoral Candidate</p>
             <p class="text-gray-600 text-sm mb-2">Gustave Eiffel University | Dec 2022 - Present</p>
             <ul class="list-disc ml-6 text-gray-700 leading-relaxed">
             </ul>
         </div>
         <div class="mb-6">
-            <h3 class="font-semibold text-gray-600">Research Intern</h3>
+            <p class="font-semibold text-gray-600">Research Intern</p>
             <p class="text-gray-600 text-sm mb-2">Feng Chia University | May 2018 - Oct 2018</p>
             <ul class="list-disc ml-6 text-gray-700 leading-relaxed">
             </ul>
         </div>
     </section>
     <section class="section-content">
-        <h3 class="text-xl font-semibold mb-4">Education</h3>
+    <hr></hr>
+        <h3 class="text-2xl font-semibold mb-4">Education</h3>
         <div class="mb-6">
-            <h3 class="font-semibold text-gray-600">Doctor of Philosophy in Environment and Earth Science</h3>
+            <p class="font-semibold text-gray-600">Doctor of Philosophy in Environment and Earth Science</p>
             <p class="text-gray-600 text-sm mb-2">Gustave Eiffel University | Nov 2022 - Oct 2025</p>
             <ul class="list-disc ml-6 text-gray-600 leading-relaxed">
                 <li>Funding body: CLEAR-Doc MSCA Co-fund program.</li>
             </ul>
         </div>
         <div class="mb-6">
-            <h3 class="font-semibold text-gray-600">Master of Science in Environment and Sustainable Development</h3>
+            <p class="font-semibold text-gray-600">Master of Science in Environment and Sustainable Development</p>
             <p class="text-gray-600 text-sm mb-2">National Central University | Sep 2019 - June 2021</p>
             <ul class="list-disc ml-6 text-gray-600 leading-relaxed">
                 <li>Funding body: Taiwan International Cooperation and Development Fund.</li>
             </ul>
         </div>
         <div class="mb-6">
-            <h3 class="font-semibold text-gray-600">Bachelor of Engineering in Environmental Technology</h3>
+            <p class="font-semibold text-gray-600">Bachelor of Engineering in Environmental Technology</p>
             <p class="text-gray-600 text-sm mb-2">Nha Trang University | Sep 2013 - May 2018</p>
             <ul class="list-disc ml-6 text-gray-600 leading-relaxed">
                 <li>Graduated with distinction.</li>
-                <li>Erasmus+ Mobility in Ústí nad Labem, Czech Republic.</li>
+                <li>Erasmus+ Mobility in Ústí nad Labem; TEEP Exchange in Taichung.</li>
             </ul>
         </div>
     </section>
+    <hr></hr>
     <section class="section-content">
-        <h3 class="text-xl font-semibold mb-4">Skills</h3>
+        <h3 class="text-2xl font-semibold mb-4ibold mb-4">Skills</h3>
         <div class="flex flex-wrap gap-2">
             <span class="skill-badge">Urban Planning</span>
             <span class="skill-badge">Sustainability Assessment</span>
