@@ -4,56 +4,6 @@ title: CV
 permalink: /CV/
 
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Curriculum Vitae</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <style>
-        /* Custom styles for the CV page */
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f3f4f6; /* Light gray background */
-            color: #374151; /* Dark gray text */
-        }
-        .container {
-            max-width: 960px; /* Max width for content */
-        }
-        h1, h2, h3 {
-            color: #1f2937; /* Darker headings */
-            font-weight: 700; /* Bold headings */
-        }
-        h1 { font-size: 2.5rem; } /* Larger for name */
-        h2 { font-size: 1.75rem; border-bottom: 2px solid #e5e7eb; padding-bottom: 0.5rem; margin-bottom: 1.5rem; } /* Section titles */
-        h3 { font-size: 1.25rem; } /* Sub-section titles */
-        .section-content {
-            margin-bottom: 2rem; /* Spacing between sections */
-        }
-        ul {
-            list-style-type: disc; /* Default disc for lists */
-            padding-left: 1.5rem; /* Indent list items */
-        }
-        .skill-badge {
-            background-color: #d1fae5; /* Light green for skill badges */
-            color: #065f46; /* Dark green text */
-            padding: 0.3rem 0.75rem;
-            border-radius: 9999px; /* Fully rounded */
-            font-size: 0.875rem; /* Small font size */
-            font-weight: 600; /* Semi-bold */
-        }
-        /* Responsive adjustments */
-        @media (max-width: 768px) {
-            h1 { font-size: 2rem; }
-            h2 { font-size: 1.5rem; }
-            h3 { font-size: 1.125rem; }
-            .container {
-                padding: 1rem; /* More padding on smaller screens */
-            }
-        }
-    </style>
 </head>
 <body class="antialiased">
     <div class="container mx-auto p-6 bg-white shadow-lg rounded-lg my-8">
