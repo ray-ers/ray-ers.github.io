@@ -1,6 +1,6 @@
 ---
-layout: cv_page_layout # Use the new layout that inherits from default
-title: Kien Trung Pham's CV
+layout: cv_page_layout 
+title: CV
 permalink: /cv/
 ---
 <div class="container mx-auto p-6 bg-white shadow-lg rounded-lg my-8">
