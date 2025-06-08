@@ -110,7 +110,3 @@ permalink: /cv/
             </div>
         </section>
         -->
-
-    </div>
-</body>
-</html>
