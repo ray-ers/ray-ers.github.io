@@ -17,6 +17,7 @@
     border-bottom: 1px solid var(--border-color);
 
     &__name {
+        font-family: $base-font-family; // Use body font
         font-size: $font-size-h1 * 1.5; // Make name larger
         margin-bottom: ($base-spacing-unit / 2);
     }
@@ -69,6 +70,7 @@
     }
 
     &__title {
+        font-family: $base-font-family; // Use body font
         margin-bottom: ($base-spacing-unit * 1.5);
     }
 }
@@ -86,7 +88,7 @@
     }
 
     &__title {
-        font-family: $heading-font-family;
+        font-family: $base-font-family; // Use body font
         // --- CHANGE #2: Made the font normal weight (not bold) ---
         font-weight: normal; // Was $heading-font-weight
         font-size: $font-size-h4;
