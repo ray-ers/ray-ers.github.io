@@ -4,8 +4,7 @@ title: CV
 permalink: /cv/
 ---
 <div class="container mx-auto p-6 bg-white shadow-lg rounded-lg my-8">
-    <!-- Header Section -->
-    <header class="text-center mb-8 pb-4 border-b-2 border-gray-200">
+        <header class="text-center mb-8 pb-4 border-b-2 border-gray-200">
         <h1 class="text-5xl font-extrabold text-gray-900 mb-2">Kien Trung Pham</h1>
         <p class="text-lg text-gray-600 mb-4">MSCA PhD | Urbanist | Academic Advisor</p>
         <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-gray-700 text-sm">
@@ -18,19 +17,18 @@ permalink: /cv/
                 LinkedIn
             </a>
             <a href="https://www.instagram.com/ray_theurbanist/" target="_blank" class="flex items-center hover:text-purple-600 transition-colors duration-200">
-                <svg class="w-4 h-4 mr-1 text-gray-500" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0c6.6274 0 12 5.3726 12 12s-5.3726 12-12 12S0 18.6274 0 12 5.3726 0 12 0zm3.115 4.5h-6.23c-2.5536 0-4.281 1.6524-4.3805 4.1552L4.5 8.8851v6.1996c0 1.3004.4234 2.4193 1.2702 3.2359.7582.73 1.751 1.1212 2.8818 1.1734l.2633.006h6.1694c1.3004 0 2.389-.4234 3.1754-1.1794.762-.734 1.1817-1.7576 1.2343-2.948l.0056-.2577V8.8851c0-1.2702-.4234-2.3589-1.2097-3.1452-.7338-.762-1.7575-1.1817-2.9234-1.2343l-.252-.0056zM8.9152 5.8911h6.2299c.9072 0 1.6633.2722 2.2076.8166.4713.499.7647 1.1758.8103 1.9607l.0063.2167v6.2298c0 .9375-.3327 1.6936-.877 2.2077-.499.4713-1.176.7392-1.984.7806l-.2237.0057H8.9153c-.9072 0-1.6633-.2722-2.2076-.7863-.499-.499-.7693-1.1759-.8109-2.0073l-.0057-.2306V8.885c0-.9073.2722-1.6633.8166-2.2077.4712-.4713 1.1712-.7392 1.9834-.7806l.2242-.0057h6.2299-6.2299zM12 8.0988c-2.117 0-3.871 1.7238-3.871 3.871A3.8591 3.8591 0 0 0 12 15.8408c2.1472 0 3.871-1.7541 3.871-3.871 0-2.117-1.754-3.871-3.871-3.871zm0 1.3911c1.3609 0 2.4798 1.119 2.4798 2.4799 0 1.3608-1.119 2.4798-2.4798 2.4798-1.3609 0-2.4798-1.119-2.4798-2.4798 0-1.361 1.119-2.4799 2.4798-2.4799zm4.0222-2.3589a.877.877 0 1 0 0 1.754.877.877 0 0 0 0-1.754z"/></svg>
+                <svg class="w-4 h-4 mr-1 text-gray-500" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0c6.6274 0 12 5.3726 12 12s-5.3726 12-12 12S0 18.6274 0 12 5.3726 0 12 0zm3.115 4.5h-6.23c-2.5536 0-4.281 1.6524-4.3805 4.1552L4.5 8.8851v6.1996c0 1.3004.4234 2.4193 1.2702 3.2359.7582.73 1.751 1.1212 2.8818 1.1734l.2633.006h6.1694c1.3004 0 2.389-.4234 3.1754-1.1794.762-.734 1.1817-1.7576 1.2343-2.948l.0056-.2577V8.8851c0-1.2702-.4234-2.3589-1.2097-3.1452-.7338-.762-1.7575-1.1817-2.9234-1.2343l-.252-.0056zM8.9152 5.8911h6.2299c.9072 0 1.6633.2722 2.2076.8166.4713.499.7647 1.1758.8103 1.9607l.0063.2167v6.2298c0 .9375-.3327 1.6936-.877 2.2077-.499.4713-1.176.7392-1.984.7806l-.2237.0057H8.9153c-.9072 0-1.6633-.2722-2.2076-.7863-.499-.499-.7693-1.1759-.8109-2.0073l-.0057-.2306V8.885c0-.9073.2722-1.6633.8166-2.2077.4712-.4713 1.1712-.7392 1.9834-.7806l.2242-.0057h6.2299-6.2299zM12 8.0988c-2.117 0-3.871 1.7238-3.871 3.871A3.8591 3.8591 0 0 0 12 15.8408c2.1472 0 3.871-1.7541 3.871-3.871 0-2.117-1.754-3.871-3.871-3.871zm0 1.3911c1.3609 0 2.4798 1.119 2.4798 2.4799 0 1.3608-1.119 2.4798-2.4798-2.4798-1.3609 0-2.4798-1.119-2.4798-2.4798 0-1.361 1.119-2.4799 2.4798-2.4799zm4.0222-2.3589a.877.877 0 1 0 0 1.754.877.877 0 0 0 0-1.754z"/></svg>
                 Instagram
             </a>
         </div>
     </header>
     <section class="section-content">
-        <h2 class="text-2xl font-semibold mb-4 pb-4 border-b-2 border-gray-200"></h2>
         <p class="text-gray-700 leading-relaxed">
             This CV focuses on my extracurricular activities. For more details on my academic background and full work experience, please visit my <a href="https://linkedin.com/in/phamkien" target="_blank" class="text-blue-600 hover:underline">LinkedIn profile</a>.
         </p>
     </section>
-    <section class="section-content">
-        <h2 class="text-2xl font-semibold mb-4 pb-4 border-b-2 border-gray-200">Work Experience</h2>
+    <section class="section-content border-t-2 border-gray-200 pt-8">
+        <h2 class="text-2xl font-semibold mb-6">Work Experience</h2>
         <div class="mb-6">
             <p class="font-semibold text-gray-600">Doctoral Candidate</p>
             <p class="text-gray-600 text-sm mb-2">Gustave Eiffel University | Dec 2022 - Present</p>
@@ -44,8 +42,8 @@ permalink: /cv/
             </ul>
         </div>
     </section>
-    <section class="section-content">
-        <h2 class="text-2xl font-semibold mb-4 pb-4 border-b-2 border-gray-200">Education</h2>
+    <section class="section-content border-t-2 border-gray-200 pt-8">
+        <h2 class="text-2xl font-semibold mb-6">Education</h2>
         <div class="mb-6">
             <p class="font-semibold text-gray-600">Doctor of Philosophy in Environment and Earth Science</p>
             <p class="text-gray-600 text-sm mb-2">Gustave Eiffel University | Nov 2022 - Oct 2025</p>
@@ -69,8 +67,8 @@ permalink: /cv/
             </ul>
         </div>
     </section>
-    <section class="section-content">
-        <h2 class="text-2xl font-semibold mb-4 pb-4 border-b-2 border-gray-200">Skills</h2>
+    <section class="section-content border-t-2 border-gray-200 pt-8">
+        <h2 class="text-2xl font-semibold mb-6">Skills</h2>
         <div class="flex flex-wrap gap-2">
             <span class="skill-badge">Urban Planning</span>
             <span class="skill-badge">Sustainability Assessment</span>
@@ -84,21 +82,7 @@ permalink: /cv/
             <span class="skill-badge">Public Speaking</span>
             <span class="skill-badge">Cross-cultural Communication</span>
             <span class="skill-badge">Resource Nexus Analysis</span>
-            
         </div>
     </section>
-    <!--
-    <section class="section-content">
-        <h2 class="text-2xl font-semibold mb-4">Projects</h2>
-        <div class="mb-6">
-            <h3 class="text-xl font-semibold text-gray-800">E-commerce Platform</h3>
-            <p class="text-gray-600 text-sm mb-2">Personal Project | 2023</p>
-            <ul class="list-disc ml-6 text-gray-700 leading-relaxed">
-                <li>A full-stack e-commerce application built with Django Rest Framework and React.js.</li>
-                <li>Features user authentication, product catalog, shopping cart, and order processing.</li>
-                <li><a href="https://github.com/johndoe/ecommerce-platform" target="_blank" class="text-blue-600 hover:underline">GitHub Repository</a></li>
-            </ul>
-        </div>
-    </section>
-    -->
-</div>
+
+    </div>
