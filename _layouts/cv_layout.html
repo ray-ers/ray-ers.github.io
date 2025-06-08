@@ -1,13 +1,12 @@
 ---
-layout: default # This line ensures this layout inherits from your site's default layout.
+layout: default
 ---
-
 <!-- CV-specific styles and scripts for Tailwind CSS and Google Fonts -->
 <!-- These will be placed in the <head> section of the final rendered page by the default layout. -->
 <style>
     /* Custom styles for the CV page */
     body {
-        font-family: 'Inter', sans-serif;
+        font-family: 'Tahoma', sans-serif;
         background-color: #f3f4f6; /* Light gray background */
         color: #374151; /* Dark gray text */
     }
@@ -64,14 +63,9 @@ layout: default # This line ensures this layout inherits from your site's defaul
 
 <!-- begin page content wrapper -->
 <div class="container animate">
-
-  <div class="page__info">
-    <h1 class="page__title">{{ page.title | escape }}</h1>
-  </div>
-
   <article class="page">
     <div class="page__content">
-      {{ content }} {# This is where the actual page content (like your CV) will be inserted #}
+      {{ content }}
     </div>
   </article>
 
