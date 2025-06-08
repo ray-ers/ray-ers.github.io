@@ -27,7 +27,7 @@ permalink: /cv/
         <p class="text-gray-700 leading-relaxed">This CV focuses on my extracurricular activities. For more details on my academic background and full work experience, please visit my <a href="https://linkedin.com/in/phamkien" target="_blank" class="text-blue-600 hover:underline">LinkedIn profile</a>.</p>
         <p class="text-gray-700 leading-relaxed">             
         </p>
-        <hr></hr>
+        <hr>
     </section>
     <section class="section-content">
         <h3 class="text-2xl font-semibold mb-4">Work Experience</h3>
@@ -45,7 +45,7 @@ permalink: /cv/
         </div>
     </section>
     <section class="section-content">
-    <hr></hr>
+    <hr>
         <h3 class="text-2xl font-semibold mb-4">Education</h3>
         <div class="mb-6">
             <p class="font-semibold text-gray-600">Doctor of Philosophy in Environment and Earth Science</p>
@@ -70,7 +70,7 @@ permalink: /cv/
             </ul>
         </div>
     </section>
-    <hr></hr>
+    <hr>
     <section class="section-content">
         <h3 class="text-2xl font-semibold mb-4ibold mb-4">Skills</h3>
         <div class="flex flex-wrap gap-2">
