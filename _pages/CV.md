@@ -1,12 +1,10 @@
 ---
-layout: page
-title: CV
-permalink: /CV/
-
 ---
-</head>
-<body class="antialiased">
-    <div class="container mx-auto p-6 bg-white shadow-lg rounded-lg my-8">
+layout: cv_layout
+title: CV
+permalink: /cv/
+---
+<div class="container mx-auto p-6 bg-white shadow-lg rounded-lg my-8">
         <header class="text-center mb-8 pb-4 border-b-2 border-gray-200">
             <h1 class="text-5xl font-extrabold text-gray-900 mb-2">Kien Trung Pham</h1>
             <p class="text-lg text-gray-600 mb-4">MSCA PhD | Urbanist | Academic Advisor</p>
@@ -77,7 +75,7 @@ permalink: /CV/
         </section>
         <section class="section-content">
            <h2 class="text-2xl font-semibold mb-4">Summary</h2>
-            <p class="text-gray-700 leading-relaxed">
+            <p class="text-gray-700 leading-relaxed">           
             </p>
         </section>
         <section class="section-content">
@@ -113,6 +111,7 @@ permalink: /CV/
             </div>
         </section>
         -->
+
     </div>
 </body>
 </html>
