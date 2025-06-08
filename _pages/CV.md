@@ -29,38 +29,38 @@ permalink: /cv/
         </p>
     </section>
     <section class="section-content">
-        <h3 class="text-2xl font-semibold mb-4">Work Experience</h3>
+        <h3 class="text-xl font-semibold mb-4">Work Experience</h3>
         <div class="mb-6">
-            <h3 class="text-xl font-semibold text-gray-600">Doctoral Candidate</h3>
+            <h3 class="font-semibold text-gray-600">Doctoral Candidate</h3>
             <p class="text-gray-600 text-sm mb-2">Gustave Eiffel University | Dec 2022 - Present</p>
             <ul class="list-disc ml-6 text-gray-700 leading-relaxed">
             </ul>
         </div>
         <div class="mb-6">
-            <h3 class="text-xl font-semibold text-gray-600">Research Intern</h3>
+            <h3 class="font-semibold text-gray-600">Research Intern</h3>
             <p class="text-gray-600 text-sm mb-2">Feng Chia University | May 2018 - Oct 2018</p>
             <ul class="list-disc ml-6 text-gray-700 leading-relaxed">
             </ul>
         </div>
     </section>
     <section class="section-content">
-        <h3 class="text-2xl font-semibold mb-4">Education</h3>
+        <h3 class="text-xl font-semibold mb-4">Education</h3>
         <div class="mb-6">
-            <h3 class="text-xl font-semibold text-gray-600">Doctor of Philosophy in Environment and Earth Science</h3>
+            <h3 class="font-semibold text-gray-600">Doctor of Philosophy in Environment and Earth Science</h3>
             <p class="text-gray-600 text-sm mb-2">Gustave Eiffel University | Nov 2022 - Oct 2025</p>
             <ul class="list-disc ml-6 text-gray-600 leading-relaxed">
                 <li>Funding body: CLEAR-Doc MSCA Co-fund program.</li>
             </ul>
         </div>
         <div class="mb-6">
-            <h3 class="text-xl font-semibold text-gray-600">Master of Science in Environment and Sustainable Development</h3>
+            <h3 class="font-semibold text-gray-600">Master of Science in Environment and Sustainable Development</h3>
             <p class="text-gray-600 text-sm mb-2">National Central University | Sep 2019 - June 2021</p>
             <ul class="list-disc ml-6 text-gray-600 leading-relaxed">
                 <li>Funding body: Taiwan International Cooperation and Development Fund.</li>
             </ul>
         </div>
         <div class="mb-6">
-            <h3 class="text-xl font-semibold text-gray-600">Bachelor of Engineering in Environmental Technology</h3>
+            <h3 class="font-semibold text-gray-600">Bachelor of Engineering in Environmental Technology</h3>
             <p class="text-gray-600 text-sm mb-2">Nha Trang University | Sep 2013 - May 2018</p>
             <ul class="list-disc ml-6 text-gray-600 leading-relaxed">
                 <li>Graduated with distinction.</li>
@@ -69,7 +69,7 @@ permalink: /cv/
         </div>
     </section>
     <section class="section-content">
-        <h2 class="text-2xl font-semibold mb-4">Skills</h2>
+        <h3 class="text-xl font-semibold mb-4">Skills</h3>
         <div class="flex flex-wrap gap-2">
             <span class="skill-badge">Urban Planning</span>
             <span class="skill-badge">Sustainability Assessment</span>
