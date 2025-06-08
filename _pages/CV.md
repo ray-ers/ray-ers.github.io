@@ -1,88 +1,76 @@
 ---
-layout: cv_layout 
-title: CV
+layout: page 
+title: Curriculum Vitae 
 permalink: /cv/
 ---
-<div class="container mx-auto p-6 bg-white shadow-lg rounded-lg my-8">
-        <header class="text-center mb-8 pb-4 border-b-2 border-gray-200">
-        <h1 class="text-5xl font-extrabold text-gray-900 mb-2">Kien Trung Pham</h1>
-        <p class="text-lg text-gray-600 mb-4">MSCA PhD | Urbanist | Academic Advisor</p>
-        <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-gray-700 text-sm">
-            <span class="flex items-center">
-                <svg class="w-4 h-4 mr-1 text-gray-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
-                contact@kien-pham.com
-            </span>
-            <a href="https://linkedin.com/in/phamkien" target="_blank" class="flex items-center hover:text-blue-600 transition-colors duration-200">
-                <svg class="w-4 h-4 mr-1 text-gray-500" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-                LinkedIn
-            </a>
-            <a href="https://www.instagram.com/ray_theurbanist/" target="_blank" class="flex items-center hover:text-purple-600 transition-colors duration-200">
-                <svg class="w-4 h-4 mr-1 text-gray-500" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0c6.6274 0 12 5.3726 12 12s-5.3726 12-12 12S0 18.6274 0 12 5.3726 0 12 0zm3.115 4.5h-6.23c-2.5536 0-4.281 1.6524-4.3805 4.1552L4.5 8.8851v6.1996c0 1.3004.4234 2.4193 1.2702 3.2359.7582.73 1.751 1.1212 2.8818 1.1734l.2633.006h6.1694c1.3004 0 2.389-.4234 3.1754-1.1794.762-.734 1.1817-1.7576 1.2343-2.948l.0056-.2577V8.8851c0-1.2702-.4234-2.3589-1.2097-3.1452-.7338-.762-1.7575-1.1817-2.9234-1.2343l-.252-.0056zM8.9152 5.8911h6.2299c.9072 0 1.6633.2722 2.2076.8166.4713.499.7647 1.1758.8103 1.9607l.0063.2167v6.2298c0 .9375-.3327 1.6936-.877 2.2077-.499.4713-1.176.7392-1.984.7806l-.2237.0057H8.9153c-.9072 0-1.6633-.2722-2.2076-.7863-.499-.499-.7693-1.1759-.8109-2.0073l-.0057-.2306V8.885c0-.9073.2722-1.6633.8166-2.2077.4712-.4713 1.1712-.7392 1.9834-.7806l.2242-.0057h6.2299-6.2299zM12 8.0988c-2.117 0-3.871 1.7238-3.871 3.871A3.8591 3.8591 0 0 0 12 15.8408c2.1472 0 3.871-1.7541 3.871-3.871 0-2.117-1.754-3.871-3.871-3.871zm0 1.3911c1.3609 0 2.4798 1.119 2.4798 2.4799 0 1.3608-1.119 2.4798-2.4798-2.4798-1.3609 0-2.4798-1.119-2.4798-2.4798 0-1.361 1.119-2.4799 2.4798-2.4799zm4.0222-2.3589a.877.877 0 1 0 0 1.754.877.877 0 0 0 0-1.754z"/></svg>
-                Instagram
-            </a>
-        </div>
-    </header>
-    <section class="section-content">
-        <p class="text-gray-700 leading-relaxed">
-            This CV focuses on my extracurricular activities. For more details on my academic background and full work experience, please visit my <a href="https://linkedin.com/in/phamkien" target="_blank" class="text-blue-600 hover:underline">LinkedIn profile</a>.
-        </p>
-    </section>
-    <section class="section-content border-t-2 border-gray-200 pt-8">
-        <h2 class="text-2xl font-semibold mb-6">Work Experience</h2>
-        <div class="mb-6">
-            <p class="font-semibold text-gray-600">Doctoral Candidate</p>
-            <p class="text-gray-600 text-sm mb-2">Gustave Eiffel University | Dec 2022 - Present</p>
-            <ul class="list-disc ml-6 text-gray-700 leading-relaxed">
-            </ul>
-        </div>
-        <div class="mb-6">
-            <p class="font-semibold text-gray-600">Research Intern</p>
-            <p class="text-gray-600 text-sm mb-2">Feng Chia University | May 2018 - Oct 2018</p>
-            <ul class="list-disc ml-6 text-gray-700 leading-relaxed">
-            </ul>
-        </div>
-    </section>
-    <section class="section-content border-t-2 border-gray-200 pt-8">
-        <h2 class="text-2xl font-semibold mb-6">Education</h2>
-        <div class="mb-6">
-            <p class="font-semibold text-gray-600">Doctor of Philosophy in Environment and Earth Science</p>
-            <p class="text-gray-600 text-sm mb-2">Gustave Eiffel University | Nov 2022 - Oct 2025</p>
-            <ul class="list-disc ml-6 text-gray-600 leading-relaxed">
-                <li>Funding body: CLEAR-Doc MSCA Co-fund program.</li>
-            </ul>
-        </div>
-        <div class="mb-6">
-            <p class="font-semibold text-gray-600">Master of Science in Environment and Sustainable Development</p>
-            <p class="text-gray-600 text-sm mb-2">National Central University | Sep 2019 - June 2021</p>
-            <ul class="list-disc ml-6 text-gray-600 leading-relaxed">
-                <li>Funding body: Taiwan International Cooperation and Development Fund.</li>
-            </ul>
-        </div>
-        <div class="mb-6">
-            <p class="font-semibold text-gray-600">Bachelor of Engineering in Environmental Technology</p>
-            <p class="text-gray-600 text-sm mb-2">Nha Trang University | Sep 2013 - May 2018</p>
-            <ul class="list-disc ml-6 text-gray-600 leading-relaxed">
-                <li>Graduated with distinction.</li>
-                <li>Erasmus+ Mobility in Ústí nad Labem; TEEP Exchange in Taichung.</li>
-            </ul>
-        </div>
-    </section>
-    <section class="section-content border-t-2 border-gray-200 pt-8">
-        <h2 class="text-2xl font-semibold mb-6">Skills</h2>
-        <div class="flex flex-wrap gap-2">
-            <span class="skill-badge">Urban Planning</span>
-            <span class="skill-badge">Sustainability Assessment</span>
-            <span class="skill-badge">Environmental Monitoring</span>
-            <span class="skill-badge">Data Analysis</span>
-            <span class="skill-badge">GIS</span>
-            <span class="skill-badge">Project Management</span>
-            <span class="skill-badge">Academic Writing</span>
-            <span class="skill-badge">Mentoring</span>
-            <span class="skill-badge">Team Leadership</span>
-            <span class="skill-badge">Public Speaking</span>
-            <span class="skill-badge">Cross-cultural Communication</span>
-            <span class="skill-badge">Resource Nexus Analysis</span>
-        </div>
-    </section>
+<section class="cv-section">
+    <p>
+        This CV focuses on my extracurricular activities. For more details on my academic background and full work experience, please visit my <a href="https://linkedin.com/in/phamkien" target="_blank">LinkedIn profile</a>.
+    </p>
+</section>
 
+<!-- Work Experience Section -->
+<section class="cv-section">
+    <h2 class="cv-section__title">Work Experience</h2>
+    <div class="cv-item">
+        <h3 class="cv-item__title">Doctoral Candidate</h3>
+        <p class="cv-item__meta">Gustave Eiffel University | Dec 2022 - Present</p>
+        <ul class="cv-item__list">
+            <!-- Add details here -->
+        </ul>
     </div>
+    <div class="cv-item">
+        <h3 class="cv-item__title">Research Intern</h3>
+        <p class="cv-item__meta">Feng Chia University | May 2018 - Oct 2018</p>
+        <ul class="cv-item__list">
+            <!-- Add details here -->
+        </ul>
+    </div>
+</section>
+
+<!-- Education Section -->
+<section class="cv-section">
+    <h2 class="cv-section__title">Education</h2>
+    <div class="cv-item">
+        <h3 class="cv-item__title">Doctor of Philosophy in Environment and Earth Science</h3>
+        <p class="cv-item__meta">Gustave Eiffel University | Nov 2022 - Oct 2025</p>
+        <ul class="cv-item__list">
+            <li>Funding body: CLEAR-Doc MSCA Co-fund program.</li>
+        </ul>
+    </div>
+    <div class="cv-item">
+        <h3 class="cv-item__title">Master of Science in Environment and Sustainable Development</h3>
+        <p class="cv-item__meta">National Central University | Sep 2019 - June 2021</p>
+        <ul class="cv-item__list">
+            <li>Funding body: Taiwan International Cooperation and Development Fund.</li>
+        </ul>
+    </div>
+    <div class="cv-item">
+        <h3 class="cv-item__title">Bachelor of Engineering in Environmental Technology</h3>
+        <p class="cv-item__meta">Nha Trang University | Sep 2013 - May 2018</p>
+        <ul class="cv-item__list">
+            <li>Graduated with distinction.</li>
+            <li>Erasmus+ Mobility in Ústí nad Labem; TEEP Exchange in Taichung.</li>
+        </ul>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section class="cv-section">
+    <h2 class="cv-section__title">Skills</h2>
+    <div class="cv-skills">
+        <span class="cv-skill-badge">Urban Planning</span>
+        <span class="cv-skill-badge">Sustainability Assessment</span>
+        <span class="cv-skill-badge">Environmental Monitoring</span>
+        <span class="cv-skill-badge">Data Analysis</span>
+        <span class="cv-skill-badge">GIS</span>
+        <span class="cv-skill-badge">Project Management</span>
+        <span class="cv-skill-badge">Academic Writing</span>
+        <span class="cv-skill-badge">Mentoring</span>
+        <span class="cv-skill-badge">Team Leadership</span>
+        <span class="cv-skill-badge">Public Speaking</span>
+        <span class="cv-skill-badge">Cross-cultural Communication</span>
+        <span class="cv-skill-badge">Resource Nexus Analysis</span>
+    </div>
+</section>
+
