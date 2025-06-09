@@ -1,5 +1,8 @@
-layout: page title: Atelier permalink: /atelier/
-
+---
+layout: page 
+title: Atelier 
+permalink: /atelier/
+---
 <!-- Item 2 -->
 <div class="atelier-item">
     <img src="{{ site.baseurl }}/images/atelier/Palawan1.jpg" alt="Somewhere in Palawan">
