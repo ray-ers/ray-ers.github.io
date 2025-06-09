@@ -113,11 +113,9 @@ $(document).ready(function() {
       $(".top").removeClass("is-active");
     }
   });
-
-});
- /* =======================
- // Atelier Page Modal (v2)
- ======================= */
+/* =======================
+  // Atelier Page Modal
+  ======================= */
   // Only run this code if the gallery exists on the page
   if ($('.atelier-gallery').length) {
     var atelierModalOverlay = $(".atelier-modal-overlay");
@@ -163,5 +161,5 @@ $(document).ready(function() {
       }
     });
   }
+});
 
-}); // Make sure this is the last line of the file
