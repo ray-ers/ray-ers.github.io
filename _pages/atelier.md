@@ -18,7 +18,7 @@ permalink: /atelier/
     <div class="atelier-item__caption">
         <h3>Venicen.</h3>
         <p class="caption-meta">March 2017</p>
-        <p>This photograph marks the moment 'intentional' photography took form in my mind. It is the convergence of a certain place at a certain time—with equipment ready, and an awareness of the story waiting to be told.. Some people might call this luck; I call it deliberate intention</p>
+        <p>This photograph marks the moment 'intentional' photography took form in my mind. It is the convergence of a certain place at a certain time—with equipment ready, and an awareness of the story waiting to be told. Some might call this luck; I call it deliberate intention</p>
     </div>
 </div>
 <!-- Item 2 -->    
