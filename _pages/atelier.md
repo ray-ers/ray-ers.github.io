@@ -49,4 +49,16 @@ permalink: /atelier/
     </div>
 </div>
 <!-- Add as many more items as you like... -->
+    <!-- Navigation Arrows -->
+    <button class="atelier-modal__prev" aria-label="Previous image">&#10094;</button>
+    <button class="atelier-modal__next" aria-label="Next image">&#10095;</button>
 
+    <div class="atelier-modal__content">
+        <div class="atelier-modal__image">
+            <!-- The clicked image will be placed here by JavaScript -->
+        </div>
+        <div class="atelier-modal__text">
+            <!-- The descriptive paragraph will be placed here by JavaScript -->
+        </div>
+    </div>
+</div>
