@@ -115,3 +115,53 @@ $(document).ready(function() {
   });
 
 });
+// ... (all existing code in common.js) ...
+// Find and replace the entire "Travel Page Modal" section with this:
+
+  /* =======================
+  // Atelier Page Modal
+  ======================= */
+  var atelierModalOverlay = $(".atelier-modal-overlay");
+  var atelierModalImage = $(".atelier-modal__image");
+  var atelierModalText = $(".atelier-modal__text");
+  var atelierModalClose = $(".atelier-modal__close");
+
+  // Open the modal when a atelier item is clicked
+  $(".atelier-item").on("click", function() {
+    // Get the content from the clicked item
+    var imgSrc = $(this).find("img").attr("src");
+    var captionHtml = $(this).find(".atelier-item__caption").html();
+
+    // Populate the modal
+    atelierModalImage.html('<img src="' + imgSrc + '" alt="">');
+    atelierModalText.html(captionHtml);
+
+    // Show the modal
+    atelierModalOverlay.addClass("is-visible");
+    $("body").css("overflow", "hidden"); // Prevent background scrolling
+  });
+
+  // Function to close the modal
+  function closeModal() {
+    atelierModalOverlay.removeClass("is-visible");
+    $("body").css("overflow", ""); // Restore scrolling
+    // Clear content after animation to prevent flash
+    setTimeout(function() {
+      atelierModalImage.html("");
+      atelierModalText.html("");
+    }, 300);
+  }
+
+  // Close the modal via the close button
+  atelierModalClose.on("click", function() {
+    closeModal();
+  });
+
+  // Close the modal by clicking the overlay or pressing Escape
+  atelierModalOverlay.on('click keyup', function(event) {
+    if (event.target == this || event.keyCode == 27) {
+      closeModal();
+    }
+  });
+
+});
