@@ -38,6 +38,9 @@ permalink: /atelier/
 <div class="atelier-modal-overlay">
     <div class="atelier-modal">
         <button class="atelier-modal__close" aria-label="Close modal">&times;</button>
+           <!-- Arrows are placed here -->
+        <button class="atelier-modal__prev" aria-label="Previous image">&#10094;</button>
+        <button class="atelier-modal__next" aria-label="Next image">&#10095;</button>
         <div class="atelier-modal__content">
             <div class="atelier-modal__image">
                 <!-- The clicked image will be placed here by JavaScript -->
