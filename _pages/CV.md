@@ -5,30 +5,10 @@ permalink: /cv/
 ---
 <section class="cv-section">
     <p>
-        <center> This CV focuses on extracurricular activities. For more details on my academic background qualifications, please visit my <a href="https://linkedin.com/in/phamkien" target="_blank">LinkedIn profile</a> or <a href="https://orcid.org/0000-0001-7740-102X" target="_blank">ORCID repository</a>
+        <center> This CV focuses on extracurricular activities. For more details on my academic background qualifications, please visit the <a href="https://linkedin.com/in/phamkien" target="_blank">LinkedIn profile</a> or <a href="https://orcid.org/0000-0001-7740-102X" target="_blank">ORCID repository</a>
         </center>
     </p>
 </section>
-
-<!-- Professional Membership Section -->
-<section class="cv-section">
-    <h2 class="cv-section__title">Professional Membership</h2>
-    <div class="cv-item">
-        <h3 class="cv-item__title">Ecosystem Services Partnerships</h3>
-        <p class="cv-item__meta">Interim Executive Member | Nov 2024 - Present</p>
-        <ul class="cv-item__list">
-            <!-- Add details here -->
-        </ul>
-    </div>
-    <div class="cv-item">
-        <h3 class="cv-item__title">Young Ecosystem Services Specialists</h3>
-        <p class="cv-item__meta">Executive Member | May 2018 - Oct 2018</p>
-        <ul class="cv-item__list">
-            <!-- Add details here -->
-        </ul>
-    </div>
-</section>
-
 <!-- Education Section -->
 <section class="cv-section">
     <h2 class="cv-section__title">Education</h2>
@@ -56,11 +36,65 @@ permalink: /cv/
     </div>
 </section>
 
+<!-- Professional Membership Section -->
+<section class="cv-section">
+    <h2 class="cv-section__title">Professional Membership</h2>
+    <div class="cv-item">
+        <h3 class="cv-item__title">Ecosystem Services Partnerships</h3>
+        <p class="cv-item__meta">Interim Executive Member | Nov 2024 - Present</p>
+        <ul class="cv-item__list">
+            <!-- Add details here -->
+        </ul>
+    </div>
+    <div class="cv-item">
+        <h3 class="cv-item__title">Young Ecosystem Services Specialists</h3>
+        <p class="cv-item__meta">Executive Member | Aug 2021 - July 2025</p>
+        <ul class="cv-item__list">
+            <li>Online training workshops/webinars organizer.</li>
+            <li>Information faciliator, event coordinator.</li>
+            <li>IPBES Focal Point/IPBES Event Nominations and ONet engagement.</li>
+        </ul>
+    </div>
+</section>
+
+<!-- Professional Service section -->
+<section class="cv-section">
+    <h2 class="cv-section__title">Professional Service</h2>
+    <div class="cv-item">
+        <h3 class="cv-item__title">Rudolf de Groot ESP Summer School</h3>
+        <p class="cv-item__meta">Organizer | Aveiro | Sep 2025</p>
+        <ul class="cv-item__list">
+            <!-- Add details here -->
+        </ul>
+    </div>
+    <div class="cv-item">
+        <h3 class="cv-item__title">ESP 11th World Conference</h3>
+        <p class="cv-item__meta">Session O3 Co-host | Darwin | Jun 2025</p>
+        <ul class="cv-item__list">
+            <!-- Add details here -->
+        </ul>
+    </div>
+    <div class="cv-item">
+        <h3 class="cv-item__title">ESP 5th European Conference</h3>
+        <p class="cv-item__meta">Scientific Committee/Moderator/Session 02 Co-host | Wageningen | Nov 2024</p>
+        <ul class="cv-item__list">
+            <!-- Add details here -->
+        </ul>
+    </div>
+    <div class="cv-item">
+        <h3 class="cv-item__title">ESP 3rd Asia Conference</h3>
+        <p class="cv-item__meta">Session 02 Co-host | Nagasaki | Dec 2021</p>
+        <ul class="cv-item__list">
+            <!-- Add details here -->
+        </ul>
+    </div>
+</section>
 <!-- Skills Section -->
 <section class="cv-section">
     <h2 class="cv-section__title">Skills</h2>
     <div class="cv-skills">
         <span class="cv-skill-badge">Urban Planning</span>
+        <span class="cv-skill-badge">Resource Nexus Analysis</span>
         <span class="cv-skill-badge">Sustainability Assessment</span>
         <span class="cv-skill-badge">Environmental Monitoring</span>
         <span class="cv-skill-badge">Data Analysis</span>
@@ -68,10 +102,9 @@ permalink: /cv/
         <span class="cv-skill-badge">Project Management</span>
         <span class="cv-skill-badge">Academic Writing</span>
         <span class="cv-skill-badge">Mentoring</span>
-        <span class="cv-skill-badge">Team Leadership</span>
         <span class="cv-skill-badge">Public Speaking</span>
         <span class="cv-skill-badge">Cross-cultural Communication</span>
-        <span class="cv-skill-badge">Resource Nexus Analysis</span>
+
     </div>
 </section>
 
