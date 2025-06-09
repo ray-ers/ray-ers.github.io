@@ -85,7 +85,7 @@ $(document).ready(function() {
   });
 
   /* =======================
-  // Atelier Page Modal (with Navigation)
+  // Atelier Page Modal (with Outside Navigation)
   ======================= */
   if ($('.atelier-gallery').length) {
     var $galleryItems = $(".atelier-item");
@@ -106,6 +106,8 @@ $(document).ready(function() {
         var imgSrc = $item.find("img").attr("src");
         var captionHtml = $item.find(".atelier-item__caption").html();
         
+        // --- THIS IS THE KEY REVERSION ---
+        // Re-inject the entire image tag into the container
         atelierModalImage.html('<img src="' + imgSrc + '" alt="">');
         atelierModalText.html(captionHtml);
     }
