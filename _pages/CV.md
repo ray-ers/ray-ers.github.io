@@ -36,9 +36,9 @@ permalink: /cv/
     </div>
 </section>
 
-<!-- Professional Membership Section -->
+<!-- Affiliations & Membership Section -->
 <section class="cv-section">
-    <h2 class="cv-section__title">Professional Membership</h2>
+    <h2 class="cv-section__title">Affiliations & Membership</h2>
     <div class="cv-item">
         <h3 class="cv-item__title">Ecosystem Services Partnerships</h3>
         <p class="cv-item__meta">Interim Executive Member | Nov 2024 - Present</p>
@@ -55,11 +55,23 @@ permalink: /cv/
             <li>IPBES Focal Point/IPBES Event Nominations and ONet engagement.</li>
         </ul>
     </div>
+        <div class="cv-item">
+        <h3 class="cv-item__title">Society for Urban Ecology</h3>
+        <p class="cv-item__meta"> Member | Oct 2022 - Present</p>
+        <ul class="cv-item__list">
+        </ul>
+    </div>
+        <div class="cv-item">
+        <h3 class="cv-item__title">International Association for Landscape Ecology</h3>
+        <p class="cv-item__meta"> Member | May 2025 - Present</p>
+        <ul class="cv-item__list">
+        </ul>
+    </div>
 </section>
 
-<!-- Professional Service section -->
+<!-- Academic Service section -->
 <section class="cv-section">
-    <h2 class="cv-section__title">Professional Service</h2>
+    <h2 class="cv-section__title">Academic Service</h2>
     <div class="cv-item">
         <h3 class="cv-item__title">Rudolf de Groot ESP Summer School</h3>
         <p class="cv-item__meta">Organizer | Aveiro | Sep 2025</p>
@@ -103,8 +115,6 @@ permalink: /cv/
         <span class="cv-skill-badge">Academic Writing</span>
         <span class="cv-skill-badge">Mentoring</span>
         <span class="cv-skill-badge">Public Speaking</span>
-        <span class="cv-skill-badge">Cross-cultural Communication</span>
-
     </div>
 </section>
 
