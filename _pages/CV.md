@@ -1,5 +1,6 @@
 ---
 layout: page 
+title: CV
 permalink: /cv/
 ---
 <section class="cv-section">
