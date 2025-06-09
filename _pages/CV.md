@@ -1,6 +1,5 @@
 ---
 layout: page 
-title: CV
 permalink: /cv/
 ---
 <section class="cv-section">
@@ -10,19 +9,19 @@ permalink: /cv/
     </p>
 </section>
 
-<!-- Work Experience Section -->
+<!-- Professional Membership Section -->
 <section class="cv-section">
-    <h2 class="cv-section__title">Work Experience</h2>
+    <h2 class="cv-section__title">Professional Membership</h2>
     <div class="cv-item">
-        <h3 class="cv-item__title">Doctoral Candidate</h3>
-        <p class="cv-item__meta">Gustave Eiffel University | Dec 2022 - Present</p>
+        <h3 class="cv-item__title">Ecosystem Services Partnerships</h3>
+        <p class="cv-item__meta">Interim Executive Member | Nov 2024 - Present</p>
         <ul class="cv-item__list">
             <!-- Add details here -->
         </ul>
     </div>
     <div class="cv-item">
-        <h3 class="cv-item__title">Research Intern</h3>
-        <p class="cv-item__meta">Feng Chia University | May 2018 - Oct 2018</p>
+        <h3 class="cv-item__title">Young Ecosystem Services Specialists</h3>
+        <p class="cv-item__meta">Executive Member | May 2018 - Oct 2018</p>
         <ul class="cv-item__list">
             <!-- Add details here -->
         </ul>
