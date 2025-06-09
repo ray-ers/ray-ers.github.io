@@ -1,6 +1,6 @@
 /*
  * =================================================
- * Atelier Page Styles (Reverted)
+ * Atelier Page Styles (v6 - Arrows on Hover)
  * =================================================
  */
 
@@ -100,13 +100,23 @@
     }
 
     &__image {
+        position: relative; // This is crucial for positioning the arrows
         flex: 1 1 65%;
         background-color: #000;
+        
         img {
             display: block;
             width: 100%;
             height: 100%;
             object-fit: contain;
+        }
+
+        // --- NEW: Styles to hide arrows by default and show on hover ---
+        &:hover {
+            .atelier-modal__prev,
+            .atelier-modal__next {
+                opacity: 1;
+            }
         }
     }
 
@@ -121,4 +131,37 @@
         .caption-meta { font-size: 14px; color: var(--text-alt-color); margin-bottom: $base-spacing-unit; }
         p { font-size: 16px; line-height: 1.7; margin-bottom: 0; }
     }
+}
+
+/* --- UPDATED: Navigation Arrow Styles --- */
+.atelier-modal__prev,
+.atelier-modal__next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    padding: 15px;
+    height: 50px;
+    width: 50px;
+    line-height: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 15;
+    opacity: 0; // Hidden by default
+    transition: opacity 0.2s ease, background-color 0.2s ease;
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.4);
+    }
+}
+
+.atelier-modal__prev {
+    left: 20px;
+}
+
+.atelier-modal__next {
+    right: 20px;
 }
