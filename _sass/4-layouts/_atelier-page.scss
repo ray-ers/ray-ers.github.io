@@ -1,17 +1,14 @@
 /*
  * =================================================
- * Atelier Page Styles (with Navigation)
+ * Atelier Page Styles (v5 - Arrows Outside)
  * =================================================
  */
 
 .atelier-gallery {
     display: grid;
-    // On mobile, start with 2 columns for a better look
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
     margin-top: $base-spacing-unit;
-
-    // Use 3 columns on desktops
     @media only screen and (min-width: $tablet) {
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
@@ -23,24 +20,18 @@
     cursor: pointer;
     overflow: hidden;
     border-radius: $global-radius;
-    // This forces the item container to be a perfect square
     aspect-ratio: 1 / 1;
 
     img {
         display: block;
         width: 100%;
         height: 100%;
-        // This makes the image fill the square without distortion
         object-fit: cover;
         transition: transform 0.3s ease, filter 0.3s ease;
     }
-
-    // This is the hidden caption used by the modal
     &__caption {
         display: none;
     }
-
-    // Simple hover effect
     &:hover {
         img {
             transform: scale(1.05);
@@ -62,11 +53,9 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
-    // Hidden by default
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
-
     &.is-visible {
         opacity: 1;
         visibility: visible;
@@ -81,22 +70,21 @@
     width: 100%;
     max-width: 1100px;
     max-height: 90vh;
-    overflow: visible; // Allows arrows to sit outside
+    // We can allow the parent modal to be "overflow: visible" to see the arrows
+    overflow: visible;
 
     &__close {
         position: absolute;
-        top: -35px; // Positioned above the modal
+        top: -40px;
         right: 0;
         font-size: 32px;
-        line-height: 1;
         font-weight: bold;
-        color: #fff; // White color for better visibility
+        color: #fff;
         background: none;
         border: none;
         cursor: pointer;
-        z-index: 10;
+        z-index: 20;
         transition: color 0.2s ease;
-
         &:hover {
             color: var(--text-alt-color);
         }
@@ -109,16 +97,14 @@
         max-height: 90vh;
         border-radius: $global-radius; // Add radius to content
         overflow: hidden; // Hide overflow on content
-
         @media only screen and (min-width: $tablet) {
             flex-direction: row;
         }
     }
-    
+
     &__image {
         flex: 1 1 65%;
         background-color: #000;
-        
         img {
             display: block;
             width: 100%;
@@ -133,16 +119,14 @@
         overflow-y: auto;
         color: var(--text-color);
         background-color: var(--background-color);
-
-        p {
-            font-size: 16px;
-            line-height: 1.7;
-            margin-bottom: 0;
-        }
+        
+        h3 { font-size: $font-size-h4; margin-top: 0; margin-bottom: 8px; color: var(--heading-font-color); }
+        .caption-meta { font-size: 14px; color: var(--text-alt-color); margin-bottom: $base-spacing-unit; }
+        p { font-size: 16px; line-height: 1.7; margin-bottom: 0; }
     }
 }
 
-/* Navigation Arrows */
+/* --- UPDATED: Navigation Arrow Styles (Outside) --- */
 .atelier-modal__prev,
 .atelier-modal__next {
     position: absolute;
@@ -163,11 +147,11 @@
 }
 
 .atelier-modal__prev {
-    left: -60px;
+    left: -60px; // Positioned to the left of the modal box
     border-radius: 5px 0 0 5px;
 }
 
 .atelier-modal__next {
-    right: -60px;
+    right: -60px; // Positioned to the right of the modal box
     border-radius: 0 5px 5px 0;
 }
