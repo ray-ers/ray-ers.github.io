@@ -18,7 +18,7 @@
     
     // Use 3 columns on desktops
     @media only screen and (min-width: $desktop) {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr); 
     }
 }
 
@@ -30,11 +30,15 @@
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
+    // --- CHANGE #1: Force the item container to be a perfect square ---
+    aspect-ratio: 1 / 1;
+
     img {
         display: block;
         width: 100%;
-        height: 250px;
-        object-fit: cover;
+        // --- CHANGE #2: Make the image fill its new square container ---
+        height: 100%; 
+        object-fit: cover; // This ensures the image covers the square without distortion
         transition: transform 0.3s ease;
     }
 
@@ -149,3 +153,11 @@
         }
     }
 }
+```
+
+### Summary of Changes:
+
+1.  **Forced Square Shape:** I added `aspect-ratio: 1 / 1;` to the `.atelier-item` class. This tells the container for each image to maintain a perfect 1:1 (square) aspect ratio, regardless of the screen size.
+2.  **Image Fill:** I changed the `height` of the `img` inside `.atelier-item` from a fixed `250px` to `100%`. This makes the image expand to completely fill its new square container. The existing `object-fit: cover;` property ensures the image is cropped cleanly to fit, not stretched or distorted.
+
+The layout will now appear as a grid of three square images per row on desktop screens, and it will responsively adjust to two columns on tablets and one on mobile, just as befo
