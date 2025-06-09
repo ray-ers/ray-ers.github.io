@@ -8,7 +8,9 @@ permalink: /atelier/
 <div class="atelier-item">
     <img src="{{ '/atelier/image1.jpeg' | relative_url }}" alt="A description of the first image">
     <div class="atelier-item__caption">
-        <p>Somewhere in Palawan.</p>
+        <h3>Somewhere in Palawan.</h3>
+        <p class="caption-meta">August 2023</p>
+        <p>We went deeper down because we heard music playing somewhere</p>
     </div>
         
 </div>
