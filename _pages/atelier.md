@@ -5,7 +5,7 @@ permalink: /atelier/
 ---
 <!-- Item 2 -->
 <div class="atelier-item">
-    <img src="{{ site.baseurl }}/images/atelier/Palawan1.jpg" alt="Somewhere in Palawan">
+    <img src="{{ site.baseurl }}/images/atelier/Palawan1.jpeg" alt="Somewhere in Palawan">
     <div class="atelier-item__caption">
         <h3>Palawan, Philippines</h3>
         <p>Music started in the middle of nowhere, and we found a festival.</p>
@@ -14,7 +14,7 @@ permalink: /atelier/
 
 <!-- Item 3 -->
 <div class="atelier-item">
-    <img src="{{ site.baseurl }}/images/atelier/Palawan2.jpg" alt="The Colosseum">
+    <img src="{{ site.baseurl }}/images/atelier/Palawan2.jpeg" alt="The Colosseum">
     <div class="atelier-item__caption">
         <h3>Palawan, Philippines</h3>
         <p>Scoring hot sun, simmering blue.</p>
@@ -23,7 +23,7 @@ permalink: /atelier/
 
 <!-- Item 4 -->
 <div class="atelier-item">
-    <img src="{{ site.baseurl }}/images/atelier/Palawan3.jpg" alt="Ha Long Bay">
+    <img src="{{ site.baseurl }}/images/atelier/Palawan3.jpeg" alt="Ha Long Bay">
     <div class="atelier-item__caption">
         <h3>Palawan, Philippines</h3>
         <p>There are so many hobbies I wish to do.</p>
