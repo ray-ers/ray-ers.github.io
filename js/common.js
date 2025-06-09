@@ -76,13 +76,15 @@ $(document).ready(function() {
   /* ========================
   // Simple Jekyll Search
   ======================== */
-  SimpleJekyllSearch({
-    searchInput: document.getElementById("js-search-input"),
-    resultsContainer: document.getElementById("js-results-container"),
-    json: "/search.json",
-    searchResultTemplate: '{article}',
-    noResultsText: '<h3 class="no-results">No results found</h3>'
-  });
+  if ($('#js-search-input').length) {
+    SimpleJekyllSearch({
+      searchInput: document.getElementById("js-search-input"),
+      resultsContainer: document.getElementById("js-results-container"),
+      json: "/search.json",
+      searchResultTemplate: '{article}',
+      noResultsText: '<h3 class="no-results">No results found</h3>'
+    });
+  }
 
 
   /* =======================
@@ -113,53 +115,67 @@ $(document).ready(function() {
       $(".top").removeClass("is-active");
     }
   });
-/* =======================
-  // Atelier Page Modal
+
+
+  /* =======================
+  // Atelier Page Modal (Corrected)
   ======================= */
   // Only run this code if the gallery exists on the page
   if ($('.atelier-gallery').length) {
     var atelierModalOverlay = $(".atelier-modal-overlay");
+    var atelierModalContent = $(".atelier-modal");
     var atelierModalImage = $(".atelier-modal__image");
     var atelierModalText = $(".atelier-modal__text");
     var atelierModalClose = $(".atelier-modal__close");
-  
+
     // Open the modal when a gallery item is clicked
     $(".atelier-item").on("click", function() {
-      // Get the content from the clicked item
       var imgSrc = $(this).find("img").attr("src");
       var captionHtml = $(this).find(".atelier-item__caption").html();
-  
-      // Populate the modal with the new content
+      
       atelierModalImage.html('<img src="' + imgSrc + '" alt="">');
       atelierModalText.html(captionHtml);
-  
-      // Show the modal
+      
       atelierModalOverlay.addClass("is-visible");
-      $("body").css("overflow", "hidden"); // Prevent the page from scrolling
+      $("body").css("overflow", "hidden");
     });
-  
+
     // Function to close the modal
     function closeModal() {
       atelierModalOverlay.removeClass("is-visible");
-      $("body").css("overflow", ""); // Re-enable page scrolling
-      // Clear content after animation to prevent a "flash" of old content
-      setTimeout(function() {
-        atelierModalImage.html("");
-        atelierModalText.html("");
-      }, 300);
+      $("body").css("overflow", "");
     }
-  
+
     // Close the modal via the close button
     atelierModalClose.on("click", function() {
       closeModal();
     });
-  
-    // Close the modal by clicking the background overlay or pressing the Escape key
-    atelierModalOverlay.on('click keyup', function(event) {
-      if (event.target == this || event.keyCode == 27) {
+    
+    // Close the modal by clicking the background overlay
+    atelierModalOverlay.on('click', function() {
+        closeModal();
+    });
+    
+    // Prevent clicks on the modal content from closing it
+    atelierModalContent.on('click', function(event) {
+        event.stopPropagation();
+    });
+
+    // Close the modal by pressing the Escape key
+    $(document).on('keyup', function(event) {
+      if (event.key === "Escape" && atelierModalOverlay.hasClass('is-visible')) {
         closeModal();
       }
     });
   }
-});
 
+});
+```
+
+### Summary of the Fixes:
+
+1.  **More Specific Click Handling:** I've separated the click listeners. Now, a click on the dark background (`.atelier-modal-overlay`) will always close the modal.
+2.  **Stopping Event Bubbling:** I've added `event.stopPropagation()` to a new listener on the white content box (`.atelier-modal`). This is the key fix. It prevents a click inside the pop-up from "bubbling up" and being registered by the background overlay, which was likely causing the double-click issue.
+3.  **Improved Escape Key Handling:** I've made the "Escape" key listener more robust so it only fires when the modal is actually visible.
+
+After updating your `js/common.js` file with this new code, the double-click issue should be completely resolv
