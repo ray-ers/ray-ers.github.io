@@ -18,13 +18,17 @@ permalink: /atelier/
 <div class="atelier-item">
     <img src="{{ '/atelier/image2.jpeg' | relative_url }}" alt="Palawan water 2" loading="lazy">
     <div class="atelier-item__caption">
-        <p>And in Palawan they seem to have music everywhere.</p>
+        <h3>Somewhere in Palawan.</h3>
+        <p class="caption-meta">August 2023</p>
+        <p>And in Palawan, they seem to have music everywhere.</p>
     </div>
 </div>
 <!-- Item 3 -->
 <div class="atelier-item">
     <img src="{{ '/atelier/image3.jpeg' | relative_url }}" alt="Palawan water 3" loading="lazy">
     <div class="atelier-item__caption">
+        <h3>A beach in Palawan.</h3>
+        <p class="caption-meta">August 2023</p>
         <p>Scoring heat, radiant beam, shimmering wave - all perfect .</p>
     </div>
 </div>
