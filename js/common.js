@@ -85,53 +85,25 @@ $(document).ready(function() {
   });
 
   /* =======================
-  // Atelier Page Modal (with Outside Navigation)
+  // Atelier Page Modal (Reverted to simple, working version)
   ======================= */
   if ($('.atelier-gallery').length) {
-    var $galleryItems = $(".atelier-item");
-    var totalItems = $galleryItems.length;
-    var currentIndex = 0;
-
     var atelierModalOverlay = $(".atelier-modal-overlay");
     var atelierModalContent = $(".atelier-modal");
     var atelierModalImage = $(".atelier-modal__image");
     var atelierModalText = $(".atelier-modal__text");
     var atelierModalClose = $(".atelier-modal__close");
-    var atelierModalNext = $(".atelier-modal__next");
-    var atelierModalPrev = $(".atelier-modal__prev");
-
-    // Function to show a specific image by its index
-    function showImage(index) {
-        var $item = $galleryItems.eq(index);
-        var imgSrc = $item.find("img").attr("src");
-        var captionHtml = $item.find(".atelier-item__caption").html();
-        
-        // --- THIS IS THE KEY REVERSION ---
-        // Re-inject the entire image tag into the container
-        atelierModalImage.html('<img src="' + imgSrc + '" alt="">');
-        atelierModalText.html(captionHtml);
-    }
 
     // Open the modal when a gallery item is clicked
-    $galleryItems.on("click", function() {
-      currentIndex = $(this).index();
-      showImage(currentIndex);
+    $(".atelier-item").on("click", function() {
+      var imgSrc = $(this).find("img").attr("src");
+      var captionHtml = $(this).find(".atelier-item__caption").html();
+      
+      atelierModalImage.html('<img src="' + imgSrc + '" alt="">');
+      atelierModalText.html(captionHtml);
+      
       atelierModalOverlay.addClass("is-visible");
       $("body").css("overflow", "hidden");
-    });
-
-    // Handle Next button click
-    atelierModalNext.on("click", function(event) {
-        event.stopPropagation();
-        currentIndex = (currentIndex + 1) % totalItems;
-        showImage(currentIndex);
-    });
-
-    // Handle Previous button click
-    atelierModalPrev.on("click", function(event) {
-        event.stopPropagation();
-        currentIndex = (currentIndex - 1 + totalItems) % totalItems;
-        showImage(currentIndex);
     });
 
     // Function to close the modal
@@ -141,13 +113,19 @@ $(document).ready(function() {
     }
 
     // Close the modal via the close button
-    atelierModalClose.on("click", function() { closeModal(); });
+    atelierModalClose.on("click", function() {
+      closeModal();
+    });
     
     // Close the modal by clicking the background overlay
-    atelierModalOverlay.on('click', function() { closeModal(); });
+    atelierModalOverlay.on('click', function() {
+        closeModal();
+    });
     
     // Prevent clicks on the modal content from closing it
-    atelierModalContent.on('click', function(event) { event.stopPropagation(); });
+    atelierModalContent.on('click', function(event) {
+        event.stopPropagation();
+    });
 
     // Close the modal by pressing the Escape key
     $(document).on('keyup', function(event) {
@@ -156,4 +134,5 @@ $(document).ready(function() {
       }
     });
   }
+
 });
