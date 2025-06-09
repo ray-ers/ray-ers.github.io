@@ -21,7 +21,9 @@ social:
 # Example of adding a new link to the author section and footer - {icon: "ion-logo-github", label: Github, link: "https://github.com"}
 # Other icons can be found at https://ionicons.com/v4/
 #- {icon: "ion-logo-twitter", label: Twitter, link: "https://twitter.com/kien_env"}
-
+#-------------------------------
+# Footer Settings
+footer_text: "Thanks for visiting. Feel free to explore my work and let me know what you think."
 #-------------------------------
 # Hero Settings
 hero:
