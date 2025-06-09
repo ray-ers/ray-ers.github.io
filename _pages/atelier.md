@@ -49,7 +49,7 @@ permalink: /atelier/
     </div>
 </div>
 <!-- Add as many more items as you like... -->
-    <!-- Navigation Arrows -->
+    <!-- Navigation Arrows are now direct children of the modal -->
     <button class="atelier-modal__prev" aria-label="Previous image">&#10094;</button>
     <button class="atelier-modal__next" aria-label="Next image">&#10095;</button>
 
