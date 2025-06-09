@@ -3,48 +3,37 @@ layout: page
 title: Atelier 
 permalink: /atelier/
 ---
+<!-- Item 1 -->
+<div class="atelier-item">
+    <img src="{{ '/atelier/image1.jpg' | relative_url }}" alt="A description of the first image">
+    <div class="atelier-item__caption">
+        <p>This is the descriptive paragraph for the first image. It can be as long as you like, telling a story about the moment captured.</p>
+    </div>
+</div>
+
 <!-- Item 2 -->
 <div class="atelier-item">
-    <img src="{{ '/images/atelier/Palawan1.jpeg' | relative_url }}" alt="Somewhere in Palawan">
+    <img src="{{ '/atelier/image2.jpg' | relative_url }}" alt="A description of the second image">
     <div class="atelier-item__caption">
-        <h3>Palawan, Philippines</h3>
-        <p>Music started in the middle of nowhere, and we found a festival.</p>
+        <p>Here is the story behind the second photograph. The pop-up allows for a much richer context than a simple caption.</p>
     </div>
 </div>
 
 <!-- Item 3 -->
 <div class="atelier-item">
-    <img src="{{ '/images/atelier/Palawan2.jpeg' | relative_url }}" alt="The Colosseum">
+    <img src="{{ '/atelier/image3.jpg' | relative_url }}" alt="A description of the third image">
     <div class="atelier-item__caption">
-        <h3>Palawan, Philippines</h3>
-        <p>Scoring hot sun, simmering blue.</p>
+        <p>The third image comes with its own unique narrative, displayed right here when the user clicks.</p>
     </div>
 </div>
 
 <!-- Item 4 -->
 <div class="atelier-item">
-    <img src="{{ '/images/atelier/Palawan3.jpeg' | relative_url }}" alt="Ha Long Bay">
+    <img src="{{ '/atelier/image4.jpg' | relative_url }}" alt="A description of the fourth image">
     <div class="atelier-item__caption">
-        <h3>Palawan, Philippines</h3>
-        <p>There are so many hobbies I wish to do.</p>
+        <p>Another descriptive paragraph for the fourth image in the gallery.</p>
     </div>
 </div>
 
-<!-- Item 5 -->
-<div class="atelier-item">
-    <img src="{{ '/images/atelier/cairo.jpg' | relative_url }}" alt="Pyramids of Giza">
-    <div class="atelier-item__caption">
-        <h3>Cairo, Egypt</h3>
-        <p>The Great Pyramids of Giza, a true wonder of the ancient world. Standing before them is a humbling and unforgettable experience.</p>
-    </div>
-</div>
-
-<!-- Item 6 -->
-<div class="atelier-item">
-    <img src="{{ '/images/atelier/prague.jpg' | relative_url }}" alt="Charles Bridge">
-    <div class="atelier-item__caption">
-        <h3>Prague, Czech Republic</h3>
-        <p>Sunrise over the Charles Bridge. The Gothic statues that line the bridge create a magical, fairytale-like atmosphere in the early morning light.</p>
-    </div>
-</div>
+<!-- Add as many more items as you like... -->
 
