@@ -1,6 +1,6 @@
 /*
  * =================================================
- * Atelier Page Styles (v3)
+ * Atelier Page Styles (with Navigation)
  * =================================================
  */
 
@@ -81,16 +81,16 @@
     width: 100%;
     max-width: 1100px;
     max-height: 90vh;
-    overflow: hidden;
+    overflow: visible; // Allows arrows to sit outside
 
     &__close {
         position: absolute;
-        top: 15px;
-        right: 15px;
+        top: -35px; // Positioned above the modal
+        right: 0;
         font-size: 32px;
         line-height: 1;
         font-weight: bold;
-        color: var(--text-alt-color);
+        color: #fff; // White color for better visibility
         background: none;
         border: none;
         cursor: pointer;
@@ -98,7 +98,7 @@
         transition: color 0.2s ease;
 
         &:hover {
-            color: var(--heading-font-color);
+            color: var(--text-alt-color);
         }
     }
 
@@ -107,6 +107,8 @@
         flex-direction: column;
         height: 100%;
         max-height: 90vh;
+        border-radius: $global-radius; // Add radius to content
+        overflow: hidden; // Hide overflow on content
 
         @media only screen and (min-width: $tablet) {
             flex-direction: row;
@@ -115,7 +117,7 @@
     
     &__image {
         flex: 1 1 65%;
-        background-color: #000; // Black background for the image
+        background-color: #000;
         
         img {
             display: block;
@@ -132,25 +134,40 @@
         color: var(--text-color);
         background-color: var(--background-color);
 
-        // --- NEW STYLES for caption content ---
-        h3 {
-            font-size: $font-size-h4;
-            margin-top: 0;
-            margin-bottom: 8px;
-            color: var(--heading-font-color);
-        }
-
-        .caption-meta {
-            font-size: 14px;
-            color: var(--text-alt-color);
-            margin-bottom: $base-spacing-unit;
-        }
-        // --- END of new styles ---
-
         p {
             font-size: 16px;
             line-height: 1.7;
             margin-bottom: 0;
         }
     }
+}
+
+/* Navigation Arrows */
+.atelier-modal__prev,
+.atelier-modal__next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 15;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+}
+
+.atelier-modal__prev {
+    left: -60px;
+    border-radius: 5px 0 0 5px;
+}
+
+.atelier-modal__next {
+    right: -60px;
+    border-radius: 0 5px 5px 0;
 }
