@@ -3,14 +3,15 @@ layout: page
 title: Atelier 
 permalink: /atelier/
 ---
+<div class="atelier-gallery"> 
 <!-- Item 1 -->
 <div class="atelier-item">
     <img src="{{ '/atelier/image1.jpeg' | relative_url }}" alt="A description of the first image">
     <div class="atelier-item__caption">
         <p>This is the descriptive paragraph for the first image. It can be as long as you like, telling a story about the moment captured.</p>
     </div>
+        
 </div>
-
 <!-- Item 2 -->
 <div class="atelier-item">
     <img src="{{ '/atelier/image2.jpeg' | relative_url }}" alt="A description of the second image">
@@ -18,7 +19,6 @@ permalink: /atelier/
         <p>Here is the story behind the second photograph. The pop-up allows for a much richer context than a simple caption.</p>
     </div>
 </div>
-
 <!-- Item 3 -->
 <div class="atelier-item">
     <img src="{{ '/atelier/image3.jpeg' | relative_url }}" alt="A description of the third image">
@@ -26,7 +26,6 @@ permalink: /atelier/
         <p>The third image comes with its own unique narrative, displayed right here when the user clicks.</p>
     </div>
 </div>
-
 <!-- Item 4 -->
 <div class="atelier-item">
     <img src="{{ '/atelier/image4.jpeg' | relative_url }}" alt="A description of the fourth image">
@@ -34,6 +33,20 @@ permalink: /atelier/
         <p>Another descriptive paragraph for the fourth image in the gallery.</p>
     </div>
 </div>
-
+</div>
+<!-- This entire block for the hidden modal goes at the end of the file -->
+<div class="atelier-modal-overlay">
+    <div class="atelier-modal">
+        <button class="atelier-modal__close" aria-label="Close modal">&times;</button>
+        <div class="atelier-modal__content">
+            <div class="atelier-modal__image">
+                <!-- The clicked image will be placed here by JavaScript -->
+            </div>
+            <div class="atelier-modal__text">
+                <!-- The descriptive paragraph will be placed here by JavaScript -->
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Add as many more items as you like... -->
 
