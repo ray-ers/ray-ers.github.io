@@ -6,7 +6,7 @@ permalink: /atelier/
 <div class="atelier-gallery"> 
 <!-- Item 1 -->
 <div class="atelier-item">
-    <img src="{{ '/atelier/image1.jpeg' | relative_url }}" alt="A description of the first image">
+    <img src="{{ '/atelier/image1.jpeg' | relative_url }}" alt="Palawan water 1" loading="lazy">
     <div class="atelier-item__caption">
         <h3>Somewhere in Palawan.</h3>
         <p class="caption-meta">August 2023</p>
@@ -16,14 +16,14 @@ permalink: /atelier/
 </div>
 <!-- Item 2 -->
 <div class="atelier-item">
-    <img src="{{ '/atelier/image2.jpeg' | relative_url }}" alt="A description of the second image">
+    <img src="{{ '/atelier/image2.jpeg' | relative_url }}" alt="Palawan water 2" loading="lazy">
     <div class="atelier-item__caption">
         <p>And in Palawan they seem to have music everywhere.</p>
     </div>
 </div>
 <!-- Item 3 -->
 <div class="atelier-item">
-    <img src="{{ '/atelier/image3.jpeg' | relative_url }}" alt="A description of the third image">
+    <img src="{{ '/atelier/image3.jpeg' | relative_url }}" alt="Palawan water 3" loading="lazy">
     <div class="atelier-item__caption">
         <p>Scoring heat, radiant beam, shimmering wave - all perfect .</p>
     </div>
