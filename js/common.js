@@ -85,53 +85,90 @@ $(document).ready(function() {
   });
 
   /* =======================
-  // Atelier Page Modal (Reverted to simple, working version)
+  // Atelier Page Modal (with Inside Navigation and Keyboard Support)
   ======================= */
   if ($('.atelier-gallery').length) {
+    var $galleryItems = $(".atelier-item");
+    var totalItems = $galleryItems.length;
+    var currentIndex = 0;
+
     var atelierModalOverlay = $(".atelier-modal-overlay");
     var atelierModalContent = $(".atelier-modal");
-    var atelierModalImage = $(".atelier-modal__image");
+    var atelierModalImageContainer = $(".atelier-modal__image");
     var atelierModalText = $(".atelier-modal__text");
     var atelierModalClose = $(".atelier-modal__close");
+    var atelierModalNext = $(".atelier-modal__next");
+    var atelierModalPrev = $(".atelier-modal__prev");
 
-    // Open the modal when a gallery item is clicked
-    $(".atelier-item").on("click", function() {
-      var imgSrc = $(this).find("img").attr("src");
-      var captionHtml = $(this).find(".atelier-item__caption").html();
-      
-      atelierModalImage.html('<img src="' + imgSrc + '" alt="">');
-      atelierModalText.html(captionHtml);
-      
-      atelierModalOverlay.addClass("is-visible");
-      $("body").css("overflow", "hidden");
-    });
+    function showImage(index) {
+        var $item = $galleryItems.eq(index);
+        var imgSrc = $item.find("img").attr("src");
+        var captionHtml = $item.find(".atelier-item__caption").html();
+        
+        // Remove old image and add new one to restart any potential CSS animations
+        atelierModalImageContainer.find('img').remove();
+        atelierModalImageContainer.prepend('<img src="' + imgSrc + '" alt="">');
+        atelierModalText.html(captionHtml);
+    }
 
-    // Function to close the modal
+    function openModal(index) {
+        currentIndex = index;
+        showImage(currentIndex);
+        atelierModalOverlay.addClass("is-visible");
+        $("body").css("overflow", "hidden");
+    }
+
     function closeModal() {
       atelierModalOverlay.removeClass("is-visible");
       $("body").css("overflow", "");
     }
 
-    // Close the modal via the close button
-    atelierModalClose.on("click", function() {
-      closeModal();
-    });
-    
-    // Close the modal by clicking the background overlay
-    atelierModalOverlay.on('click', function() {
-        closeModal();
-    });
-    
-    // Prevent clicks on the modal content from closing it
-    atelierModalContent.on('click', function(event) {
-        event.stopPropagation();
+    function showNextImage() {
+        currentIndex = (currentIndex + 1) % totalItems; // Wrap around to the start
+        showImage(currentIndex);
+    }
+
+    function showPrevImage() {
+        currentIndex = (currentIndex - 1 + totalItems) % totalItems; // Wrap around to the end
+        showImage(currentIndex);
+    }
+
+    // --- Event Listeners ---
+    $galleryItems.on("click", function() {
+      openModal($(this).index());
     });
 
-    // Close the modal by pressing the Escape key
+    atelierModalNext.on("click", function(event) {
+        event.stopPropagation(); // Prevent modal from closing
+        showNextImage();
+    });
+
+    atelierModalPrev.on("click", function(event) {
+        event.stopPropagation(); // Prevent modal from closing
+        showPrevImage();
+    });
+
+    atelierModalClose.on("click", function() { closeModal(); });
+    
+    atelierModalOverlay.on('click', function() { closeModal(); });
+    
+    atelierModalContent.on('click', function(event) { event.stopPropagation(); });
+
+    // Listen for keyboard arrow keys
     $(document).on('keyup', function(event) {
-      if (event.key === "Escape" && atelierModalOverlay.hasClass('is-visible')) {
-        closeModal();
-      }
+        // Only act if the modal is visible
+        if (!atelierModalOverlay.hasClass('is-visible')) {
+            return;
+        }
+        if (event.key === "Escape") {
+            closeModal();
+        }
+        if (event.key === "ArrowRight") {
+            showNextImage();
+        }
+        if (event.key === "ArrowLeft") {
+            showPrevImage();
+        }
     });
   }
 
