@@ -1,6 +1,6 @@
 /*
  * =================================================
- * Atelier Page Styles (v2)
+ * Atelier Page Styles (v3)
  * =================================================
  */
 
@@ -89,8 +89,7 @@
         right: 15px;
         font-size: 32px;
         line-height: 1;
-        // --- CHANGE: Made the button bold ---
-        font-weight: bold; // was 300
+        font-weight: bold;
         color: var(--text-alt-color);
         background: none;
         border: none;
@@ -128,10 +127,25 @@
 
     &__text {
         flex: 1 1 35%;
-        padding: 60px 40px;
+        padding: 40px;
         overflow-y: auto;
         color: var(--text-color);
         background-color: var(--background-color);
+
+        // --- NEW STYLES for caption content ---
+        h3 {
+            font-size: $font-size-h4;
+            margin-top: 0;
+            margin-bottom: 8px;
+            color: var(--heading-font-color);
+        }
+
+        .caption-meta {
+            font-size: 14px;
+            color: var(--text-alt-color);
+            margin-bottom: $base-spacing-unit;
+        }
+        // --- END of new styles ---
 
         p {
             font-size: 16px;
