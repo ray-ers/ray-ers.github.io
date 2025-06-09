@@ -23,39 +23,47 @@ permalink: /atelier/
 </div>
 <!-- Item 2 -->    
 <div class="atelier-item">
-    <img src="{{ '/atelier/image1.jpeg' | relative_url }}" alt="Palawan water 1" loading="lazy">
+    <img src="{{ '/atelier/venice1.jpg' | relative_url }}" alt="Venice" loading="lazy">
     <div class="atelier-item__caption">
-        <h3>Somewhere in Palawan.</h3>
-        <p class="caption-meta">August 2023</p>
-        <p>We went deeper down because we heard music playing somewhere</p>
+        <h3>Venicen.</h3>
+        <p class="caption-meta">March 2017</p>
+        <p>This photograph marks the moment 'intentional' photography took form in my mind. It is the convergence of a certain place at a certain time—with equipment ready, and an awareness of the story waiting to be told. Some might call this luck; I call it deliberate intention</p>
     </div>
-        
 </div>
 <!-- Item 3 -->
 <div class="atelier-item">
-    <img src="{{ '/atelier/image2.jpeg' | relative_url }}" alt="Palawan water 2" loading="lazy">
+    <img src="{{ '/atelier/venice1.jpg' | relative_url }}" alt="Venice" loading="lazy">
     <div class="atelier-item__caption">
-        <h3>Somewhere in Palawan.</h3>
-        <p class="caption-meta">August 2023</p>
-        <p>And in Palawan, they seem to have music everywhere.</p>
+        <h3>Venicen.</h3>
+        <p class="caption-meta">March 2017</p>
+        <p>This photograph marks the moment 'intentional' photography took form in my mind. It is the convergence of a certain place at a certain time—with equipment ready, and an awareness of the story waiting to be told. Some might call this luck; I call it deliberate intention</p>
     </div>
 </div>
 <!-- Item 4 -->
 <div class="atelier-item">
-    <img src="{{ '/atelier/image3.jpeg' | relative_url }}" alt="Palawan water 3" loading="lazy">
+    <img src="{{ '/atelier/venice1.jpg' | relative_url }}" alt="Venice" loading="lazy">
     <div class="atelier-item__caption">
-        <h3>A beach in Palawan.</h3>
-        <p class="caption-meta">August 2023</p>
-        <p>Scoring heat, radiant beam, shimmering wave - all perfect .</p>
+        <h3>Venicen.</h3>
+        <p class="caption-meta">March 2017</p>
+        <p>This photograph marks the moment 'intentional' photography took form in my mind. It is the convergence of a certain place at a certain time—with equipment ready, and an awareness of the story waiting to be told. Some might call this luck; I call it deliberate intention</p>
     </div>
 </div>
 <!-- Item 5 -->
 <div class="atelier-item">
-    <img src="{{ '/atelier/image3.jpeg' | relative_url }}" alt="Palawan water 3" loading="lazy">
+    <img src="{{ '/atelier/venice1.jpg' | relative_url }}" alt="Venice" loading="lazy">
     <div class="atelier-item__caption">
-        <h3>A beach in Palawan.</h3>
-        <p class="caption-meta">August 2023</p>
-        <p>Scoring heat, radiant beam, shimmering wave - all perfect .</p>
+        <h3>Venicen.</h3>
+        <p class="caption-meta">March 2017</p>
+        <p>This photograph marks the moment 'intentional' photography took form in my mind. It is the convergence of a certain place at a certain time—with equipment ready, and an awareness of the story waiting to be told. Some might call this luck; I call it deliberate intention</p>
+    </div>
+</div>
+<!-- Item 6 -->
+<div class="atelier-item">
+    <img src="{{ '/atelier/venice1.jpg' | relative_url }}" alt="Venice" loading="lazy">
+    <div class="atelier-item__caption">
+        <h3>Venicen.</h3>
+        <p class="caption-meta">March 2017</p>
+        <p>This photograph marks the moment 'intentional' photography took form in my mind. It is the convergence of a certain place at a certain time—with equipment ready, and an awareness of the story waiting to be told. Some might call this luck; I call it deliberate intention</p>
     </div>
 </div>
 <!-- This entire block for the hidden modal goes at the end of the file -->
