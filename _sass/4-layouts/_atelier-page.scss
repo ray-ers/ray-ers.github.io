@@ -85,11 +85,12 @@
 
     &__close {
         position: absolute;
-        top: 15px;
-        right: 25px;
-        font-size: 40px;
+        top: 20px;
+        right: 30px;
+        font-size: 32px;
         line-height: 1;
-        font-weight: 300;
+        // --- CHANGE: Made the button bold ---
+        font-weight: bold; // was 300
         color: var(--text-alt-color);
         background: none;
         border: none;
