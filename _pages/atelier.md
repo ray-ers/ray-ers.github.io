@@ -2,28 +2,28 @@ layout: page title: Atelier permalink: /atelier/
 
 <!-- Item 2 -->
 <div class="atelier-item">
-    <img src="{{ site.baseurl }}/images/atelier/kyoto.jpg" alt="Fushimi Inari Shrine">
+    <img src="{{ site.baseurl }}/images/atelier/Palawan1.jpg" alt="Somewhere in Palawan">
     <div class="atelier-item__caption">
-        <h3>Kyoto, Japan</h3>
-        <p>Walking through the thousands of vermilion torii gates at Fushimi Inari Shrine. Each gate is a donation by an individual or a company.</p>
+        <h3>Palawan, Philippines</h3>
+        <p>Music started in the middle of nowhere, and we found a festival.</p>
     </div>
 </div>
 
 <!-- Item 3 -->
 <div class="atelier-item">
-    <img src="{{ site.baseurl }}/images/atelier/rome.jpg" alt="The Colosseum">
+    <img src="{{ site.baseurl }}/images/atelier/Palawan2.jpg" alt="The Colosseum">
     <div class="atelier-item__caption">
-        <h3>Rome, Italy</h3>
-        <p>The Colosseum in the heart of Rome. An ancient marvel of architecture where gladiators once fought. The history here is palpable.</p>
+        <h3>Palawan, Philippines</h3>
+        <p>Scoring hot sun, simmering blue.</p>
     </div>
 </div>
 
 <!-- Item 4 -->
 <div class="atelier-item">
-    <img src="{{ site.baseurl }}/images/atelier/ha-long.jpg" alt="Ha Long Bay">
+    <img src="{{ site.baseurl }}/images/atelier/Palawan3.jpg" alt="Ha Long Bay">
     <div class="atelier-item__caption">
-        <h3>Ha Long Bay, Vietnam</h3>
-        <p>Emerald waters and thousands of towering limestone islands topped with rainforests. A traditional junk boat tour is the best way to experience it.</p>
+        <h3>Palawan, Philippines</h3>
+        <p>There are so many hobbies I wish to do.</p>
     </div>
 </div>
 
