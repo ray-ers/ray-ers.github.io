@@ -21,18 +21,24 @@
             </div>
             <div class="nav__title">Menu</div>
             <ul class="nav__list list-reset">
+              
+              <!-- The old 'for' loop has been replaced with this manual list -->
               <li class="nav__item">
-                <a href="{{ site.baseurl }}/" class="nav__link">Home</a>
+                <a href="{{ '/' | relative_url }}" class="nav__link">Home</a>
               </li>
-              {% for page in site.pages %}
-                {% unless page.name == 'tags.html' or page.name == '404.html' %}
-                  {% if page.title %}
-                  <li class="nav__item">
-                    <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>
-                  </li>
-                  {% endif %}
-                {% endunless %}
-              {% endfor %}
+              <li class="nav__item">
+                <a href="{{ '/service/' | relative_url }}" class="nav__link">Service</a>
+              </li>
+              <li class="nav__item">
+                <a href="{{ '/cv/' | relative_url }}" class="nav__link">CV</a>
+              </li>
+              <li class="nav__item">
+                <a href="{{ '/contact/' | relative_url }}" class="nav__link">Contact</a>
+              </li>
+              <li class="nav__item">
+                <a href="{{ '/atelier/' | relative_url }}" class="nav__link">Atelier</a>
+              </li>
+
             </ul>
           </div>
         </nav>
