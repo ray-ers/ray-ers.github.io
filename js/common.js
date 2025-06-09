@@ -96,9 +96,10 @@ $(document).ready(function() {
 
 
   /* =======================
-  // Zoom Image
+  // Zoom Image (Corrected to Exclude Atelier Gallery)
   ======================= */
-  $(".page img, .post img").attr("data-action", "zoom");
+  // Find images on pages/posts, but specifically NOT images inside .atelier-gallery
+  $(".page img, .post img").not('.atelier-gallery img').attr("data-action", "zoom");
   $(".page a img, .post a img").removeAttr("data-action", "zoom");
 
 
@@ -118,7 +119,7 @@ $(document).ready(function() {
 
 
   /* =======================
-  // Atelier Page Modal (Corrected)
+  // Atelier Page Modal
   ======================= */
   // Only run this code if the gallery exists on the page
   if ($('.atelier-gallery').length) {
@@ -170,12 +171,11 @@ $(document).ready(function() {
   }
 
 });
-```
 
-### Summary of the Fixes:
 
-1.  **More Specific Click Handling:** I've separated the click listeners. Now, a click on the dark background (`.atelier-modal-overlay`) will always close the modal.
-2.  **Stopping Event Bubbling:** I've added `event.stopPropagation()` to a new listener on the white content box (`.atelier-modal`). This is the key fix. It prevents a click inside the pop-up from "bubbling up" and being registered by the background overlay, which was likely causing the double-click issue.
-3.  **Improved Escape Key Handling:** I've made the "Escape" key listener more robust so it only fires when the modal is actually visible.
+// Summary of the Change:
 
-After updating your `js/common.js` file with this new code, the double-click issue should be completely resolv
+//I've modified only one line in the "Zoom Image" section:
+//* **Before:** `$(".page img, .post img").attr("data-action", "zoom");
+//* **After:** `$(".page img, .post img").not('.atelier-gallery img').attr("data-action", "zoom");
+//This `.not('.atelier-gallery img')` addition tells the zoom script to ignore any images that are part of your new gallery, resolving the conflict and allowing your pop-up modal to work correctly
