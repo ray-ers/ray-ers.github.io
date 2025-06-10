@@ -5,7 +5,7 @@ permalink: /cv/
 ---
 <section class="cv-section">
     <p>
-        <center> This CV focuses on extracurricular activities. For more details on my academic background qualifications, please visit the <a href="https://linkedin.com/in/phamkien" target="_blank">LinkedIn profile</a> or <a href="https://orcid.org/0000-0001-7740-102X" target="_blank">ORCID repository</a>
+        <center> This CV focuses on extracurricular activities. For more details on my academic qualifications and work experience, please visit the <a href="https://linkedin.com/in/phamkien" target="_blank">LinkedIn profile</a> or <a href="https://orcid.org/0000-0001-7740-102X" target="_blank">ORCID repository</a>
         </center>
     </p>
 </section>
