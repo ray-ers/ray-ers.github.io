@@ -67,7 +67,7 @@ permalink: /atelier/
     <div class="atelier-item__caption">
         <h3>Ghent</h3>
         <p class="caption-meta">Jun 2023</p>
-        <p>Reserve for being experienmental</p>
+        <p>Reserve for being experienmental, failure and imperfection</p>
     </div>
 </div>
 <!-- This entire block for the hidden modal goes at the end of the file -->
