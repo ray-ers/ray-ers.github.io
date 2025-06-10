@@ -49,7 +49,7 @@ permalink: /atelier/
     <div class="atelier-item__caption">
         <h3>Portimão</h3>
         <p class="caption-meta">Jul 2023</p>
-        <p>This photograph marks the moment 'intentional' photography took form in my mind. It is the convergence of a certain place at a certain time—with equipment ready, and an awareness of the story waiting to be told. Some might call this luck; I call it deliberate intention</p>
+        <p>Reserve for colours, shapes, and emotions</p>
     </div>
 </div>
 <!-- Item 5 -->
@@ -58,7 +58,7 @@ permalink: /atelier/
     <div class="atelier-item__caption">
         <h3>Porto</h3>
         <p class="caption-meta">Jul 2023</p>
-        <p>This photograph marks the moment 'intentional' photography took form in my mind. It is the convergence of a certain place at a certain time—with equipment ready, and an awareness of the story waiting to be told. Some might call this luck; I call it deliberate intention</p>
+        <p>Reserve for freedom of work and joy in the moment</p>
     </div>
 </div>
 <!-- Item 6 -->
@@ -67,7 +67,7 @@ permalink: /atelier/
     <div class="atelier-item__caption">
         <h3>Ghent</h3>
         <p class="caption-meta">Jun 2023</p>
-        <p>This photograph marks the moment 'intentional' photography took form in my mind. It is the convergence of a certain place at a certain time—with equipment ready, and an awareness of the story waiting to be told. Some might call this luck; I call it deliberate intention</p>
+        <p>Reserve for being experienmental</p>
     </div>
 </div>
 <!-- This entire block for the hidden modal goes at the end of the file -->
