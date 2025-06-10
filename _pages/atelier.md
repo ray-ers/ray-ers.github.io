@@ -45,10 +45,10 @@ permalink: /atelier/
 </div>
 <!-- Item 4 -->
 <div class="atelier-item">
-    <img src="{{ '/atelier/ghent.jpeg' | relative_url }}" alt="Ghent" loading="lazy">
+    <img src="{{ '/atelier/portimao.jpeg' | relative_url }}" alt="Portimao" loading="lazy">
     <div class="atelier-item__caption">
-        <h3>Ghent</h3>
-        <p class="caption-meta">Jun 2023</p>
+        <h3>Portimão</h3>
+        <p class="caption-meta">Jul 2023</p>
         <p>This photograph marks the moment 'intentional' photography took form in my mind. It is the convergence of a certain place at a certain time—with equipment ready, and an awareness of the story waiting to be told. Some might call this luck; I call it deliberate intention</p>
     </div>
 </div>
@@ -63,10 +63,10 @@ permalink: /atelier/
 </div>
 <!-- Item 6 -->
 <div class="atelier-item">
-    <img src="{{ '/atelier/portimao.jpeg' | relative_url }}" alt="Portimao" loading="lazy">
+    <img src="{{ '/atelier/ghent.jpeg' | relative_url }}" alt="Ghent" loading="lazy">
     <div class="atelier-item__caption">
-        <h3>Portimão</h3>
-        <p class="caption-meta">Jul 2023</p>
+        <h3>Ghent</h3>
+        <p class="caption-meta">Jun 2023</p>
         <p>This photograph marks the moment 'intentional' photography took form in my mind. It is the convergence of a certain place at a certain time—with equipment ready, and an awareness of the story waiting to be told. Some might call this luck; I call it deliberate intention</p>
     </div>
 </div>
