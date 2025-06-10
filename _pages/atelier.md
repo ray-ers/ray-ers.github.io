@@ -5,7 +5,7 @@ permalink: /atelier/
 ---
 <section class="cv-section">
     <p>
-        <center>This collection is a personal one. These photographs are not just my favorites—they are markers of change. Through them, I trace my journey in photography, my approach to storytelling, and the path of my own self-discovery.
+        <center>This collection is a personal one. These photographs are not just my favorites—they are markers of change. Through them, I trace my journey in photography, my approach to storytelling, and the path of my own self-discovery. My materials are not to be reused without explicit approval.
         </center>
     </p>
 </section>
