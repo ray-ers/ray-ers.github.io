@@ -27,21 +27,20 @@ permalink: /atelier/
 </div>
 <!-- Item 2 -->    
 <div class="atelier-item">
-    <img src="{{ '/atelier/venice1.jpg' | relative_url }}" alt="Venice" loading="lazy">
+    <img src="{{ '/atelier/venice2.jpg' | relative_url }}" alt="Venice" loading="lazy">
     <div class="atelier-item__caption">
         <h3>Venezia</h3>
         <p class="caption-meta">March 2017</p>
-        <p>This photograph marks the moment 'intentional' photography took form in my mind. It is the convergence of a certain place at a certain time—with equipment ready, and an awareness of the story waiting to be told. Some might call this luck; I call it deliberate intention.</p>
-        <p>And it was at this time that I found beauty in watching us, as human beings, in our daily existence. From the highest peaks of our accomplishments to the quiet grace of daily routines, I wish to have them all. Maybe it is the appreciation for life itself, however human-centric. Admittedly, I never take pride in capturing nature and landscape pictures.</p>
+        <p>I’ve found my most resonant work emerges from a difficult, necessary solitude. While I enjoy the comfort of company when traveling, it's in being alone that the real dialogue begins—an honest reckoning with my own thoughts. This discomfort exposes the imperfect aspects and confronts the irrational self. Yet those raw emotions are the very fuel for a burning desire to communicate, to express, and to memorize.</p>
     </div>
 </div>
 <!-- Item 3 -->
 <div class="atelier-item">
-    <img src="{{ '/atelier/venice1.jpg' | relative_url }}" alt="Venice" loading="lazy">
+    <img src="{{ '/atelier/venice3.jpg' | relative_url }}" alt="Venice" loading="lazy">
     <div class="atelier-item__caption">
         <h3>Venezia</h3>
         <p class="caption-meta">March 2017</p>
-        <p>This photograph marks the moment 'intentional' photography took form in my mind. It is the convergence of a certain place at a certain time—with equipment ready, and an awareness of the story waiting to be told. Some might call this luck; I call it deliberate intention</p>
+        <p>And finally, there is the honor of the subjects themselves. They move through the world, sharing moments of their existence, often unaware of the camera's gaze. I am a guest in that moment, and I have a profound gratitude for what they share. To me, every photograph represents a silent agreement: they offer a moment of truth, and in return, I have a duty to honor their privacy and dignity. Protecting their story is fundamental to protecting my own integrity and the sanctity of the viewer's experience.</p>
     </div>
 </div>
 <!-- Item 4 -->
