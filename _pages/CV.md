@@ -52,22 +52,6 @@ permalink: /cv/
         <p class="cv-item__meta">Session 02 Co-host | Nagasaki | Dec 2021</p>
     </div>
 </section>
-<!-- Education Section -->
-<section class="cv-section">
-    <h2 class="cv-section__title">Education</h2>
-    <div class="cv-item">
-        <h3 class="cv-item__title">Doctor of Philosophy in Environment and Earth Science</h3>
-        <p class="cv-item__meta">Gustave Eiffel University | Nov 2022 - Oct 2025</p>
-    </div>
-    <div class="cv-item">
-        <h3 class="cv-item__title">Master of Science in Environment and Sustainable Development</h3>
-        <p class="cv-item__meta">National Central University | Sep 2019 - Jun 2021</p>
-    </div>
-    <div class="cv-item">
-        <h3 class="cv-item__title">Bachelor of Engineering in Environmental Technology</h3>
-        <p class="cv-item__meta">Nha Trang University | Sep 2013 - May 2018</p>
-    </div>
-</section>
 <!-- Grants, Scholarships & Honors Section -->
 <section class="cv-section">
     <h2 class="cv-section__title">Grants, Scholarships & Honors</h2>
@@ -113,6 +97,22 @@ permalink: /cv/
         <div class="cv-item">
         <h3 class="cv-item__title">Asia-Pacific Youth Labour Trend Forum</h3>
         <p class="cv-item__meta"> 6 - 8 Dec | Taipei | Funding: Taiwan Ministry of Labor</p>
+    </div>
+</section>
+<!-- Education Section -->
+<section class="cv-section">
+    <h2 class="cv-section__title">Education</h2>
+    <div class="cv-item">
+        <h3 class="cv-item__title">Doctor of Philosophy in Environment and Earth Science</h3>
+        <p class="cv-item__meta">Gustave Eiffel University | Nov 2022 - Oct 2025</p>
+    </div>
+    <div class="cv-item">
+        <h3 class="cv-item__title">Master of Science in Environment and Sustainable Development</h3>
+        <p class="cv-item__meta">National Central University | Sep 2019 - Jun 2021</p>
+    </div>
+    <div class="cv-item">
+        <h3 class="cv-item__title">Bachelor of Engineering in Environmental Technology</h3>
+        <p class="cv-item__meta">Nha Trang University | Sep 2013 - May 2018</p>
     </div>
 </section>
 <!-- Skills Section -->
