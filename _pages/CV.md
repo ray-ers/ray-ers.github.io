@@ -5,7 +5,7 @@ permalink: /cv/
 ---
 <section class="cv-section">
     <p>
-        <center> This CV focuses on extracurricular activities. For more details on my academic qualifications and work experience, please visit the <a href="https://linkedin.com/in/phamkien" target="_blank">LinkedIn profile</a> or <a href="https://orcid.org/0000-0001-7740-102X" target="_blank">ORCID repository</a>
+        <center> A summary of my engagement, academic service, and professional development activities within the environmental science community. For a comprehensive overview of my research and work experience, please see my <a href="https://linkedin.com/in/phamkien" target="_blank" rel="noopener noreferrer">LinkedIn profile</a> or <a href="https://orcid.org/0000-0001-7740-102X" target="_blank" rel="noopener noreferrer">ORCID repository</a>
         </center>
     </p>
 </section>
@@ -57,14 +57,14 @@ permalink: /cv/
     <h2 class="cv-section__title">Grants, Scholarships & Honors</h2>
     <div class="cv-item">
         <h3 class="cv-item__title">CLEAR-Doc Marie Skłodowska-Curie Actions Cofund</h3>
-        <p class="cv-item__meta">Associated with Gustave Eiffel University | Nov 2022 - Oct | Funding: European Commission</p>
+        <p class="cv-item__meta">Associated with Gustave Eiffel University | Nov 2022 - Oct 2025 | Funding: European Commission</p>
     </div>
     <div class="cv-item">
         <h3 class="cv-item__title">TaiwanICDF Higher Education Scholarship</h3>
         <p class="cv-item__meta">Associated with National Central University | Sep 2019 - July 2021 | Funding: Taiwan's Ministry of Foreign Affairs</p>
     </div>
         <div class="cv-item">
-        <h3 class="cv-item__title">Distingusished Graduates</h3>
+        <h3 class="cv-item__title">Distinguished Graduates</h3>
         <p class="cv-item__meta">Associated with Nha Trang University | Sept 2018 | Funding: Nha Trang University</p>
     </div>
         <div class="cv-item">
@@ -82,13 +82,14 @@ permalink: /cv/
     <div class="cv-item">
         <h3 class="cv-item__title">Summer School: Engaging Science for Resilient and Livable Cities</h3>
         <p class="cv-item__meta">7 - 18 August, 2023 | Estonian University of Life science | Funding: European Commission, DAAD</p>
+    </div>
     <div class="cv-item">
         <h3 class="cv-item__title">Summer School: Human and nature-based solutions for inclusive and innovative urban regeneration</h3>
         <p class="cv-item__meta">6 - 12 July, 2023 | University of Coimbra | Funding: URBiNAT - European Union's Horizon 2020</p>
+    </div>
     <div class="cv-item">
         <h3 class="cv-item__title">IPBES Youth Workshop</h3>
         <p class="cv-item__meta">19 - 23 Oct, 2022 | International Academy for Nature Conservation Isle of Vilm | Funding: IPBES, Governments of Germany and Norway</p>
-    </div>
     </div>
         <div class="cv-item">
         <h3 class="cv-item__title">SA International Joint-Research and Training Program on Environmentally Green Technology and Renewable Energy for Circular Economy”</h3>
