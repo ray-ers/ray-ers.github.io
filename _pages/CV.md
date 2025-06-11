@@ -78,7 +78,7 @@ permalink: /cv/
 </section>
 <!-- Training & Special School Section -->
 <section class="cv-section">
-    <h2 class="cv-section__title">Training & Summer School</h2>
+    <h2 class="cv-section__title">Training & Summer Schools</h2>
     <div class="cv-item">
         <h3 class="cv-item__title">Summer School: Engaging Science for Resilient and Livable Cities</h3>
         <p class="cv-item__meta">7 - 18 August, 2023 | Estonian University of Life science | Funding: European Commission, DAAD</p>
