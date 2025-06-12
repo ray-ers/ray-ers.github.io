@@ -5,7 +5,8 @@ permalink: /cv/
 ---
 <section class="cv-section">
     <p>
-        <center> A summary of my engagements in academic service, professional development activities within the environmental science community, and the results of my mentees. For a comprehensive overview of my research and work experience, please see my <a href="https://linkedin.com/in/phamkien" target="_blank" rel="noopener noreferrer">LinkedIn profile</a> or <a href="https://orcid.org/0000-0001-7740-102X" target="_blank" rel="noopener noreferrer">ORCID repository</a>
+        <center> A summary of my engagements in academic service, professional development activities within the environmental science community, and the results of my mentees. 
+            For a comprehensive overview of my research and work experience, please see my <a href="https://linkedin.com/in/phamkien" target="_blank" rel="noopener noreferrer">LinkedIn profile</a> or <a href="https://orcid.org/0000-0001-7740-102X" target="_blank" rel="noopener noreferrer">ORCID repository</a>
         </center>
     </p>
 </section>
