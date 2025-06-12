@@ -107,41 +107,41 @@ permalink: /cv/
     <div class="cv-item">
         <h3 class="cv-item__title">2025</h3>
         <ul class="cv-item__list">
-        <li>Program: Master in Architecture | Admissions: Lund University, Royal Danish Academy | Scholarship: Not applied for</li> <!--ankhhuynh@gmail.com-->
+            <li>Master in Architecture | Admissions: Lund University, Royal Danish Academy | Scholarship: Not applied for</li> <!--ankhhuynh@gmail.com-->
         </ul>
     </div>
     <div class="cv-item">
         <h3 class="cv-item__title">2024</h3>
         <ul class="cv-item__list">
-            <li> Program: Master in Information Management | Scholarship: Taiwan ICDF | Admission: NTU</li> <!--tranlyanh1507@gmail.com-->
-            <li> Program: PhD in Tourism Management | Admission & Scholarship: NKUHT</li><!--chittv@ntu.edu.vn-->
+            <li> Master in Information Management | Scholarship: Taiwan ICDF | Admission: NTU</li> <!--tranlyanh1507@gmail.com-->
+            <li> PhD in Tourism Management | Admission & Scholarship: NKUHT</li><!--chittv@ntu.edu.vn-->
         </ul>
     </div>
     <div class="cv-item">
         <h3 class="cv-item__title">2022</h3>
          <ul class="cv-item__list">
-            <li> Program: Bachelor in Business Administration | Scholarship: Taiwan MOE | Admission: YZU, ISU, CYCU, NSYSU, NTHU </li> <!--trankhoalinh@gmail.com-->
-            <li> Program: Master in Business Administration | Admission & Scholarship: CGU</li> <!--phuongngt3006@gmail.com-->
-            <li> Program: Master in Civil Engineering Management | Admission & Scholarship: NCKU</li><!--thuydung15397@gmail.com-->
+            <li> Bachelor in Business Administration | Scholarship: Taiwan MOE | Admission: YZU, ISU, CYCU, NSYSU, NTHU </li> <!--trankhoalinh@gmail.com-->
+            <li> Master in Business Administration | Admission & Scholarship: CGU</li> <!--phuongngt3006@gmail.com-->
+            <li> Master in Civil Engineering Management | Admission & Scholarship: NCKU</li><!--thuydung15397@gmail.com-->
         </ul>
     </div>
     <div class="cv-item">
         <h3 class="cv-item__title">2021</h3>
         <ul class="cv-item__list">
-            <li> Program: International Master of Arts Program in Cultural and Creative Industries | Scholarship: Taiwan ICDF  | Admission: TNUA </li> <!--quyenutpham@gmail.com-->
+            <li> International Master of Arts Program in Cultural and Creative Industries | Scholarship: Taiwan ICDF  | Admission: TNUA </li> <!--quyenutpham@gmail.com-->
         </ul>
     </div>
         <div class="cv-item">
         <h3 class="cv-item__title">2020</h3>
         <ul class="cv-item__list">
-            <li> Program: International Master in Business Administration | Scholarship: Taiwan MOE | Admission: NCKU </li> <!--Loan Dao-->
-            <li> Program: Bachelor in Computer Science and Engineering | Scholarship: Taiwan MOE, SNU Global Talent | Admission: NTHU, SNU</li> <!--Hieu Ho-->
+            <li> International Master in Business Administration | Scholarship: Taiwan MOE | Admission: NCKU </li> <!--Loan Dao-->
+            <li> Bachelor in Computer Science and Engineering | Scholarship: Taiwan MOE, SNU Global Talent | Admission: NTHU, SNU</li> <!--Hieu Ho-->
         </ul>
     </div>
         <div class="cv-item">
         <h3 class="cv-item__title">2019</h3>
         <ul class="cv-item__list">
-            <li> Program: Mandarin as a Foreign Language  | Scholarship: HES | Admission: NSYSU </li>
+            <li> Mandarin as a Foreign Language  | Scholarship: HES | Admission: NSYSU </li>
         </ul>
     </div>
 
