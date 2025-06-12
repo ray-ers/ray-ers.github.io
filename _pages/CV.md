@@ -52,9 +52,9 @@ permalink: /cv/
         <p class="cv-item__meta">Session 02 Co-host | Nagasaki | Dec 2021</p>
     </div>
 </section>
-<!-- Grants, Scholarships & Honors Section -->
+<!-- Grants, Scholarships & Honours Section -->
 <section class="cv-section">
-    <h2 class="cv-section__title">Grants, Scholarships & Honors</h2>
+    <h2 class="cv-section__title">Grants, Scholarships & Honours</h2>
     <div class="cv-item">
         <h3 class="cv-item__title">CLEAR-Doc Marie Skłodowska-Curie Actions Cofund</h3>
         <p class="cv-item__meta">Associated with Gustave Eiffel University | Nov 2022 - Oct 2025 | Funding: European Commission</p>
@@ -81,7 +81,7 @@ permalink: /cv/
     <h2 class="cv-section__title">Training & Summer Schools</h2>
     <div class="cv-item">
         <h3 class="cv-item__title">Summer School: Engaging Science for Resilient and Livable Cities</h3>
-        <p class="cv-item__meta">7 - 18 August, 2023 | Estonian University of Life science | Funding: European Commission, DAAD</p>
+        <p class="cv-item__meta">7 - 18 August, 2023 | Estonian University of Life Science | Funding: European Commission, DAAD</p>
     </div>
     <div class="cv-item">
         <h3 class="cv-item__title">Summer School: Human and nature-based solutions for inclusive and innovative urban regeneration</h3>
@@ -92,13 +92,58 @@ permalink: /cv/
         <p class="cv-item__meta">19 - 23 Oct, 2022 | International Academy for Nature Conservation Isle of Vilm | Funding: IPBES, Governments of Germany and Norway</p>
     </div>
         <div class="cv-item">
-        <h3 class="cv-item__title">SA International Joint-Research and Training Program on Environmentally Green Technology and Renewable Energy for Circular Economy”</h3>
+        <h3 class="cv-item__title">SA International Joint-Research and Training Program on Environmentally Green Technology and Renewable Energy for Circular Economy</h3>
         <p class="cv-item__meta"> 21 - 29 Jan, 2020 | National Tsing Hua University | Funding: Taiwan Ministry of Science and Technology</p>
     </div>
         <div class="cv-item">
         <h3 class="cv-item__title">Asia-Pacific Youth Labour Trend Forum</h3>
-        <p class="cv-item__meta"> 6 - 8 Dec | Taipei | Funding: Taiwan Ministry of Labor</p>
+        <p class="cv-item__meta"> 6 - 8 Dec | Taipei | Funding: Taiwan Ministry of Labour</p>
     </div>
+</section>
+<!-- Mentees' achivements section -->
+<section class="cv-section">
+    <h2 class="cv-section__title">Mentees' Achievements</h2>
+    <div class="cv-item">
+        <h3 class="cv-item__title">2025</h3>
+        <ul class="cv-item__list">
+        <li>Program: Master in Architecture | Admissions: Lund University, Royal Danish Academy | Scholarship: Not applied for</li> <!--ankhhuynh@gmail.com-->
+        </ul>
+    </div>
+    <div class="cv-item">
+        <h3 class="cv-item__title">2024</h3>
+        <ul class="cv-item__list">
+            <li> Program: Master in Information Management | Scholarship: Taiwan ICDF | Admission: NTU</li> <!--tranlyanh1507@gmail.com-->
+            <li> Program: PhD in Tourism Management | Admission & Scholarship: NKUHT</li><!--chittv@ntu.edu.vn-->
+        </ul>
+    </div>
+    <div class="cv-item">
+        <h3 class="cv-item__title">2022</h3>
+         <ul class="cv-item__list">
+            <li> Program: Bachelor in Business Administration | Scholarship: Taiwan MOE | Admission: YZU, ISU, CYCU, NSYSU, NTHU </li> <!--trankhoalinh@gmail.com-->
+            <li> Program: Master in Business Administration | Admission & Scholarship: CGU</li> <!--phuongngt3006@gmail.com-->
+            <li> Program: Master in Civil Engineering Management | Admission & Scholarship: NCKU</li><!--thuydung15397@gmail.com-->
+        </ul>
+    </div>
+    <div class="cv-item">
+        <h3 class="cv-item__title">2021</h3>
+        <ul class="cv-item__list">
+            <li> Program: International Master of Arts Program in Cultural and Creative Industries | Scholarship: Taiwan ICDF  | Admission: TNUA </li> <!--quyenutpham@gmail.com-->
+        </ul>
+    </div>
+        <div class="cv-item">
+        <h3 class="cv-item__title">2020</h3>
+        <ul class="cv-item__list">
+            <li> Program: International Master in Business Administration | Scholarship: Taiwan MOE | Admission: NCKU </li> <!--Loan Dao-->
+            <li> Program: Bachelor in Computer Science and Engineering | Scholarship: Taiwan MOE, SNU Global Talent | Admission: NTHU, SNU</li> <!--Hieu Ho-->
+        </ul>
+    </div>
+        <div class="cv-item">
+        <h3 class="cv-item__title">2019</h3>
+        <ul class="cv-item__list">
+            <li> Program: Mandarin as a Foreign Language  | Scholarship: HES | Admission: NSYSU </li>
+        </ul>
+    </div>
+
 </section>
 <!-- Education Section -->
 <section class="cv-section">
