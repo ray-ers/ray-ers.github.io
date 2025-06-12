@@ -5,7 +5,7 @@ permalink: /cv/
 ---
 <section class="cv-section">
     <p>
-        <center> A summary of my engagement, academic service, and professional development activities within the environmental science community. For a comprehensive overview of my research and work experience, please see my <a href="https://linkedin.com/in/phamkien" target="_blank" rel="noopener noreferrer">LinkedIn profile</a> or <a href="https://orcid.org/0000-0001-7740-102X" target="_blank" rel="noopener noreferrer">ORCID repository</a>
+        <center> A summary of my engagements in academic service, professional development activities within the environmental science community, and the results of my mentees. For a comprehensive overview of my research and work experience, please see my <a href="https://linkedin.com/in/phamkien" target="_blank" rel="noopener noreferrer">LinkedIn profile</a> or <a href="https://orcid.org/0000-0001-7740-102X" target="_blank" rel="noopener noreferrer">ORCID repository</a>
         </center>
     </p>
 </section>
@@ -88,7 +88,7 @@ permalink: /cv/
         <p class="cv-item__meta">6 - 12 July, 2023 | University of Coimbra | Funding: URBiNAT - European Union's Horizon 2020</p>
     </div>
     <div class="cv-item">
-        <h3 class="cv-item__title">IPBES Youth Workshop</h3>
+        <h3 class="cv-item__title">IPBES Youth Workshop on Scenarios Development and Nature Futures Framework</h3>
         <p class="cv-item__meta">19 - 23 Oct, 2022 | International Academy for Nature Conservation Isle of Vilm | Funding: IPBES, Governments of Germany and Norway</p>
     </div>
         <div class="cv-item">
