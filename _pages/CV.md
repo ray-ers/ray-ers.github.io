@@ -113,35 +113,35 @@ permalink: /cv/
     <div class="cv-item">
         <h3 class="cv-item__title">2024</h3>
         <ul class="cv-item__list">
-            <li> Master in Information Management | Scholarship: Taiwan ICDF | Admission: NTU</li> <!--tranlyanh1507@gmail.com-->
-            <li> PhD in Tourism Management | Admission & Scholarship: NKUHT</li><!--chittv@ntu.edu.vn-->
+            <li> Master in Information Management | Scholarship: Taiwan ICDF | Admission: National Taiwan University</li> <!--tranlyanh1507@gmail.com-->
+            <li> PhD in Tourism Management | Admission & Scholarship: National Kaohsiung University of Hospitality and Tourism</li><!--chittv@ntu.edu.vn-->
         </ul>
     </div>
     <div class="cv-item">
         <h3 class="cv-item__title">2022</h3>
          <ul class="cv-item__list">
-            <li> Bachelor in Business Administration | Scholarship: Taiwan MOE | Admission: YZU, ISU, CYCU, NSYSU, NTHU </li> <!--trankhoalinh@gmail.com-->
-            <li> Master in Business Administration | Admission & Scholarship: CGU</li> <!--phuongngt3006@gmail.com-->
-            <li> Master in Civil Engineering Management | Admission & Scholarship: NCKU</li><!--thuydung15397@gmail.com-->
+            <li> Bachelor in Business Administration | Scholarship: Taiwan MOE | Admission: YZU, ISU, CYCU, NSYSU, NTHU</li> <!--trankhoalinh@gmail.com-->
+            <li> Master in Business Administration | Admission & Scholarship: Chang Gung University</li> <!--phuongngt3006@gmail.com-->
+            <li> Master in Civil Engineering Management | Admission & Scholarship: National Cheng Kung University</li><!--thuydung15397@gmail.com-->
         </ul>
     </div>
     <div class="cv-item">
         <h3 class="cv-item__title">2021</h3>
         <ul class="cv-item__list">
-            <li> International Master of Arts Program in Cultural and Creative Industries | Scholarship: Taiwan ICDF  | Admission: TNUA </li> <!--quyenutpham@gmail.com-->
+            <li> International Master of Arts Program in Cultural and Creative Industries | Scholarship: Taiwan ICDF  | Admission: Taipei National University of the Arts </li> <!--quyenutpham@gmail.com-->
         </ul>
     </div>
         <div class="cv-item">
         <h3 class="cv-item__title">2020</h3>
         <ul class="cv-item__list">
-            <li> International Master in Business Administration | Scholarship: Taiwan MOE | Admission: NCKU </li> <!--Loan Dao-->
-            <li> Bachelor in Computer Science and Engineering | Scholarship: Taiwan MOE, SNU Global Talent | Admission: NTHU, SNU</li> <!--Hieu Ho-->
+            <li> International Master in Business Administration | Scholarship: Taiwan MOE | Admission: National Cheng Kung University </li> <!--Loan Dao-->
+            <li> Bachelor in Computer Science and Engineering | Scholarship: Taiwan MOE, SNU Global Talent | Admission: National Tsing Hua University, Seoul National University</li> <!--Hieu Ho-->
         </ul>
     </div>
         <div class="cv-item">
         <h3 class="cv-item__title">2019</h3>
         <ul class="cv-item__list">
-            <li> Mandarin as a Foreign Language  | Scholarship: HES | Admission: NSYSU </li>
+            <li> Mandarin as a Foreign Language  | Scholarship: HES | Admission: National Sun Yat-sen University </li> <!--Thanh Tra-->
         </ul>
     </div>
 
