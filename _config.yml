@@ -76,19 +76,13 @@ defaults:
   -
     scope:
       path: "" # Apply to all files in the project
-      type: "posts"
     values:
-      layout: "post" # Set default layout for all posts
-  -
-    scope:
-      path: "_posts/en" # Target only posts in the 'en' folder
-    values:
-      lang: "en" # Set their language to English
+      lang: "en" # Set 'en' as the default language for EVERYTHING
   -
     scope:
       path: "_posts/vi" # Target only posts in the 'vi' folder
     values:
-      lang: "vi" # Set their language to Vietnamese
+      lang: "vi" # Override the default and set their language to Vietnamese
 
 include:
   - _pages
@@ -101,7 +95,6 @@ tag_permalink_style: /:title
 sass:
   sass_dir: _sass
   style: compressed
-
 # -------------------------------
 # Collections Settings for Atelier page
 collections:
