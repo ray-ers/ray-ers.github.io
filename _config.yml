@@ -13,7 +13,7 @@ languages: ["en", "vi"]
 author:
   name: Kien Pham (Ray)
   bio: I am a doctoral candidate working at Gustave Eiffel University under the ClearDoc project. Fan of science communication, visualization, writing, and health.
-  avatar: '/images/Author.jpg'
+  avatar: '/images/Author.jpeg'
   
 social:
 - {icon: "ion-logo-linkedin", label: Linkedin, link: "https://www.linkedin.com/in/phamkien/"}
