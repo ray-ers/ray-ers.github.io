@@ -267,9 +267,17 @@ table td {
  * =================================================
  */
 
+
 .paragraph-divider {
   display: block;
   height: 1px;
   border: 0;
   margin: 20px 0; // You can adjust the top/bottom space here
   background-color: var(--border-color); // Uses your theme's border color
+
+  // This removes the default three dots from the <hr> element
+  &::before {
+    content: none;
+  }
+}
+
