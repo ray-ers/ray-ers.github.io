@@ -2,7 +2,9 @@
 layout: default
 ---
 
-{%- assign posts_in_lang = site.posts_by_lang[page.lang] | default: site.posts -%}
+{%- comment -%} This is the line we are changing {%- endcomment -%}
+{%- assign posts_in_lang = site.posts | where: "lang", page.lang -%}
+
 {%- assign featured_post = posts_in_lang.first -%}
 {%- assign regular_posts = posts_in_lang | slice: 1, posts_in_lang.size -%}
 
