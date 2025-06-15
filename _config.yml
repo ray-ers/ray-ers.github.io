@@ -57,11 +57,10 @@ contact:
 # Google Analytics
 google-analytics: G-SEF15G74N4 # Add your identifier. For example UA-99631805-1.
 
-
 #-------------------------------
 # Build Settings
 markdown: kramdown
-permalink: /:lang/:title # Set the global permalink structure
+# The global permalink has been removed to prevent build errors.
 
 plugins:
   - jekyll-paginate
@@ -71,18 +70,25 @@ plugins:
 paginate: 5
 paginate_path: "/page/:num"
 
-# Defaults to ensure every page and post has a language
+# Defaults to control layouts and permalinks
 defaults:
   -
     scope:
-      path: "" # Apply to all files in the project
+      path: ""
+      type: "posts" # Target ONLY posts
     values:
-      lang: "en" # Set 'en' as the default language for EVERYTHING
+      layout: "post"
+      permalink: /:lang/:title/ # Apply the special permalink ONLY to posts
   -
     scope:
-      path: "_posts/vi" # Target only posts in the 'vi' folder
+      path: "_posts/en" # Target English posts
     values:
-      lang: "vi" # Override the default and set their language to Vietnamese
+      lang: "en" # Assign 'en' lang variable
+  -
+    scope:
+      path: "_posts/vi" # Target Vietnamese posts
+    values:
+      lang: "vi" # Assign 'vi' lang variable
 
 include:
   - _pages
@@ -95,6 +101,7 @@ tag_permalink_style: /:title
 sass:
   sass_dir: _sass
   style: compressed
+
 # -------------------------------
 # Collections Settings for Atelier page
 collections:
