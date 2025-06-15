@@ -185,6 +185,23 @@
 
     .nav__icon-menu {
       display: block;
+      /* Language Switcher */
+.language-switcher {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-right: 20px;
+  color: var(--text-color);
+
+  .lang-current {
+    color: var(--brand-color);
+  }
+
+  .lang-link {
+    border-bottom: none;
+    &:hover {
+      color: var(--brand-color);
+      border-bottom: none;
     }
   }
 }
