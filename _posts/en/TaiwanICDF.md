@@ -5,5 +5,7 @@ description: Học bổng dạng merit-based không hoàn lại mở một năm 
 date: 2022-08-01 19:30:00 +0700
 tags: [scholarship, hoc-bong, du-hoc, taiwan]
 published: true
+lang: en
+translation_id: taiwanicdf
 ---
 <p> I am testing the english switch of post</p>
