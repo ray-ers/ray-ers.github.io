@@ -320,16 +320,4 @@
  * Custom Paragraph Divider
  * =================================================
  */
-
-.paragraph-divider {
-  display: block;
-  height: 1px;
-  border: 0;
-  margin: 20px 0; // You can adjust the top/bottom space here
-  background-color: var(--border-color); // Uses your theme's border color
-
-  // This new rule removes the default three dots
-  &::before {
-    content: none;
-  }
 }
