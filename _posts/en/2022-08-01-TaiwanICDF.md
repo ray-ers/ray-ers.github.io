@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Học bổng chính phủ Taiwan ICDF
-description: Học bổng dạng merit-based không hoàn lại mở một năm một lần đối với một số chuyên ngành nhất định bậc đại học, thạc sĩ và tiến sĩ. Học bổng bao gồm tiền học phí, sinh hoạt phí, ký túc xá, sách, và vé máy bay.
+title: Taiwan ICDF Government Scholarship
+description: A merit-based, non-refundable scholarship offered annually for specific undergraduate, master's, and doctoral programs. The scholarship covers tuition, living expenses, dormitory fees, books, and airfare.
 date: 2022-08-01 19:30:00 +0700
 lang: en
 translation_id: taiwanicdf
