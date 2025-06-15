@@ -75,19 +75,23 @@ defaults:
   -
     scope:
       path: ""
-      type: "posts" # Target ONLY posts
+      type: "pages" # Target all pages
     values:
-      layout: "post"
-      permalink: /:lang/:title/ # Apply the special permalink ONLY to posts
+      layout: "page"
+      permalink: /:basename:output_ext # Keep simple permalinks for pages
   -
     scope:
-      path: "_posts/en" # Target English posts
+      path: "_posts/en" # Target ONLY English posts
     values:
+      layout: "post"
+      permalink: /en/:title/ # Hardcode the language in the permalink
       lang: "en" # Assign 'en' lang variable
   -
     scope:
-      path: "_posts/vi" # Target Vietnamese posts
+      path: "_posts/vi" # Target ONLY Vietnamese posts
     values:
+      layout: "post"
+      permalink: /vi/:title/ # Hardcode the language in the permalink
       lang: "vi" # Assign 'vi' lang variable
 
 include:
@@ -101,6 +105,7 @@ tag_permalink_style: /:title
 sass:
   sass_dir: _sass
   style: compressed
+
 
 # -------------------------------
 # Collections Settings for Atelier page
