@@ -61,7 +61,7 @@ google-analytics: G-SEF15G74N4 # Add your identifier. For example UA-99631805-1.
 #------------------------------
 # Build Settings
 markdown: kramdown
-# The global permalink has been removed from here.
+permalink: /:title # Keep a simple default permalink for other pages
 
 plugins:
   - jekyll-paginate
@@ -71,18 +71,25 @@ plugins:
 paginate: 5
 paginate_path: "/page/:num"
 
-# Pages Path & Permalinks
+# This new section specifically controls the permalinks for posts
+collections:
+  posts:
+    output: true
+    permalink: /:lang/:title
+
+# Pages Path
 defaults:
   - scope:
       path: ""
-      type: "pages" # Target all pages
+      type: "pages"
     values:
       permalink: /:basename:output_ext
   - scope:
       path: ""
-      type: "posts" # Target all posts
+      type: "posts"
     values:
-      permalink: /:lang/:title # Apply the language URL structure ONLY to posts
+      # We no longer define the permalink here
+      layout: "post"
 
 include:
   - _pages
