@@ -44,6 +44,18 @@
         </nav>
 
         <div class="nav-buttons">
+          <!-- This is the new language switcher -->
+          <div class="language-switcher">
+            {% for lang in site.languages %}
+              {% if lang == page.lang %}
+                <span class="lang-current">{{ lang }}</span>
+              {% else %}
+                <a href="{{ site.baseurl }}{{ page.file_path | get_lang_path_for: lang }}" class="lang-link">{{ lang }}</a>
+              {% endif %}
+              {% unless forloop.last %} | {% endunless %}
+            {% endfor %}
+          </div>
+          
           <i class="nav__icon nav__icon-menu ion ion-md-menu"></i>
           <i class="nav__icon nav__icon-search ion ion-md-search"></i>
         </div>
