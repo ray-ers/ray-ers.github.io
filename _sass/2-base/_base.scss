@@ -260,3 +260,16 @@ table td {
     transform: translateY(2px);
   }
 }
+
+/*
+ * =================================================
+ * Custom Paragraph Divider (Moved here)
+ * =================================================
+ */
+
+.paragraph-divider {
+  display: block;
+  height: 1px;
+  border: 0;
+  margin: 40px 0; // You can adjust the top/bottom space here
+  background-color: var(--border-color); // Uses your theme's border color
