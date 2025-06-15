@@ -9,17 +9,17 @@ permalink: /atelier/
         This collection is a personal one. These photographs are not just my favorites—they are markers of change. Through them, I trace my journey in photography, my approach to storytelling, and the path of my own self-discovery.
     </p>
     <br>
-    <p style="text-align: center;"> My materials are not to be used or reproduced without my explicit approvals"
+    <p style="text-align: center;"> My materials are not to be used or reproduced without my explicit approval."
     </p>
-
 </section>
 
 <hr class="paragraph-divider">
 
 <!-- Start of the gallery -->
 <div class="atelier-gallery">
-    <!-- This loop reads from your new _atelier_items collection -->
-    {% for item in site.atelier_items %}
+    <!-- This loop now sorts the collection by the 'order' number -->
+    {% assign sorted_items = site.atelier_items | sort: 'order' %}
+    {% for item in sorted_items %}
     <div class="atelier-item">
         <img src="{{ item.image_path | relative_url }}" alt="{{ item.alt_text }}" loading="lazy">
         <div class="atelier-item__caption">
