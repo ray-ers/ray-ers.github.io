@@ -7,6 +7,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://joseph-jekyll.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
 
 #-------------------------------
+# Language Settings
+languages: ["en", "vi"]
 # Author Settings
 author:
   name: Kien Pham (Ray)
