@@ -1,0 +1,16 @@
+<div class="grid-item">
+  <a class="grid-item__link" href="{{ post.url | relative_url }}">
+    {% if post.image %}
+    <div class="grid-item__image">
+      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+    </div>
+    {% endif %}
+    <div class="grid-item__content">
+      <h3 class="grid-item__title">{{ post.title }}</h3>
+      <p class="grid-item__excerpt">{{ post.description | truncatewords: 20 }}</p>
+      <div class="grid-item__meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>
+      </div>
+    </div>
+  </a>
+</div>
