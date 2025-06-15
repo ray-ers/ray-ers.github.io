@@ -86,3 +86,8 @@ tag_permalink_style:  /:title
 sass:
   sass_dir: _sass
   style: compressed
+# -------------------------------
+# Collections Settings for Atelier page
+collections:
+  atelier_items:
+    output: false # We don't need Jekyll to create a separate page for each image
