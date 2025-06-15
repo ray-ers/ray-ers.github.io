@@ -58,10 +58,10 @@ contact:
 google-analytics: G-SEF15G74N4 # Add your identifier. For example UA-99631805-1.
 
 
-#------------------------------
+#-------------------------------
 # Build Settings
 markdown: kramdown
-permalink: /:title # Keep a simple default permalink for other pages
+permalink: /:lang/:title # Set the global permalink structure
 
 plugins:
   - jekyll-paginate
@@ -71,25 +71,24 @@ plugins:
 paginate: 5
 paginate_path: "/page/:num"
 
-# This new section specifically controls the permalinks for posts
-collections:
-  posts:
-    output: true
-    permalink: /:lang/:title
-
-# Pages Path
+# Defaults to ensure every page and post has a language
 defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      permalink: /:basename:output_ext
-  - scope:
-      path: ""
+  -
+    scope:
+      path: "" # Apply to all files in the project
       type: "posts"
     values:
-      # We no longer define the permalink here
-      layout: "post"
+      layout: "post" # Set default layout for all posts
+  -
+    scope:
+      path: "_posts/en" # Target only posts in the 'en' folder
+    values:
+      lang: "en" # Set their language to English
+  -
+    scope:
+      path: "_posts/vi" # Target only posts in the 'vi' folder
+    values:
+      lang: "vi" # Set their language to Vietnamese
 
 include:
   - _pages
