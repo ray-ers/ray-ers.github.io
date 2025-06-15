@@ -58,10 +58,11 @@ contact:
 google-analytics: G-SEF15G74N4 # Add your identifier. For example UA-99631805-1.
 
 
-#-------------------------------
+#------------------------------
 # Build Settings
 markdown: kramdown
-permalink: /:lang/:title # Changed from /:title
+# The global permalink has been removed from here.
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -70,24 +71,31 @@ plugins:
 paginate: 5
 paginate_path: "/page/:num"
 
-# Pages Path
+# Pages Path & Permalinks
 defaults:
   - scope:
-      path: '_pages'
+      path: ""
+      type: "pages" # Target all pages
     values:
       permalink: /:basename:output_ext
+  - scope:
+      path: ""
+      type: "posts" # Target all posts
+    values:
+      permalink: /:lang/:title # Apply the language URL structure ONLY to posts
 
 include:
   - _pages
 
 # Tags
-tag_page_dir:         tag
-tag_page_layout:      tag_page
-tag_permalink_style:  /:title
+tag_page_dir: tag
+tag_page_layout: tag_page
+tag_permalink_style: /:title
 
 sass:
   sass_dir: _sass
   style: compressed
+
 # -------------------------------
 # Collections Settings for Atelier page
 collections:
