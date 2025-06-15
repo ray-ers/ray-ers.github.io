@@ -61,7 +61,7 @@ google-analytics: G-SEF15G74N4 # Add your identifier. For example UA-99631805-1.
 #-------------------------------
 # Build Settings
 markdown: kramdown
-permalink: /:title
+permalink: /:lang/:title # Changed from /:title
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
