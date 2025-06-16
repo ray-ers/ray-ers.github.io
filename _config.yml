@@ -60,39 +60,32 @@ google-analytics: G-SEF15G74N4 # Add your identifier. For example UA-99631805-1.
 #-------------------------------
 # Build Settings
 markdown: kramdown
-# The global permalink has been removed to prevent build errors.
+permalink: /:lang/:title/ # Set the global permalink structure
 
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll/tagging
+  - jekyll-multiple-languages-plugin
 
 paginate: 5
-paginate_path: "/page/:num"
+paginate_path: "/:lang/page/:num" # Add language to pagination path
 
-# Defaults to control layouts and permalinks
+# Defaults to ensure every page and post has a default language
 defaults:
   -
     scope:
-      path: ""
-      type: "pages" # Target all pages
+      path: "" # Apply to all files in the project
     values:
-      layout: "page"
-      permalink: /:basename:output_ext # Keep simple permalinks for pages
+      lang: "en" # Set 'en' as the default language for EVERYTHING
   -
     scope:
-      path: "_posts/en" # Target ONLY English posts
+      path: "_posts/vi" # Target only posts in the 'vi' folder
     values:
-      layout: "post"
-      permalink: /en/:title/ # Hardcode the language in the permalink
-      lang: "en" # Assign 'en' lang variable
-  -
-    scope:
-      path: "_posts/vi" # Target ONLY Vietnamese posts
-    values:
-      layout: "post"
-      permalink: /vi/:title/ # Hardcode the language in the permalink
-      lang: "vi" # Assign 'vi' lang variable
+      lang: "vi" # Override the default and set their language to Vietnamese
+
+# Exclude language folders from the root build
+exclude_from_localizations: ["en", "vi"]
 
 include:
   - _pages
@@ -100,7 +93,7 @@ include:
 # Tags
 tag_page_dir: tag
 tag_page_layout: tag_page
-tag_permalink_style: /:title
+tag_permalink_style: /:lang/:title/
 
 sass:
   sass_dir: _sass
