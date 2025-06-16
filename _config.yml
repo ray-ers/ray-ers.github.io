@@ -87,14 +87,20 @@ paginate_path: "/page/:num/" # Note: Pagination will be for the default language
 defaults:
   -
     scope:
-      path: "" # Apply to all files in the project
+      path: ""
+      type: "posts"
     values:
-      lang: "en" # Set 'en' as the default language for EVERYTHING
+      layout: "post" # Set default layout for all posts
   -
     scope:
-      path: "_posts/vi" # Target only posts in the 'vi' folder
+      path: "_posts/en" # Target ONLY posts in the 'en' folder
     values:
-      lang: "vi" # Override the default and set their language to Vietnamese
+      lang: "en" # Assign 'en' lang variable
+  -
+    scope:
+      path: "_posts/vi" # Target ONLY posts in the 'vi' folder
+    values:
+      lang: "vi" # Assign 'vi' lang variable
 
 # Exclude language folders from the root build
 exclude_from_localizations: ["en", "vi"]
