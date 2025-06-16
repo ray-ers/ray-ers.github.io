@@ -3,15 +3,10 @@ layout: default
 ---
 
 {%- comment -%}
-  This block finds the latest post in the correct language to feature it.
-  It then prepares a list of the rest of the posts for the grid.
+  This is the key change. We are now using the plugin's specific variable
+  'site.posts_by_lang' to get the posts for the current page's language.
 {%- endcomment -%}
-{%- assign posts_in_lang = "" | split: "" -%}
-{%- for post in site.posts -%}
-  {%- if post.lang == page.lang -%}
-    {%- assign posts_in_lang = posts_in_lang | push: post -%}
-  {%- endif -%}
-{%- endfor -%}
+{%- assign posts_in_lang = site.posts_by_lang[page.lang] -%}
 
 {%- assign featured_post = posts_in_lang.first -%}
 {%- assign regular_posts = posts_in_lang | slice: 1, posts_in_lang.size -%}
@@ -50,7 +45,10 @@ layout: default
         {% include article-grid-item.html post=post %}
       {% endfor %}
     {% else %}
-      <p>No other posts found in this language.</p>
+      {%- comment -%} Show a message only if there is no featured post either {%- endcomment -%}
+      {% unless featured_post %}
+        <p>No posts found in this language.</p>
+      {% endunless %}
     {% endif %}
   </div>
 </div>
