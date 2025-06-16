@@ -58,9 +58,21 @@ contact:
 google-analytics: G-SEF15G74N4 # Add your identifier. For example UA-99631805-1.
 
 #-------------------------------
+# General Site Settings
+title: Kien Pham
+logo: # You can add own logo. For example '/images/logo.png'.
+description: 
+baseurl: "" 
+url: "https://joseph-jekyll.netlify.app"
+
+#-------------------------------
+# Language Settings
+languages: ["en", "vi"]
+
+#-------------------------------
 # Build Settings
 markdown: kramdown
-permalink: /:lang/:title/ # Set the global permalink structure
+permalink: pretty # A simple, safe default. The language plugin will handle the rest.
 
 plugins:
   - jekyll-paginate
@@ -69,7 +81,7 @@ plugins:
   - jekyll-multiple-languages-plugin
 
 paginate: 5
-paginate_path: "/:lang/page/:num" # Add language to pagination path
+paginate_path: "/page/:num/" # Note: Pagination will be for the default language only.
 
 # Defaults to ensure every page and post has a default language
 defaults:
@@ -93,11 +105,14 @@ include:
 # Tags
 tag_page_dir: tag
 tag_page_layout: tag_page
-tag_permalink_style: /:lang/:title/
+tag_permalink_style: /:title
 
 sass:
   sass_dir: _sass
   style: compressed
+
+# Author, Hero, Footer, and other settings go here...
+# (Please ensure your other settings like author, hero, etc. are still in the file)
 
 
 # -------------------------------
