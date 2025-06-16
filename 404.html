@@ -1,19 +1,17 @@
 ---
-layout: 404_layout
-title: Page Not Found
+layout: page
+title: Page not found
+image: '/images/04-1.jpg'
 permalink: /404.html
-body_class: body--404
 ---
-
-<div class="wrapper">
-  <h1>404</h1>
-  <p>The page you are looking for has been lost in space.</p>
-  <div class="buttons">
-    <a href="{{ site.baseurl }}/">Go Home</a>
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <div class="error">
+        <h2 class="error__title">404</h2>
+        <p class="error__text">PAGE NOT FOUND.</p>
+        <a class="button" href="{{site.baseurl}}/">Back to homepage</a>
+      </div>
+    </div>
   </div>
-</div>
-
-<div class="space">
-  <div class="blackhole"></div>
-  <div class="ship"></div>
 </div>
