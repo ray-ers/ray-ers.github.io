@@ -27,6 +27,15 @@ layout: default
 
   <article class="post">
 
+    <!-- The translation link has been moved here -->
+    {% if page.translation_url %}
+    <div class="translation-box">
+      <a href="{{ page.translation_url | relative_url }}" class="translation-link">
+        Read this post in Vietnamese
+      </a>
+    </div>
+    {% endif %}
+
     <div class="post__content">
       {{ content }}
     </div>
