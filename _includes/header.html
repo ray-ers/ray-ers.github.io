@@ -5,7 +5,7 @@
       <div class="header__inner col col-12">
 
         <div class="logo">
-          <a class="logo__link" href="{{ site.baseurl }}/">
+          <a class="logo__link" href="{{ '/' | get_lang_path_for: page.lang | relative_url }}">
           {% if site.logo %}
             <img class="logo__image" src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }}">
           {% else %}
@@ -22,21 +22,21 @@
             <div class="nav__title">Menu</div>
             <ul class="nav__list list-reset">
               
-              <!-- The old 'for' loop has been replaced with this manual list -->
+              <!-- The 'Home' link is now language-aware -->
               <li class="nav__item">
-                <a href="{{ '/' | relative_url }}" class="nav__link">Home</a>
+                <a href="{{ '/' | get_lang_path_for: page.lang | relative_url }}" class="nav__link">Home</a>
               </li>
               <li class="nav__item">
-                <a href="{{ '/service/' | relative_url }}" class="nav__link">Service</a>
+                <a href="{{ '/service/' | get_lang_path_for: page.lang | relative_url }}" class="nav__link">Service</a>
               </li>
               <li class="nav__item">
-                <a href="{{ '/cv/' | relative_url }}" class="nav__link">CV</a>
+                <a href="{{ '/cv/' | get_lang_path_for: page.lang | relative_url }}" class="nav__link">CV</a>
               </li>
               <li class="nav__item">
-                <a href="{{ '/contact/' | relative_url }}" class="nav__link">Contact</a>
+                <a href="{{ '/contact/' | get_lang_path_for: page.lang | relative_url }}" class="nav__link">Contact</a>
               </li>
               <li class="nav__item">
-                <a href="{{ '/atelier/' | relative_url }}" class="nav__link">Atelier</a>
+                <a href="{{ '/atelier/' | get_lang_path_for: page.lang | relative_url }}" class="nav__link">Atelier</a>
               </li>
 
             </ul>
@@ -44,13 +44,12 @@
         </nav>
 
         <div class="nav-buttons">
-          <!-- This is the new language switcher -->
           <div class="language-switcher">
             {% for lang in site.languages %}
               {% if lang == page.lang %}
                 <span class="lang-current">{{ lang }}</span>
               {% else %}
-                <a href="{{ site.baseurl }}{{ page.file_path | get_lang_path_for: lang }}" class="lang-link">{{ lang }}</a>
+                <a href="{{ page.file_path | get_lang_path_for: lang }}" class="lang-link">{{ lang }}</a>
               {% endif %}
               {% unless forloop.last %} | {% endunless %}
             {% endfor %}
