@@ -2,7 +2,7 @@
   <a class="grid-item__link" href="{{ post.url | relative_url }}">
     {% if post.image %}
     <div class="grid-item__image">
-      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
     </div>
     {% endif %}
     <div class="grid-item__content">
