@@ -1,0 +1,149 @@
+/*
+ * =================================================
+ * Custom 404 Page Styles
+ * =================================================
+ */
+
+// Local variables for the animation
+$size: 75px;
+$border: $size/15;
+
+.body--404 {
+  display: flex;
+  align-items: center;
+  // Use theme's background color
+  background: var(--background-alt-color);
+  min-width: 275px;
+  height: 100vh;
+  margin: 0 10vw;
+  overflow: hidden;
+  // Use theme's main text color
+  color: var(--text-color);
+  font-family: $base-font-family;
+
+  .wrapper {
+    flex-grow: 2;
+    width: 40vw;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 6em;
+    font-weight: 100;
+    color: var(--heading-font-color); // Use theme's heading color
+  }
+
+  p {
+    width: 95%;
+    font-size: 1.5em;
+    line-height: 1.4;
+  }
+
+  .buttons {
+    white-space: nowrap;
+    display: inline-block;
+  }
+
+  span {
+    display: block;
+    text-transform: uppercase;
+    color: var(--text-alt-color); // Use theme's alternate text color
+    letter-spacing: 1.5px;
+    text-align: center;
+  }
+  
+  a {
+    display: inline-block;
+    padding: .8em 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    border: 3px solid var(--border-color); // Use theme's border color
+    color: var(--brand-color); // Use theme's brand color
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .2em;
+    position: relative;
+    overflow: hidden;
+    transition: .3s;
+    z-index: 1;
+
+    &:hover {
+      color: var(--white);
+      &:before {
+        top: 0;
+      }
+    }
+    
+    &:before {
+      content: '';
+      background: var(--brand-color); // Use theme's brand color
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: -100%;
+      left: 0;
+      transition: .3s;
+      z-index: -1;
+    }
+  }
+
+  // BLACKHOLE ANIMATION STYLES
+  .space {
+    width: $size;
+    height: calc(50vh + #{$size/2});
+    border-top-left-radius: $size/2;
+    border-top-right-radius: $size/2;
+    overflow: hidden;
+    margin: calc(50vh - #{$size/2}) auto 0 auto;
+    position: relative;
+    pointer-events: none;
+    transform: translateZ(0);
+  }
+
+  .blackhole {
+    border: $border solid var(--brand-color);
+    height: $size;
+    width: $size;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    &:after {
+      content: '';
+      height: calc(100% + #{$border*2});
+      width: calc(100% + #{$border*2});
+      border: $border solid var(--brand-color);
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-radius: 50%;
+      position: absolute;
+      top: -$border;
+      left: -$border;
+      z-index: 5;
+      transform: rotate(45deg);
+    }
+  }
+
+  .ship {
+    height: $size*2;
+    width: $size - $border*4;
+    margin-left: $border*2;
+    background: url("https://cbwconline.com/IMG/Codepen/Space%20Ship.svg") center/contain no-repeat;
+    animation: blackhole 4s infinite linear;
+    position: absolute;
+    bottom: -$size*2;
+  }
+
+  @keyframes blackhole {
+    to {
+      transform: translateY(-100vh);
+    }
+  }
+
+  @media (max-width: 600px) {
+    & { margin: 0 5vw }
+  }
+}
