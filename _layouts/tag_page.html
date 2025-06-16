@@ -1,15 +1,14 @@
 ---
 layout: default
 ---
-
 <div class="container animate">
   <div class="page">
     <h1 class="page__title">Posts tagged '{{ page.tag }}'</h1>
-    <ul class="tag-list">
+    <ul class="tag-archive-list">
       {% for post in site.tags[page.tag] %}
         <li>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          <span class="tag-list__date"> - {{ post.date | date_to_long_string }}</span>
+          <span class="tag-archive-list__date"> - {{ post.date | date_to_long_string }}</span>
         </li>
       {% endfor %}
     </ul>
@@ -18,18 +17,18 @@ layout: default
 
 <!-- Simple styles for the tag list -->
 <style>
-  .tag-list {
+  .tag-archive-list {
     list-style: none;
     padding-left: 0;
   }
-  .tag-list li {
+  .tag-archive-list li {
     font-size: 20px;
     margin-bottom: 15px;
   }
-  .tag-list a {
+  .tag-archive-list a {
     border-bottom: 2px solid var(--border-color);
   }
-  .tag-list__date {
+  .tag-archive-list__date {
     font-size: 14px;
     color: var(--text-alt-color);
   }
