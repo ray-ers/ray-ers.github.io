@@ -2,8 +2,16 @@
 layout: default
 ---
 
-{%- comment -%} This is the line we are changing {%- endcomment -%}
-{%- assign posts_in_lang = site.posts | where: "lang", page.lang -%}
+{%- comment -%}
+  This block finds the latest post in the correct language to feature it.
+  It then prepares a list of the rest of the posts for the grid.
+{%- endcomment -%}
+{%- assign posts_in_lang = "" | split: "" -%}
+{%- for post in site.posts -%}
+  {%- if post.lang == page.lang -%}
+    {%- assign posts_in_lang = posts_in_lang | push: post -%}
+  {%- endif -%}
+{%- endfor -%}
 
 {%- assign featured_post = posts_in_lang.first -%}
 {%- assign regular_posts = posts_in_lang | slice: 1, posts_in_lang.size -%}
@@ -37,9 +45,13 @@ layout: default
 <!-- Regular Post Grid -->
 <div class="container">
   <div class="post-grid animate">
-    {% for post in regular_posts %}
-      {% include article-grid-item.html post=post %}
-    {% endfor %}
+    {% if regular_posts.size > 0 %}
+      {% for post in regular_posts %}
+        {% include article-grid-item.html post=post %}
+      {% endfor %}
+    {% else %}
+      <p>No other posts found in this language.</p>
+    {% endif %}
   </div>
 </div>
 
