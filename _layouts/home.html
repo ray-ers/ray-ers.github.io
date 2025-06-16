@@ -3,11 +3,14 @@ layout: default
 ---
 
 {%- comment -%}
-  This section finds the newest post to be featured,
-  and then creates a separate list of the older posts for the grid.
+  This section now filters all paginated posts to ONLY include those
+  with the category 'en'.
 {%- endcomment -%}
-{%- assign featured_post = paginator.posts.first -%}
-{%- assign regular_posts = paginator.posts | slice: 1, paginator.posts.size -%}
+{%- assign english_posts = paginator.posts | where: "category", "en" -%}
+
+{%- assign featured_post = english_posts.first -%}
+{%- assign regular_posts = english_posts | slice: 1, english_posts.size -%}
+
 
 <!-- Hero Section -->
 {% include hero.html %}
@@ -39,7 +42,7 @@ layout: default
 <div class="container">
   <div class="post-grid animate">
     {% for post in regular_posts %}
-      {% include article-grid-item.html post=post %}
+        {% include article-grid-item.html post=post %}
     {% endfor %}
   </div>
 </div>
