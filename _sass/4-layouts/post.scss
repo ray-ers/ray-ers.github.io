@@ -316,3 +316,33 @@
     }
   }
 }
+/*
+ * =================================================
+ * Translation Link Styles
+ * =================================================
+ */
+
+.translation-box {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.translation-link {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 9999px; /* This makes it pill-shaped */
+  border: none !important; /* Overrides the default link underline */
+  color: var(--button-color);
+  background-color: var(--button-background-color);
+  transition: all .25s;
+
+  &:hover {
+    background: var(--button-background-hover);
+    color: var(--white) !important; /* Ensure text stays white on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+}
