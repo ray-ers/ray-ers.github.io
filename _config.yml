@@ -55,18 +55,16 @@ google-analytics: G-SEF15G74N4 # Add your identifier. For example UA-99631805-1.
 #-------------------------------
 # Build Settings
 markdown: kramdown
-permalink: /:title # Reverted to the simple, original permalink style
+permalink: /:title 
 
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll/tagging
-  # The jekyll-multiple-languages-plugin is no longer listed here
 
 paginate: 6
 paginate_path: "/page/:num"
 
-# The complex 'defaults' block for languages has been removed
 # This is the original 'defaults' block
 defaults:
   - scope:
@@ -80,7 +78,6 @@ include:
 # Tags
 tag_page_dir: tag
 tag_page_layout: tag_page
-tag_permalink_style: /:title
 
 sass:
   sass_dir: _sass
