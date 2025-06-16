@@ -4,6 +4,7 @@ title: Taiwan MOE Government Scholarship
 category: en
 description: A merit-based, non-repayable scholarship offered once a year for all majors at the bachelor's, master's, and PhD levels. The scholarship includes tuition and a living stipend.
 date: 2022-08-20 14:30:00 +0700
+translation_url: https://kien-pham.com/TaiwanMOE-vi
 tags: [scholarship, study-abroad, taiwan]
 translation_id: taiwanmoe
 ---
