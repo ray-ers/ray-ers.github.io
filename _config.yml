@@ -1,103 +1,24 @@
 #-------------------------------
-# General Site Settings
-title: Kien Pham
-logo: # You can add own logo. For example '/images/logo.png'.
-description: 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://joseph-jekyll.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
-
-#-------------------------------
-# Language Settings
-languages: ["en", "vi"]
-# Author Settings
-author:
-  name: Kien Pham (Ray)
-  bio: I am a doctoral candidate working at Gustave Eiffel University under the ClearDoc project. Fan of science communication, visualization, writing, and health.
-  avatar: '/images/Author.jpeg'
-  
-social:
-- {icon: "ion-logo-linkedin", label: Linkedin, link: "https://www.linkedin.com/in/phamkien/"}
-- {icon: "ion-logo-instagram", label: , link: "https://www.instagram.com/ray_theurbanist/"}
-- {icon: "ion-ios-cafe", label: Ko-fi, link: "https://ko-fi.com/kienphamtrung"}
-
-# Example of adding a new link to the author section and footer - {icon: "ion-logo-github", label: Github, link: "https://github.com"}
-# Other icons can be found at https://ionicons.com/v4/
-#- {icon: "ion-logo-twitter", label: Twitter, link: "https://twitter.com/kien_env"}
-#-------------------------------
-# Footer Settings
-footer_text: "Thanks for visiting. Feel free to explore my work and let me know what you think."
-tags_widget_title: "Explore Tags"
-#-------------------------------
-# Hero Settings
-hero:
-  hero__title: Hey, I’m Kien :) 
-  hero__description: Have a good time! 
-  hero__image: '/images/01-1.jpg'
-
-
-#-------------------------------
-# Newsletter (_includes/footer-widgets/widget-subscribe.html)
-mailchimp: true # To enable the mailchimp form, use the value 'true'. To disable the form, use the value 'false' or leave the field blank.
-mailchimp__title: Get interesting news # Add your Title
-mailchimp__text: Subscribe to our newsletter and we’ll send you the emails of latest posts. # Add your description.
-mailchimp__identifier: kien-pham.us9.list-manage.com/subscribe/post?u=448369886e33234793205a1e9&amp;id=9ac65d85d2 # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
-mailchimp__button__text: Join # Add your button text
-
-
-#-------------------------------
-# Contact Settings
-contact:
-  email: f/meqnbpaq # Add your email for contact form
-  description: # Add a description of your form
-
-# NOTE
-# Joseph comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
-
-#-------------------------------
-# Google Analytics
-google-analytics: G-SEF15G74N4 # Add your identifier. For example UA-99631805-1.
-
-#-------------------------------
-# General Site Settings
-title: Kien Pham
-logo: # You can add own logo. For example '/images/logo.png'.
-description: 
-baseurl: "" 
-url: "https://joseph-jekyll.netlify.app"
-
-#-------------------------------
-# Language Settings
-languages: ["en", "vi"]
-
-#-------------------------------
 # Build Settings
 markdown: kramdown
-permalink: pretty # Use a simple default. The plugin will handle language prefixes.
+permalink: /:title # Reverted to the simple, original permalink style
 
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll/tagging
-  - jekyll-multiple-languages-plugin
+  # The jekyll-multiple-languages-plugin is no longer listed here
 
 paginate: 5
-paginate_path: "/:lang/page/:num/" # Make the pagination path language-aware
+paginate_path: "/page/:num"
 
-# This is the most robust way to set language defaults
+# The complex 'defaults' block for languages has been removed
+# This is the original 'defaults' block
 defaults:
-  -
-    scope:
-      path: "" # Apply to all files in the entire project
+  - scope:
+      path: '_pages'
     values:
-      lang: "en" # Set 'en' as the default language for EVERYTHING
-  -
-    scope:
-      path: "_posts/vi" # Target only posts in the 'vi' folder
-    values:
-      lang: "vi" # Override the default and set their language to Vietnamese
-
-# This tells the plugin not to copy these folders inside the language directories
-exclude_from_localizations: ["javascript", "images", "css", "atelier"]
+      permalink: /:basename:output_ext
 
 include:
   - _pages
@@ -105,19 +26,8 @@ include:
 # Tags
 tag_page_dir: tag
 tag_page_layout: tag_page
-# This ensures that URLs for tag pages are also language-aware
-tag_permalink_style: /:lang/tag/:title/
+tag_permalink_style: /:title
 
 sass:
   sass_dir: _sass
   style: compressed
-
-# Author, Hero, Footer, and other settings go here...
-# (Please ensure your other settings like author, hero, etc. are still in the file)
-
-
-# -------------------------------
-# Collections Settings for Atelier page
-collections:
-  atelier_items:
-    output: false # We don't need Jekyll to create a separate page for each image
