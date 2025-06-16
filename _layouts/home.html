@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+{%- comment -%}
+  This section now finds the absolute newest post on the entire site to feature.
+  The paginator will handle the rest of the posts for the grid.
+{%- endcomment -%}
+{%- assign featured_post = site.posts.first -%}
+
+<!-- Hero Section -->
+{% include hero.html %}
+
+<!-- Featured Post Section -->
+{% if featured_post %}
+<section class="featured-post-section">
+  <div class="container">
+    <a class="featured-post" href="{{ featured_post.url | relative_url }}">
+      {% if featured_post.image %}
+      <div class="featured-post__image">
+        <img src="{{ featured_post.image | relative_url }}" alt="{{ featured_post.title }}">
+      </div>
+      {% endif %}
+      <div class="featured-post__content">
+        <p class="featured-post__tag">Latest Post</p>
+        <h2 class="featured-post__title">{{ featured_post.title }}</h2>
+        <p class="featured-post__excerpt">{{ featured_post.description }}</p>
+        <div class="featured-post__meta">
+          <time datetime="{{ featured_post.date | date_to_xmlschema }}">{{ featured_post.date | date_to_long_string }}</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</section>
+{% endif %}
+
+<!-- Regular Post Grid -->
+<div class="container">
+  <div class="post-grid animate">
+    {%- comment -%}
+      This loop now iterates through the paginated posts,
+      but includes a check to make sure the featured post isn't shown twice.
+    {%- endcomment -%}
+    {% for post in paginator.posts %}
+      {% if post.url != featured_post.url %}
+        {% include article-grid-item.html post=post %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Pagination -->
+{% include pagination.html %}
