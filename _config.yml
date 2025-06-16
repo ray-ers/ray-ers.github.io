@@ -63,7 +63,7 @@ plugins:
   - jekyll/tagging
   # The jekyll-multiple-languages-plugin is no longer listed here
 
-paginate: 5
+paginate: 6
 paginate_path: "/page/:num"
 
 # The complex 'defaults' block for languages has been removed
