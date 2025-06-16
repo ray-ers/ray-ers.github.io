@@ -22,7 +22,7 @@ permalink: /atelier/
         <img src="{{ item.image_path | relative_url }}" alt="{{ item.alt_text }}" loading="lazy">
         <div class="atelier-item__caption">
             <h3>{{ item.location }}</h3>
-            <p class="caption-meta">{{ item.date }}</p>
+            <p class="caption-meta">{{ item.date | date_to_long_string }}</p>
             <p>{{ item.description | newline_to_br }}</p>
         </div>
     </div>
