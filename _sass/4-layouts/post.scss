@@ -4,6 +4,7 @@
   max-width: 780px;
   margin: 0 auto;
   color: var(--text-color);
+  text-align: justify; /* --- ADD THIS LINE --- */
 
   a {
     border-bottom: 3px solid var(--border-color);
@@ -21,7 +22,7 @@
     &:hover {
       color: var(--button-color);
     }
-  }
+  } 
 }
 
 .post-image,
