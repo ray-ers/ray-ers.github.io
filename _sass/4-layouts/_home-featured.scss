@@ -11,15 +11,12 @@
 }
 
 .featured-post {
-  /* --- CHANGED: Switched from a grid to a centered block layout --- */
   display: block;
-  max-width: 780px; /* Constrain width for better readability */
-  margin: 0 auto;   /* Center the block horizontally */
-  text-align: center; /* Center the inner elements like title and meta */
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
   text-decoration: none;
   border: none;
-  
-  /* The two-column media query has been removed. */
 
   &__image img {
     width: 100%;
@@ -27,11 +24,11 @@
     border-radius: $global-radius;
     object-fit: cover;
     max-height: 400px;
-    margin-bottom: 30px; /* Add space between image and text */
+    margin-bottom: 30px;
   }
 
   &__content {
-    /* The specific text-align: center; rule has been removed from here */
+    /* No styles needed here now */
   }
 
   &__tag {
@@ -44,7 +41,7 @@
   }
 
   &__title {
-    font-family: $base-font-family; /* Use the site's body font */
+    font-family: $base-font-family;
     font-size: $font-size-h2;
     margin-bottom: 16px;
     color: var(--heading-font-color);
@@ -56,7 +53,7 @@
     color: var(--text-color);
     line-height: 1.6;
     margin-bottom: 24px;
-    text-align: left; /* --- ADDED: Revert paragraphs to left-align --- */
+    text-align: left;
   }
 
   &__meta {
@@ -91,7 +88,9 @@
   &__link {
     text-decoration: none;
     border: none;
-    display: block;
+    display: flex; /* --- ADDED: Make the link a flex container --- */
+    flex-direction: column; /* --- ADDED: Arrange content vertically --- */
+    height: 100%; /* --- ADDED: Ensure it fills the entire grid cell height --- */
     &:hover {
       .grid-item__title {
         color: var(--brand-color);
@@ -106,14 +105,21 @@
     border-radius: $global-radius;
     margin-bottom: 20px;
   }
+  
+  /* --- NEW: Wrapper for the text content to enable flexbox --- */
+  &__content {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1; /* This makes the content area expand to fill available space */
+  }
 
   &__title {
-    font-family: $base-font-family; /* Use the site's body font */
+    font-family: $base-font-family;
     font-size: $font-size-h4;
     color: var(--heading-font-color);
     margin-bottom: 12px;
     transition: color 0.2s ease;
-    text-align: center; /* --- ADDED: Center align the title --- */
+    text-align: center;
   }
 
   &__excerpt {
@@ -121,12 +127,19 @@
     color: var(--text-color);
     line-height: 1.6;
     margin-bottom: 16px;
-    text-align: justify; /* --- ADDED: Justify align the description --- */
+    text-align: justify;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
   }
 
   &__meta {
     font-size: 13px;
     color: var(--text-alt-color);
-    text-align: center; /* Also center the date */
+    text-align: center;
+    margin-top: auto; /* --- ADDED: This pushes the date to the bottom of the card --- */
   }
 }
