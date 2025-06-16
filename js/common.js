@@ -52,7 +52,7 @@ $(document).ready(function() {
       searchInput: document.getElementById("js-search-input"),
       resultsContainer: document.getElementById("js-results-container"),
       json: "/search.json",
-      searchResultTemplate: '{article}',
+      searchResultTemplate: '<div class="search-result-item"><a href="{url}"><h3 class="search-result-item__title">{title}</h3></a><p class="search-result-item__excerpt">{excerpt}</p></div>',
       noResultsText: '<h3 class="no-results">No results found</h3>'
     });
   }
