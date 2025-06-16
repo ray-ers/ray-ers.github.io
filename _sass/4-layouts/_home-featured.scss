@@ -11,16 +11,15 @@
 }
 
 .featured-post {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 40px;
-  align-items: center;
+  /* --- CHANGED: Switched from a grid to a centered block layout --- */
+  display: block;
+  max-width: 780px; /* Constrain width for better readability */
+  margin: 0 auto;   /* Center the block horizontally */
+  text-align: center; /* Center the inner elements like title and meta */
   text-decoration: none;
   border: none;
   
-  @media only screen and (min-width: $tablet) {
-    grid-template-columns: 1fr 1fr;
-  }
+  /* The two-column media query has been removed. */
 
   &__image img {
     width: 100%;
@@ -28,13 +27,12 @@
     border-radius: $global-radius;
     object-fit: cover;
     max-height: 400px;
+    margin-bottom: 30px; /* Add space between image and text */
   }
 
-  /* --- This is the new style rule --- */
   &__content {
-    text-align: center;
+    /* The specific text-align: center; rule has been removed from here */
   }
-  /* --- End of new style rule --- */
 
   &__tag {
     font-size: 12px;
@@ -58,6 +56,7 @@
     color: var(--text-color);
     line-height: 1.6;
     margin-bottom: 24px;
+    text-align: left; /* --- ADDED: Revert paragraphs to left-align --- */
   }
 
   &__meta {
