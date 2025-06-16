@@ -3,10 +3,11 @@ layout: default
 ---
 
 {%- comment -%}
-  This section now finds the absolute newest post on the entire site to feature.
-  The paginator will handle the rest of the posts for the grid.
+  This section finds the newest post to be featured,
+  and then creates a separate list of the older posts for the grid.
 {%- endcomment -%}
-{%- assign featured_post = site.posts.first -%}
+{%- assign featured_post = paginator.posts.first -%}
+{%- assign regular_posts = paginator.posts | slice: 1, paginator.posts.size -%}
 
 <!-- Hero Section -->
 {% include hero.html %}
@@ -37,14 +38,8 @@ layout: default
 <!-- Regular Post Grid -->
 <div class="container">
   <div class="post-grid animate">
-    {%- comment -%}
-      This loop now iterates through the paginated posts,
-      but includes a check to make sure the featured post isn't shown twice.
-    {%- endcomment -%}
-    {% for post in paginator.posts %}
-      {% if post.url != featured_post.url %}
-        {% include article-grid-item.html post=post %}
-      {% endif %}
+    {% for post in regular_posts %}
+      {% include article-grid-item.html post=post %}
     {% endfor %}
   </div>
 </div>
