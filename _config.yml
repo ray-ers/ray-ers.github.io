@@ -72,7 +72,7 @@ languages: ["en", "vi"]
 #-------------------------------
 # Build Settings
 markdown: kramdown
-permalink: pretty # A simple, safe default. The language plugin will handle the rest.
+permalink: pretty # Use a simple default. The plugin will handle language prefixes.
 
 plugins:
   - jekyll-paginate
@@ -81,29 +81,23 @@ plugins:
   - jekyll-multiple-languages-plugin
 
 paginate: 5
-paginate_path: "/page/:num/" # Note: Pagination will be for the default language only.
+paginate_path: "/:lang/page/:num/" # Make the pagination path language-aware
 
-# Defaults to ensure every page and post has a default language
+# This is the most robust way to set language defaults
 defaults:
   -
     scope:
-      path: ""
-      type: "posts"
+      path: "" # Apply to all files in the entire project
     values:
-      layout: "post" # Set default layout for all posts
+      lang: "en" # Set 'en' as the default language for EVERYTHING
   -
     scope:
-      path: "_posts/en" # Target ONLY posts in the 'en' folder
+      path: "_posts/vi" # Target only posts in the 'vi' folder
     values:
-      lang: "en" # Assign 'en' lang variable
-  -
-    scope:
-      path: "_posts/vi" # Target ONLY posts in the 'vi' folder
-    values:
-      lang: "vi" # Assign 'vi' lang variable
+      lang: "vi" # Override the default and set their language to Vietnamese
 
-# Exclude language folders from the root build
-exclude_from_localizations: ["en", "vi"]
+# This tells the plugin not to copy these folders inside the language directories
+exclude_from_localizations: ["javascript", "images", "css", "atelier"]
 
 include:
   - _pages
@@ -111,7 +105,8 @@ include:
 # Tags
 tag_page_dir: tag
 tag_page_layout: tag_page
-tag_permalink_style: /:title
+# This ensures that URLs for tag pages are also language-aware
+tag_permalink_style: /:lang/tag/:title/
 
 sass:
   sass_dir: _sass
