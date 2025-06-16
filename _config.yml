@@ -4,7 +4,7 @@ title: Kien Pham
 logo: # You can add own logo. For example '/images/logo.png'.
 description: 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://joseph-jekyll.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
+url: "url: "https://kien-pham.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 #-------------------------------
 # Author Settings
