@@ -27,7 +27,7 @@ layout: default
 
   <article class="post">
 
-    <!-- The translation link has been moved here -->
+    <!-- The translation link is correctly placed here at the top -->
     {% if page.translation_url %}
     <div class="translation-box">
       <a href="{{ page.translation_url | relative_url }}" class="translation-link">
@@ -39,6 +39,8 @@ layout: default
     <div class="post__content">
       {{ content }}
     </div>
+
+    <!-- The second, duplicated translation block has been removed from here -->
 
     <div class="post__bottom">
       
