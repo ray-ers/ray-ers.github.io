@@ -1,4 +1,58 @@
 #-------------------------------
+# General Site Settings
+title: Kien Pham
+logo: # You can add own logo. For example '/images/logo.png'.
+description: 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://joseph-jekyll.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
+
+#-------------------------------
+# Author Settings
+author:
+  name: Kien Pham (Ray)
+  bio: I am a doctoral candidate working at Gustave Eiffel University under the ClearDoc project. Fan of science communication, visualization, writing, and health.
+  avatar: '/images/Author.jpeg'
+  
+social:
+- {icon: "ion-logo-linkedin", label: Linkedin, link: "https://www.linkedin.com/in/phamkien/"}
+- {icon: "ion-logo-instagram", label: Instagram, link: "https://www.instagram.com/ray_theurbanist/"}
+- {icon: "ion-ios-cafe", label: Ko-fi, link: "https://ko-fi.com/kienphamtrung"}
+
+#-------------------------------
+# Footer Settings
+footer_text: "Thanks for visiting. Feel free to explore my work and let me know what you think."
+tags_widget_title: "Explore Tags"
+
+#-------------------------------
+# Hero Settings
+hero:
+  hero__title: Hey, I’m Kien :) 
+  hero__description: Have a good time! 
+  hero__image: '/images/01-1.jpg'
+
+
+#-------------------------------
+# Newsletter (_includes/footer-widgets/widget-subscribe.html)
+mailchimp: true # To enable the mailchimp form, use the value 'true'.
+mailchimp__title: Get interesting news # Add your Title
+mailchimp__text: Subscribe to our newsletter and we’ll send you the emails of latest posts. # Add your description.
+mailchimp__identifier: kien-pham.us9.list-manage.com/subscribe/post?u=448369886e33234793205a1e9&amp;id=9ac65d85d2 # Add your MailChimp form identifier.
+mailchimp__button__text: Join # Add your button text
+
+
+#-------------------------------
+# Contact Settings
+contact:
+  email: f/meqnbpaq # Add your email for contact form
+  description: # Add a description of your form
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: G-SEF15G74N4 # Add your identifier. For example UA-99631805-1.
+
+
+#-------------------------------
 # Build Settings
 markdown: kramdown
 permalink: /:title # Reverted to the simple, original permalink style
@@ -31,3 +85,9 @@ tag_permalink_style: /:title
 sass:
   sass_dir: _sass
   style: compressed
+
+#-------------------------------
+# Collections Settings
+collections:
+  atelier_items:
+    output: false
