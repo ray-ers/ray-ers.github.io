@@ -2,74 +2,100 @@
 layout: post
 title: Taiwan MOE Government Scholarship
 category: en
-description: A merit-based, non-repayable scholarship offered once a year for all majors at the bachelor's, master's, and PhD levels. The scholarship includes tuition and a living stipend.
+description: A merit-based, non-repayable scholarship offered annually for all majors at the bachelor's, master's, and PhD levels. The scholarship includes a tuition waiver and a monthly living stipend.
 date: 2022-08-20 14:30:00 +0700
 translation_url: https://kien-pham.com/TaiwanMOE-vi
 tags: [scholarship, study-abroad, taiwan]
 translation_id: taiwanmoe
 ---
-<strong>TAIWAN MINISTRY OF EDUCATION (MOE) SCHOLARSHIP</strong>
+<strong>TAIWAN MINISTRY OF EDUCATION (MOE) SCHOLARSHIP: A COMPREHENSIVE GUIDE</strong>
 
-<p><strong>What the scholarship covers:</strong></p>
+<p><strong>Scholarship Benefits:</strong></p>
 
-<p>1. Tuition: NT$40,000 (~$1280 USD) per semester. If your tuition exceeds this amount, you have to pay the rest. Most public universities will cover the remaining tuition fee. <br>2. Living stipend: NT$15,000 (~$500 USD) for undergraduate students, and NT$20,000 (~$650 USD) for master's and PhD students.</p>
+<p>1. <strong>Tuition Waiver:</strong> The scholarship provides up to NT$40,000 (~$1,280 USD) per semester towards tuition fees. Should the tuition exceed this amount, the recipient is responsible for the difference. However, most public universities will waive the remaining balance for scholarship recipients.<br>
+2. <strong>Monthly Stipend:</strong> A living allowance is provided to cover personal expenses. Undergraduate students receive NT$15,000 (~$500 USD), while master's and PhD students receive NT$20,000 (~$650 USD).</p>
 <br>
-<p><strong>*Note</strong>: You'll have to cover other costs like airfare, insurance, dorm or housing rent, books, etc., yourself (out of your living stipend).</p>
-<p><strong>Number of slots</strong>: 25 for the Northern region of Vietnam, 25 for the Southern region. Unlike other scholarships like the EU's Erasmus or the UK's Chevening, Taiwan's MOE is one of the few that has a specific quota for Vietnam and doesn't require a pre-sessional language course (for example, the Korean government scholarship requires you to study Korean for a year even if you're in an English program, similar to scholarships for Italy and France). You also only compete against applicants from within Vietnam. Another advantage MOE has over ICDF is that MOE supports all programs taught in either Chinese or English, as long as you get accepted into that program.</p>
-<hr>
-<p><strong>Application documents include:</strong></p>
-<ol><li>A "Taiwan Scholarship" application form (download from the R.O.C Taiwan website - or <a href="https://www.roc-taiwan.org/uploads/sites/98/2019/01/Form-dang-ky-xin-hoc-bong-dai-loan-2019.docx">here</a>).</li>
-<li>A photocopy of your ID card or passport and a photocopy of your household registration book. The registered address must be from Hue northwards (for those applying to the R.O.C Taiwan office in Hanoi) or from Da Nang southwards (if you apply to the R.O.C Taiwan office in HCMC).</li>
-<li>A photocopy of your highest degree and transcript, translated into English or Chinese by a notary office and stamped for verification by the Consular Department of the Vietnamese Ministry of Foreign Affairs. Note, this is just the departmental verification stamp; you don't need the stamp from the Taipei Office for this.</li>
-<li>A photocopy of your application documents for Taiwanese public and private universities (e.g., the completed university application form, the school's admission letter, receipt for application fee payment...). You have to apply to the universities first (applications usually open from December to January, with deadlines in mid-March). You can just print the confirmation email from the application system; you don't necessarily need the admission letter yet. The admission letter will be needed when you apply for your visa.</li>
-<li>Photocopy of a language proficiency certificate: TOCFL Level 3 or higher (for programs taught in Chinese). You'll need to bring the original for verification, and it will be returned to you (HSK certificates are not accepted). For English-taught programs, you need a TOEFL (pBT) score of 500 or TOEFL (iBT) of 60 or higher, IELTS 5.5, or TOEIC 600. The language certificate should be from a test taken after October (2-3 months before applying) because the office requires it.</li>
-<li>Two letters of recommendation from a principal, professor, advisor, or a supervisor at your current workplace.</li><li>A Study Plan.</li></ol>
+<p><strong>Please Note:</strong> Recipients are expected to cover additional costs such as airfare, health insurance, accommodation, and books from their monthly stipend.</p>
 
-<p><strong>Application Period:</strong> From February 1 to March 31, 2021. The submission date is based on the postmark.</p>
+<p><strong>Key Advantages for Vietnamese Applicants:</strong></p>
+<p>The MOE scholarship reserves a dedicated quota of 50 positions annually for Vietnamese students (25 for the northern region, 25 for the southern). This presents several unique advantages:</p>
+<ul>
+    <li><strong>A Dedicated Applicant Pool:</strong> Unlike global scholarships such as Erasmus or Chevening, you will be competing primarily against other applicants from Vietnam.</li>
+    <li><strong>No Pre-sessional Language Requirement:</strong> The scholarship does not mandate a preparatory language year, which is often a requirement for government scholarships in countries like South Korea, Italy, or France, even for English-taught programs.</li>
+    <li><strong>Broad Program Eligibility:</strong> The MOE scholarship supports nearly all academic programs taught in either English or Chinese, provided you secure admission to the program.</li>
+</ul>
+<hr>
+<p><strong>Required Application Documents:</strong></p>
+<ol>
+    <li>A completed "Taiwan Scholarship" application form, available for download on the R.O.C. Taiwan Embassy website.</li>
+    <li>A photocopy of your passport or national ID card, along with a photocopy of your household registration book (Sổ Hộ Khẩu). Your registered address determines your application region (Hanoi for northern residents from Hue and above, HCMC for southern residents from Da Nang and below).</li>
+    <li>Photocopies of your highest academic degree and official transcripts. These must be translated into English or Chinese, notarized, and authenticated by the Consular Department of the Vietnamese Ministry of Foreign Affairs. Please note that further legalization by the Taipei Economic and Cultural Office is not required at this stage.</li>
+    <li>Proof of university application to one or more Taiwanese universities. This can include a completed application form, an application fee receipt, or a confirmation email from the university's application system. Applicants should apply to their desired universities before or concurrently with the scholarship application. A formal admission letter is not required for the initial scholarship application but will be necessary for the visa process.</li>
+    <li>A photocopy of a valid language proficiency certificate.
+        <ul>
+            <li>For Chinese-taught programs: TOCFL Level 3 or higher. (HSK certificates are not accepted).</li>
+            <li>For English-taught programs: TOEFL iBT 60+, TOEFL pBT 500+, IELTS 5.5+, or TOEIC 600+.</li>
+            <li><strong>Important:</strong> The Taipei Economic and Cultural Office requires that the language certificate be valid for the duration of your first two years of study. Therefore, it is strongly recommended to take the test after October of the year prior to your application.</li>
+        </ul>
+    </li>
+    <li>Two letters of recommendation from professors, academic advisors, or professional supervisors.</li>
+    <li>A detailed Study Plan.</li>
+</ol>
 
-<p><strong>Application Submission Address:</strong></p>
+<p><strong>Application Period:</strong> The application window typically runs from February 1 to March 31. Submissions are dated by their postmark.</p>
 
-<p><strong>For those with household registration in the north:</strong> Taipei Economic and Cultural Office in Hanoi, Vietnam<br>Address: 20A Floor, PVI Tower, No. 1 Pham Van Bach, Cau Giay, Hanoi<br><strong>For those with household registration in the south:</strong> Education Division, Taipei Economic and Cultural Office in Ho Chi Minh City<br>Address: 336 Nguyen Tri Phuong, Ward 4, District 10, Ho Chi Minh City</p>
+<p><strong>Application Submission Offices:</strong></p>
 
-<p>*Note: Don't forget to write "Application for Taiwan MOE Scholarship" clearly on the envelope.</p>
+<p><strong>For applicants with household registration in the north:</strong><br>
+Taipei Economic and Cultural Office in Hanoi, Vietnam<br>
+Address: 20A Floor, PVI Tower, No. 1 Pham Van Bach, Cau Giay, Hanoi</p>
+
+<p><strong>For applicants with household registration in the south:</strong><br>
+Education Division, Taipei Economic and Cultural Office in Ho Chi Minh City<br>
+Address: 336 Nguyen Tri Phuong, Ward 4, District 10, Ho Chi Minh City</p>
+
+<p><em>*Note: Ensure the envelope is clearly marked "Application for Taiwan MOE Scholarship".</em></p>
 <hr>
-<p>Overall, Taiwan's MOE scholarship isn't ridiculously difficult to get and doesn't have an insane competition ratio like Erasmus, Chevening, AAS, or NFP. It's also a full, non-repayable scholarship (no bond to return to Vietnam, no obligation to work for some XYZ organization), and it's open to everyone—from recent graduates and employees in private or state-owned companies to freelancers.</p>
-<p>I know that compared to European scholarships like Erasmus, MOE Taiwan might not seem as glamorous. But that doesn't mean it's easy to get. At the end of the day, it's a full, merit-based scholarship, where they pick the best candidates from the top down. (This isn't the MOE scholarship specifically for university lecturers in Vietnam—that's the same type but has different conditions). Applying for MOE is just like applying for any other full scholarship; you need to be thorough, careful, and put a lot of effort into your application. After all, convincing a committee to believe in your potential and give you money just to study and do research is never a simple task :)</p>
-<p>In my opinion, the learning environment is very important, but your own abilities are just as crucial. As long as you have a good mindset and are serious about the path you've chosen, I believe you'll reap the rewards of your hard work, no matter where you end up.</p>
-<p>Below are some necessary steps to prepare your MOE Taiwan application.</p>
+<p><strong>Putting the MOE Scholarship in Perspective</strong></p>
+<p>While highly competitive, the MOE scholarship is often considered more accessible than global awards like Erasmus or Chevening due to its regional quota. It is a full, non-binding scholarship, meaning recipients are not required to return to Vietnam or work for a specific organization upon graduation. Furthermore, it welcomes a wide range of applicants, from recent graduates to professionals in both the public and private sectors, as well as freelance experts.</p>
+<p>Although it may not carry the same prestige as some European scholarships, securing the MOE award is a significant achievement. The selection process is strictly merit-based, and a successful application requires diligence, strategic planning, and a compelling case for your academic potential. Convincing a selection committee to invest in your education is a formidable challenge that requires a thoughtfully prepared application.</p>
+<p>While the learning environment is crucial, your personal drive and commitment are paramount. A clear vision and a serious approach to your chosen field will empower you to succeed and make the most of this opportunity, regardless of the context.</p>
+<p>The following guide outlines the necessary steps to build a strong application.</p>
 <hr>
-<p><strong>TASKS AND TIMELINES TO GET DONE:</strong></p>
-<p><strong>Choosing a University and Program:</strong></p>
-<ol>
-<li>First off, you have to research programs on the <a href="https://www.studyintaiwan.org">Study in Taiwan</a> website and pick the ones that suit you best. You should do this as early as possible, around May-August each year.</li>
-<li>After finding a suitable university and program, go to the university's website, find that program, and read all the admission requirements (GPA, language certificates, related documents) to see if you meet them, what you're missing, and what you can add. From there, schedule your time to take language tests, ask for or prepare recommendation letters, and draft your study plan and research proposal. If a requirement is too tough and you know you can't change it (like needing a GPA of 8.0 when you only have a 7.5), you can just move on.</li>
-<li>Read about the courses you'll be taking to see if they match your interests. Save the contact info (email) of the program coordinator and the admissions officer so you can ask questions. There are many application issues you might not know how to solve, so feel free to ask the staff directly—they're paid to help you, so don't be shy!</li>
-</ol>
+<p><strong>PREPARATION GUIDE AND TIMELINE</strong></p>
+<p><strong>1. Choosing a University and Program</strong></p>
+<ul>
+    <li>Begin by researching programs on the official <a href="https://www.studyintaiwan.org">Study in Taiwan</a> portal. It is advisable to start this process early, ideally between May and August, to identify programs that best align with your academic and career goals.</li>
+    <li>Once you have a shortlist, visit the individual university websites to review detailed admission requirements (GPA, language proficiency, prerequisites). Honestly assess your eligibility and identify any gaps you need to address. This will allow you to schedule time for language tests or to draft essential documents like your study plan. Be realistic; if you do not meet a non-negotiable requirement (e.g., a minimum GPA), it is more efficient to focus on other programs.</li>
+    <li>Review the program curriculum and faculty profiles to ensure they match your interests. Proactively contact program coordinators or admissions officers with any questions. They are there to assist prospective students, and clarifying issues early on can prevent critical application errors.</li>
+</ul>
+
+<p><strong>2. Budgeting for the Application Process</strong></p>
+<ul>
+    <li>Applicants should budget for various expenses, including language test fees, document translation and notarization, university application fees, and potential travel for interviews. Should you choose to use mentorship or essay editing services, these will also add to the cost.</li>
+    <li>A well-planned budget, potentially ranging from 5 to 30 million VND, will depend on the number of applications you submit and the services you utilize. You can minimize costs by leveraging your network for feedback and managing the process independently.</li>
+</ul>
+
+<p><strong>3. Document Preparation and Academic Enhancement</strong></p>
+<ul>
+    <li>While initial university applications may only require scanned documents, it is wise to prepare several sets of officially translated and notarized documents in advance. Completing this step early will streamline the final submission process.</li>
+    <li>For students, undergraduate research or a significant thesis project can serve as a powerful substitute for professional research experience and provides a significant advantage. This work provides a solid foundation for discussing your future research interests in your study plan.</li>
+    <li>Plan your language test schedule carefully. As the certificate's validity is a key consideration for the scholarship office, taking the test in the fall (after October) before you apply is the safest approach.</li>
+    <li>Ensure your passport is valid and resolve any discrepancies with your official household registration, as these are mandatory documents.</li>
+</ul>
+
+<p><strong>4. Securing Strong Letters of Recommendation</strong></p>
+<p>Strong recommendations are critical. To obtain them, you should:</p>
+<ul>
+    <li>Cultivate professional relationships with your professors and supervisors. A strong rapport can lead to deeper involvement in research projects and more personalized, impactful recommendation letters.</li>
+    <li>Your thesis advisor can be your strongest advocate. A letter from them, detailing your academic qualities with specific examples, carries significant weight. This relationship should be built on a foundation of consistent communication and academic engagement.</li>
+    <li>In many cases, you may be asked to draft the letter yourself for your recommender to review and sign. Use this as an opportunity. This process of self-advocacy can be a valuable exercise in self-reflection, helping you to articulate your ambitions and project confidence in your study plan.</li>
+    <li>Strategically distribute your strengths across the two letters. Instead of listing every positive trait in one letter, assign 2-3 key qualities to each recommender, ensuring they can provide concrete examples. The two letters should complement each other to create a holistic and compelling portrait of you as a candidate.</li>
+    <li>Be meticulous. Double- and triple-check that the program, university, and scholarship names are correct in every document, including your recommendation letters. A careless error can signal a lack of seriousness and lead to disqualification.</li>
+    <li>If official letterhead is unavailable, you can create a professional template that includes the university or company logo and the recommender's contact information.</li>
+</ul>
 <hr>
-<p><strong>Prepare Your Funds</strong></p>
-<ol>
-<li>You'll need money for language test fees, document notarization, application fees, travel for interviews, and visa fees if you get accepted. Maybe even to pay a mentor (if you join a scholarship coaching program) or to pay for essay editing. So, you need a decent amount in your bank account. It could range from 5 - 30 million VND depending on how many applications you submit and the services you want. If you handle the entire application process yourself, you'll save money (e.g., ask friends to edit your essays instead of hiring someone, prepare documents yourself instead of finding a mentor).</li>
-</ol>
-<hr>
-<p><strong>Notarize Documents and Study for Language Tests</strong>
-<ol>
-<li>Usually, when applying for admission, you only need scanned copies, not notarized ones. During this time, it's best to prepare a few notarized copies with the Consular Department's stamp to make things smoother and easier later. This will only take a few days.</li>
-<li>For bilingual diplomas, you just need to take them directly to the Department of Justice for notarization, then submit them to the Department of Foreign Affairs/Consular Department for authentication. The same goes for English transcripts. For diplomas and transcripts that are only in Vietnamese, you'll need to get them translated and notarized first.</li>
-<li>For students who want to study abroad, doing scientific research (like a graduation thesis) is a huge plus in place of professional research experience! It's also great material for you to talk about your future plans and research direction.</li>
-<li>You should start studying for your language tests early and take the test after October of that year (for example, if you apply for 2019 in Jan 2019, you need a certificate issued after Oct 2018—I submitted an IELTS from April and was asked to resubmit). This is because the office requires the certificate to be valid for your two years of study in Taiwan, not just at the time of application. It's a bit weird, but not too hard to follow.</li>
-<li>If you don't have a passport, go get one. If you have any issues with your household registration, get them sorted out because these two documents are mandatory.</li>
-</ol>
-<hr>
-<p><strong>Asking for Recommendation Letters</strong>: To get two strong recommendation letters, there are a few things you need to do beforehand:
-<ol>
-<li>Build a good relationship with your university professors—it's all pros, no cons. Being favored by a professor/boss means a higher chance of joining their research topics and projects. This is also a good opportunity to learn more about each lecturer's specialty and try to get their guidance early if you're interested.</li>
-<li>Maintain a good relationship with your thesis advisor (keep in regular contact, etc.). A recommendation letter from your advisor is highly valued if it's written carefully with a clear structure. A detailed letter that provides qualities with concrete examples from your advisor will always catch the evaluation committee's attention. The relationship between you two should be built beforehand through coursework and then through advising—it's logical and clear.</li>
-<li>Professors in Vietnam often don't write the letter themselves but will ask you to write a draft, which they will then sign and edit. Professors in Europe/America will write it themselves. At work, your boss will also probably tell you to write it yourself. If used correctly, writing your own recommendation letter can be very beneficial. You might even discover qualities you have/want (fake it until you make it!!!), which is very helpful for writing your SOP or Study Plan.</li>
-<li>Don't cram all your praises into one letter. List 5-6 qualities you're most proud of, then divide them between the two letters. Each letter should mention 2-3 qualities, and remember to make the two letters logically connect. Be smart and creative!</li>
-<li>Be extremely careful and double-check the program name in the introduction of the letters. You have to be meticulous with the names of the programs + scholarships to avoid mixing things up. If the reviewers find out you wrote the wrong university or program name, you'll obviously be rejected!</li>
-<li>You might need to prepare your own letterhead and envelopes if you can't get them from the university or professor. You can insert the university logo into the letter and envelope yourself, and remember to add the address, phone number, and fax if available.</li>
-</ol>
-<hr>
-<p><strong>There are many blogs and websites online that guide you on preparing scholarship applications in general, including tons of experience from those who have gone before. I'll list a few here. Your job is to read, read, and read a lot, synthesize the information, and prepare for your own future path. Wishing you the best of luck!</strong></p>
-<p><a href="https://5continents4oceans.com">5 Continents 4 Oceans</a> by Thu Ngan, her posts are written concisely with a light, cheerful, and very helpful tone.</p>
-<p>Articles on the websites and Facebook pages of scholarship mentoring groups include: <a href="https://hannahed.co">HannahEd - Scholarship for Vietnamese Students</a>; <a href="https://scholarshipplanet.info/vi/">Scholarship Planet</a>; <a href="https://www.hotcourses.vn">Hot courses Vietnam</a>; <a href="https://www.facebook.com/official.vietnam.scholarship.forum/">Official Vietnam Scholarship Forum</a>; <a href="http://www.facebook.com/ScholarshipHuntingwithAlumni">Scholarship Hunting with Alumni</a>; <a href="https://www.facebook.com/DuHocSanHocBong">Opportunity Hunting;</a>&nbsp;<a href="https://www.facebook.com/doortotherworld/">Door to the World</a> and hundreds of other articles from all the successful alumni who have won scholarships.</p>
+<p><strong>Further Resources</strong></p>
+<p><strong>To maximize your chances, it is crucial to engage in thorough research. The resources below, created by successful alumni and educational organizations, offer invaluable insights and guidance. Explore them extensively to inform your application strategy. Best of luck!</strong></p>
+<p>Explore insightful blog posts from alumni at sites like <a href="https://5continents4oceans.com">5 Continents 4 Oceans</a>.</p>
+<p>Consult the websites and Facebook pages of scholarship mentoring groups, including: <a href="https://hannahed.co">HannahEd - Scholarship for Vietnamese Students</a>, <a href="https://scholarshipplanet.info/vi/">Scholarship Planet</a>, <a href="https://www.hotcourses.vn">Hot courses Vietnam</a>, and the <a href="https://www.facebook.com/official.vietnam.scholarship.forum/">Official Vietnam Scholarship Forum</a>.</p>
