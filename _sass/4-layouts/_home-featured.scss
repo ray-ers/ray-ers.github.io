@@ -30,6 +30,12 @@
     max-height: 400px;
   }
 
+  /* --- This is the new style rule --- */
+  &__content {
+    text-align: center;
+  }
+  /* --- End of new style rule --- */
+
   &__tag {
     font-size: 12px;
     font-weight: 700;
