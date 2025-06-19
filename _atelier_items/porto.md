@@ -4,7 +4,7 @@ alt_text: "A view of Porto"
 location: "Porto"
 date: "July 2023"
 order: 5
-description: "We are all building a narrative. Every photograph we take, every project we undertake, and every story we tell about ourselves is a sentence in that narrative. The crucial question, then, is one of origin: are we writing for an audience or for ourselves? Does joy spring from within our own hearts, or from the fleeting praise of strangers?
+description: "We are all building a narrative. Every photograph we capture, every project we undertake, and every story we tell about ourselves is a sentence in that narrative. The crucial question, then, is one of origin: are we writing for an audience or for ourselves? Does joy spring from within our own hearts, or from the fleeting praise of strangers?
 
 A meaningful narrative is always built on an honest cause, not just a hunt for personal glory or outward validation. We see the alternative in soulless photography taken only for likes, and in application essays that read like a shallow list of accomplishments. They are scenes without a plot.
 
