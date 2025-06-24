@@ -42,7 +42,9 @@ permalink: /atelier/
         </div>
     </div>
 </div>
-
+<br>
+<br>
+<hr class="paragraph-divider">
 <section> 
-      <p style="text-align: center;">My materials are not to be reused without explicit approval.</p>
+      <p style="text-align: center;"><i>My materials are not to be reused without explicit approval.</p></i>
 </section>
