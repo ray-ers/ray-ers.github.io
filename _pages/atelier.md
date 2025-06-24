@@ -45,6 +45,9 @@ permalink: /atelier/
 <br>
 <br>
 <hr class="paragraph-divider">
-<section> 
-      <p style="text-align: center;"><i>My materials are not to be reused without explicit approval.</p></i>
+<section class="cv-section"> 
+      <p style="text-align: center;">
+          <i>My materials are not to be reused without explicit approval.
+        </i>
+      </p>
 </section>
