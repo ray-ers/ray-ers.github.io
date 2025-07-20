@@ -98,7 +98,7 @@ permalink: /cv/
     </div>
         <div class="cv-item">
         <h3 class="cv-item__title">Asia-Pacific Youth Labour Trend Forum</h3>
-        <p class="cv-item__meta"> 6 - 8 Dec | Taipei | Funding: Taiwan Ministry of Labour</p>
+        <p class="cv-item__meta"> 6 - 8 Dec, 2019 | Taipei | Funding: Taiwan Ministry of Labour</p>
     </div>
 </section>
 <!-- Mentees' achivements section -->
