@@ -11,5 +11,5 @@ image:
 <hr class="paragraph-divider">
 <p>Trong nhiều năm vừa qua, mình đã hỗ trợ 6 bạn nhận học bổng toàn phần chính phủ, và nhiều bạn khác nhận được thư mời nhập học kèm học bổng cho chương trình thạc sĩ và tiến sĩ. Mặc dù con số này khá khiêm tốn, nhưng tỷ lệ thành công đạt trên dưới 80% do số lượng hồ sợ mình nhận hỗ trợ rất ít. Một phần do mình có công việc riêng không chủ động quảng cáo blog cá nhân, phần còn lại do mình khá cẩn trọng trong việc góp ý cũng như thường bỏ nhiều thời gian theo sát quá trình các bạn viết luận và hộp hồ sơ.</p>
 <hr class="paragraph-divider">
-<p>Nếu bạn cần mình kèm 1-1 trong quá trình viết luận nộp thư xin nhập học/thư bày tỏ nguyện vọng/kế hạch học tập hay thư xin học bổng, bạn có thể <a href="https://kien-pham.com/contact">liên hệ mình qua form</a> hoặc email: contact@kien-pham.com. Nếu thấy các bài viết của mình hữu ích, bạn có thể ủng hộ mình qua <a href="https://ko-fi.com/kienphamtrung"><b>Ko-fi</b></a></p>
+<p>Nếu bạn cần mình kèm 1-1 trong quá trình viết luận nộp thư xin nhập học/thư bày tỏ nguyện vọng/kế hoạch học tập hay thư xin học bổng, bạn có thể <a href="https://kien-pham.com/contact">liên hệ mình qua form</a> hoặc email: contact@kien-pham.com. Nếu thấy các bài viết của mình hữu ích, bạn có thể ủng hộ mình qua <a href="https://ko-fi.com/kienphamtrung"><b>Ko-fi</b></a></p>
 
