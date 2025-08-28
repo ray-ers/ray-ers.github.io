@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "Icebreaker Activity"
+title: Icebreaker Activity
+category: en
+description: None.
+date: 2025-08-28 19:30:00 +0700
+tags: [scholarship, hoc-bong, du-hoc, taiwan]
+published: true
 ---
 
 <!-- 1. Add Dependencies -->
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Icebreaker Activity Schedule</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-</head>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <!-- 2. Add Styles -->
 <style>
 body {
