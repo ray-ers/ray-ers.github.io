@@ -2,9 +2,9 @@
 layout: post
 title: Icebreaker Activity
 category: en
-description: None.
+description: This page is designed to run the icebreaker activity for ESP summer school 2025.
 date: 2025-08-28 19:30:00 +0700
-tags: [scholarship, hoc-bong, du-hoc, taiwan]
+tags:
 published: true
 ---
 <!-- Styles for the application -->
@@ -53,7 +53,7 @@ published: true
         </div>
         <!-- Organizer View -->
         <div class="card p-6">
-            <h2 class="text-2xl font-semibold mb-4 text-gray-700">Organizer View</h2>          
+            <h2 class="text-2xl font-semibold mb-4 text-gray-700">Organizer View</h2>     
             <div class="mb-4">
                 <label for="staff-select-jekyll" class="block text-md font-medium text-gray-600 mb-2">Select a table:</label>
                 <select id="staff-select-jekyll" class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-emerald-500 focus:border-emerald-500">
@@ -62,14 +62,14 @@ published: true
             </div>
             <div class="mb-4">
                 <label class="block text-md font-medium text-gray-600 mb-2">Select a round:</label>
-                <!-- FIX: Changed to flex-wrap and gap-2 to prevent overflow -->
-                <div id="round-selector-jekyll" class="flex flex-wrap gap-2">
+                <!-- FIX: Removed flex-wrap to keep buttons on one line on desktop -->
+                <div id="round-selector-jekyll" class="flex gap-2">
                     <button class="btn-round flex-1 py-2 px-4 border border-gray-300 rounded-md transition active" data-round="1">Round 1</button>
                     <button class="btn-round flex-1 py-2 px-4 border border-gray-300 rounded-md transition" data-round="2">Round 2</button>
                     <button class="btn-round flex-1 py-2 px-4 border border-gray-300 rounded-md transition" data-round="3">Round 3</button>
                     <button class="btn-round flex-1 py-2 px-4 border border-gray-300 rounded-md transition" data-round="4">Round 4</button>
                 </div>
-            </div>         
+            </div>  
             <div id="organizer-view-content-jekyll">
                 <!-- Group info rendered here -->
             </div>
@@ -81,7 +81,7 @@ published: true
 <script>
     (function() {
         // --- DATA ---
-        const staffNames = ["Joao", "Kien", "Vince", "Max", "Carlotta", "Luiz", "Farbio"];
+        const staffNames = ["Joao", "Kien", "Vince", "Max", "Carlotta", "Luiz", "Fabio"];
         const tableThemes = {
             "Joao": { title: "Table theme", details: "Table details" },
             "Kien": { title: "Table theme", details: "Table details" },
@@ -89,10 +89,10 @@ published: true
             "Max": { title: "Table theme", details: "Table details" },
             "Carlotta": { title: "Table theme", details: "Table details" },
             "Luiz": { title: "Table theme", details: "Table details" },
-            "Farbio": { title: "Table theme", details: "Table details" }
+            "Fabio": { title: "Table theme", details: "Table details" }
         };
         const schedule = [
-            { id: 1, rounds: ["Joao", "Kien", "Vince", "Max"] },{ id: 2, rounds: ["Kien", "Vince", "Max", "Carlotta"] },{ id: 3, rounds: ["Vince", "Max", "Carlotta", "Luiz"] },{ id: 4, rounds: ["Max", "Carlotta", "Luiz", "Farbio"] },{ id: 5, rounds: ["Carlotta", "Luiz", "Farbio", "Joao"] },{ id: 6, rounds: ["Luiz", "Farbio", "Joao", "Kien"] },{ id: 7, rounds: ["Farbio", "Joao", "Kien", "Vince"] },{ id: 8, rounds: ["Kien", "Max", "Luiz", "Joao"] },{ id: 9, rounds: ["Vince", "Carlotta", "Farbio", "Kien"] },{ id: 10, rounds: ["Max", "Luiz", "Joao", "Vince"] },{ id: 11, rounds: ["Carlotta", "Farbio", "Kien", "Max"] },{ id: 12, rounds: ["Luiz", "Joao", "Vince", "Carlotta"] },{ id: 13, rounds: ["Farbio", "Kien", "Max", "Luiz"] },{ id: 14, rounds: ["Joao", "Vince", "Carlotta", "Farbio"] },{ id: 15, rounds: ["Vince", "Luiz", "Kien", "Carlotta"] },{ id: 16, rounds: ["Max", "Farbio", "Vince", "Luiz"] },{ id: 17, rounds: ["Carlotta", "Joao", "Max", "Farbio"] },{ id: 18, rounds: ["Luiz", "Kien", "Carlotta", "Joao"] },{ id: 19, rounds: ["Farbio", "Vince", "Luiz", "Kien"] },{ id: 20, rounds: ["Joao", "Max", "Farbio", "Vince"] },{ id: 21, rounds: ["Kien", "Carlotta", "Joao", "Max"] },{ id: 22, rounds: ["Max", "Joao", "Carlotta", "Kien"] },{ id: 23, rounds: ["Carlotta", "Kien", "Luiz", "Vince"] },{ id: 24, rounds: ["Luiz", "Vince", "Farbio", "Max"] },{ id: 25, rounds: ["Farbio", "Max", "Joao", "Carlotta"] },{ id: 26, rounds: ["Joao", "Carlotta", "Kien", "Luiz"] },{ id: 27, rounds: ["Kien", "Luiz", "Vince", "Farbio"] },{ id: 28, rounds: ["Vince", "Farbio", "Max", "Joao"] },{ id: 29, rounds: ["Carlotta", "Vince", "Joao", "Luiz"] },{ id: 30, rounds: ["Luiz", "Max", "Kien", "Farbio"] },{ id: 31, rounds: ["Farbio", "Carlotta", "Vince", "Joao"] },{ id: 32, rounds: ["Joao", "Luiz", "Max", "Kien"] },{ id: 33, rounds: ["Kien", "Farbio", "Carlotta", "Vince"] }
+            { id: 1, rounds: ["Joao", "Kien", "Vince", "Max"] },{ id: 2, rounds: ["Kien", "Vince", "Max", "Carlotta"] },{ id: 3, rounds: ["Vince", "Max", "Carlotta", "Luiz"] },{ id: 4, rounds: ["Max", "Carlotta", "Luiz", "Fabio"] },{ id: 5, rounds: ["Carlotta", "Luiz", "Fabio", "Joao"] },{ id: 6, rounds: ["Luiz", "Fabio", "Joao", "Kien"] },{ id: 7, rounds: ["Fabio", "Joao", "Kien", "Vince"] },{ id: 8, rounds: ["Kien", "Max", "Luiz", "Joao"] },{ id: 9, rounds: ["Vince", "Carlotta", "Fabio", "Kien"] },{ id: 10, rounds: ["Max", "Luiz", "Joao", "Vince"] },{ id: 11, rounds: ["Carlotta", "Fabio", "Kien", "Max"] },{ id: 12, rounds: ["Luiz", "Joao", "Vince", "Carlotta"] },{ id: 13, rounds: ["Fabio", "Kien", "Max", "Luiz"] },{ id: 14, rounds: ["Joao", "Vince", "Carlotta", "Fabio"] },{ id: 15, rounds: ["Vince", "Luiz", "Kien", "Carlotta"] },{ id: 16, rounds: ["Max", "Fabio", "Vince", "Luiz"] },{ id: 17, rounds: ["Carlotta", "Joao", "Max", "Fabio"] },{ id: 18, rounds: ["Luiz", "Kien", "Carlotta", "Joao"] },{ id: 19, rounds: ["Fabio", "Vince", "Luiz", "Kien"] },{ id: 20, rounds: ["Joao", "Max", "Fabio", "Vince"] },{ id: 21, rounds: ["Kien", "Carlotta", "Joao", "Max"] },{ id: 22, rounds: ["Max", "Joao", "Carlotta", "Kien"] },{ id: 23, rounds: ["Carlotta", "Kien", "Luiz", "Vince"] },{ id: 24, rounds: ["Luiz", "Vince", "Fabio", "Max"] },{ id: 25, rounds: ["Fabio", "Max", "Joao", "Carlotta"] },{ id: 26, rounds: ["Joao", "Carlotta", "Kien", "Luiz"] },{ id: 27, rounds: ["Kien", "Luiz", "Vince", "Fabio"] },{ id: 28, rounds: ["Vince", "Fabio", "Max", "Joao"] },{ id: 29, rounds: ["Carlotta", "Vince", "Joao", "Luiz"] },{ id: 30, rounds: ["Luiz", "Max", "Kien", "Fabio"] },{ id: 31, rounds: ["Fabio", "Carlotta", "Vince", "Joao"] },{ id: 32, rounds: ["Joao", "Luiz", "Max", "Kien"] },{ id: 33, rounds: ["Kien", "Fabio", "Carlotta", "Vince"] }
         ];
 
         // --- DOM ELEMENTS ---
