@@ -7,6 +7,8 @@ date: 2025-08-28 19:30:00 +0700
 tags:
 published: true
 ---
+
+
 <!-- Styles for the application -->
 <style>
     #icebreaker-app-container {
@@ -34,7 +36,7 @@ published: true
 <div id="icebreaker-app-container" class="container mx-auto p-4 sm:p-6 lg:p-8 max-w-5xl bg-gray-50 text-gray-800 rounded-lg">
     <!-- Header -->
     <header class="text-center mb-8">
-        <h1 class="text-3xl sm:text-4xl font-bold text-emerald-600">ESP Summer School Icebreaker</h1>
+        <h1 class="text-3xl sm:text-4xl font-bold text-emerald-600">ESP Summer School 2025r</h1>
         <p class="mt-2 text-lg text-gray-600">Find your schedule or view table groups for each rotation.</p>
     </header>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -53,7 +55,7 @@ published: true
         </div>
         <!-- Organizer View -->
         <div class="card p-6">
-            <h2 class="text-2xl font-semibold mb-4 text-gray-700">Organizer View</h2>     
+            <h2 class="text-2xl font-semibold mb-4 text-gray-700">Organizer View</h2>    
             <div class="mb-4">
                 <label for="staff-select-jekyll" class="block text-md font-medium text-gray-600 mb-2">Select a table:</label>
                 <select id="staff-select-jekyll" class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-emerald-500 focus:border-emerald-500">
@@ -62,12 +64,11 @@ published: true
             </div>
             <div class="mb-4">
                 <label class="block text-md font-medium text-gray-600 mb-2">Select a round:</label>
-                <!-- FIX: Removed flex-wrap to keep buttons on one line on desktop -->
                 <div id="round-selector-jekyll" class="flex gap-2">
-                    <button class="btn-round flex-1 py-2 px-4 border border-gray-300 rounded-md transition active" data-round="1">Round 1</button>
-                    <button class="btn-round flex-1 py-2 px-4 border border-gray-300 rounded-md transition" data-round="2">Round 2</button>
-                    <button class="btn-round flex-1 py-2 px-4 border border-gray-300 rounded-md transition" data-round="3">Round 3</button>
-                    <button class="btn-round flex-1 py-2 px-4 border border-gray-300 rounded-md transition" data-round="4">Round 4</button>
+                    <button class="btn-round flex-1 min-w-0 py-2 px-4 border border-gray-300 rounded-md transition active" data-round="1">Round 1</button>
+                    <button class="btn-round flex-1 min-w-0 py-2 px-4 border border-gray-300 rounded-md transition" data-round="2">Round 2</button>
+                    <button class="btn-round flex-1 min-w-0 py-2 px-4 border border-gray-300 rounded-md transition" data-round="3">Round 3</button>
+                    <button class="btn-round flex-1 min-w-0 py-2 px-4 border border-gray-300 rounded-md transition" data-round="4">Round 4</button>
                 </div>
             </div>  
             <div id="organizer-view-content-jekyll">
