@@ -8,9 +8,7 @@ description: Kien Pham (Ray) — environmental researcher, educator, and writer 
 <section class="cv-section">
   <h2>Background</h2>
   <p>
-    I am Kien Pham (Ray), a doctoral candidate at Gustave Eiffel University working under the ClearDoc project.
-    I am an environmental researcher, educator, and writer interested in cities, resilience, learning,
-    and the ways people relate to places. I am also a fan of science communication, visualization, writing, and health.
+    I am Kien Pham (Ray), an environmental researcher with a PhD in Earth and Environmental Sciences from Gustave Eiffel University. My work examines urban ecosystems, ecosystem services, and the contribution of nature-based solutions to resilient cities.
   </p>
 </section>
 
@@ -20,7 +18,7 @@ description: Kien Pham (Ray) — environmental researcher, educator, and writer 
   <h2>Research interests</h2>
   <p>
     My research focuses on urban resilience and sustainability, including the systematic assessment of
-    urban food gardens and the ecosystem services they provide. I enjoy turning research methods and
+    urban nature-based solutions and the ecosystem services they provide. I enjoy turning research methods and
     findings into accessible writing and interactive visualizations — you can find examples in the
     <a href="/research/">Research</a> section.
   </p>
@@ -43,7 +41,7 @@ description: Kien Pham (Ray) — environmental researcher, educator, and writer 
   <h2>Collaboration and services</h2>
   <p>
     Since 2016 I have written about preparing study-abroad applications, and over the years I have
-    supported six mentees in winning full government scholarships, with many others receiving admission
+    supported mentees in winning full government scholarships, with many others receiving admission
     offers with funding for master's and PhD programs. I offer one-on-one coaching for motivation
     letters, study plans, and scholarship essays.
   </p>
