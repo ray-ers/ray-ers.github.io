@@ -6,7 +6,7 @@ permalink: /atelier/
 
 <section class="cv-section">
     <p style="text-align: center;">
-        This collection is a marker of change. Through individual pictures, I trace my steps in photography, my approach to storytelling, and the path of my own self-discovery.
+        Atelier is a visual record of places, journeys, and ordinary moments. Through photography, I explore how people inhabit landscapes, how cities change, and how my own way of seeing has developed over time.
     </p>
 </section>
 
@@ -47,7 +47,7 @@ permalink: /atelier/
 <hr class="paragraph-divider">
 <section class="cv-section"> 
       <p style="text-align: center;">
-          <i>My materials are not to be reused without explicit approval.
+          <i>Unless otherwise stated, all photographs and text are my own and may not be reproduced without permission.
         </i>
       </p>
 </section>
