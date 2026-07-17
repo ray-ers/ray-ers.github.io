@@ -2,7 +2,7 @@
 # General Site Settings
 title: Kien Pham
 logo: # You can add own logo. For example '/images/logo.png'.
-description: 
+description: Personal website of Kien Pham, an environmental researcher working on urban ecosystems, nature-based solutions, ecosystem services, and resilient cities.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kien-pham.com" # the base hostname & protocol for your site, e.g. http://example.com
 
