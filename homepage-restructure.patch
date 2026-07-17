@@ -1,0 +1,691 @@
+From 41538eda808de6568ed90a94869a973e4c07b960 Mon Sep 17 00:00:00 2001
+From: Claude <noreply@anthropic.com>
+Date: Fri, 17 Jul 2026 10:08:49 +0000
+Subject: [PATCH] Restructure homepage into Research / Essays & Ideas / Life
+ topic sections
+
+- Homepage now shows three curated topic columns (featured post +
+  compact list + view-all link) instead of a paginated feed
+- Add /research/, /ideas/, /life/ archive pages with a reusable
+  topic layout that lists every post in that topic
+- Add topic front matter to existing English posts
+- Replace auto-generated navigation with _data/navigation.yml for
+  a deliberate, stable menu order
+- Create /about/ page (Background, Research interests, Teaching,
+  Collaboration & services) incorporating the Service content;
+  this also fixes the post-author links that pointed to /about/
+- New _home-topics.scss partial; existing _home-featured.scss left
+  intact for easy rollback
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01LeTTftt337G23ZYu9B2GUA
+---
+ .gitignore                                 |   4 +
+ _data/navigation.yml                       |  17 ++
+ _includes/article-list-item.html           |   6 +
+ _includes/header.html                      |  11 +-
+ _includes/main.scss                        |   3 +-
+ _includes/topic-column.html                |  48 +++++
+ _layouts/home.html                         |  76 +++----
+ _layouts/topic.html                        |  28 +++
+ _pages/about.md                            |  56 ++++++
+ _pages/ideas.md                            |   7 +
+ _pages/life.md                             |   7 +
+ _pages/research.md                         |   7 +
+ _posts/2022-08-01-TaiwanICDF-en.md         |   1 +
+ _posts/2022-08-20-TaiwanMOE-en.md          |   1 +
+ _posts/2025-08-25-InteractiveIceBreaker.md |   1 +
+ _posts/2025-08-31-UFGs.md                  |   1 +
+ _sass/4-layouts/_home-topics.scss          | 220 +++++++++++++++++++++
+ 17 files changed, 447 insertions(+), 47 deletions(-)
+ create mode 100644 .gitignore
+ create mode 100644 _data/navigation.yml
+ create mode 100644 _includes/article-list-item.html
+ create mode 100644 _includes/topic-column.html
+ create mode 100644 _layouts/topic.html
+ create mode 100644 _pages/about.md
+ create mode 100644 _pages/ideas.md
+ create mode 100644 _pages/life.md
+ create mode 100644 _pages/research.md
+ create mode 100644 _sass/4-layouts/_home-topics.scss
+
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+index 0000000..ca25629
+--- /dev/null
++++ b/.gitignore
+@@ -0,0 +1,4 @@
++_site/
++Gemfile.lock
++.jekyll-cache/
++.sass-cache/
+diff --git a/_data/navigation.yml b/_data/navigation.yml
+new file mode 100644
+index 0000000..e1a3c02
+--- /dev/null
++++ b/_data/navigation.yml
+@@ -0,0 +1,17 @@
++# Main navigation. Order here is the order in the menu.
++- title: Home
++  url: /
++- title: About
++  url: /about/
++- title: Research
++  url: /research/
++- title: Essays & Ideas
++  url: /ideas/
++- title: Life
++  url: /life/
++- title: Atelier
++  url: /atelier/
++- title: CV
++  url: /cv/
++- title: Contact
++  url: /contact/
+diff --git a/_includes/article-list-item.html b/_includes/article-list-item.html
+new file mode 100644
+index 0000000..78424c6
+--- /dev/null
++++ b/_includes/article-list-item.html
+@@ -0,0 +1,6 @@
++<article class="list-item">
++  <a class="list-item__link" href="{{ include.post.url | relative_url }}">
++    <h3 class="list-item__title">{{ include.post.title }}</h3>
++    <time class="list-item__date" datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date_to_long_string }}</time>
++  </a>
++</article>
+diff --git a/_includes/header.html b/_includes/header.html
+index 30f3f52..5942b50 100644
+--- a/_includes/header.html
++++ b/_includes/header.html
+@@ -21,17 +21,10 @@
+             </div>
+             <div class="nav__title">Menu</div>
+             <ul class="nav__list list-reset">
++              {% for item in site.data.navigation %}
+               <li class="nav__item">
+-                <a href="{{ site.baseurl }}/" class="nav__link">Home</a>
++                <a href="{{ item.url | relative_url }}" class="nav__link">{{ item.title }}</a>
+               </li>
+-              {% for page in site.pages %}
+-                {% unless page.name == 'tags.html' or page.name == '404.html' %}
+-                  {% if page.title %}
+-                  <li class="nav__item">
+-                    <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>
+-                  </li>
+-                  {% endif %}
+-                {% endunless %}
+               {% endfor %}
+             </ul>
+           </div>
+diff --git a/_includes/main.scss b/_includes/main.scss
+index 225c5fd..23098e2 100644
+--- a/_includes/main.scss
++++ b/_includes/main.scss
+@@ -101,5 +101,6 @@
+ /* >>>>>>>>>>>>>> :: 4.4-CV Page <<<<<<<<<<<<<<< */
+ @import '4-layouts/cv-page';
+ /* >>>>>>>>>>>>>> :: 4.5-Atelier Page <<<<<<<<<<<<<<< */
+-@import '4-layouts/atelier-page'; 
++@import '4-layouts/atelier-page';
+ @import '4-layouts/home-featured';
++@import '4-layouts/home-topics';
+diff --git a/_includes/topic-column.html b/_includes/topic-column.html
+new file mode 100644
+index 0000000..721ce51
+--- /dev/null
++++ b/_includes/topic-column.html
+@@ -0,0 +1,48 @@
++<section class="topic-column topic-column--{{ include.topic }}">
++
++  <header class="topic-column__header">
++    <h2 class="topic-column__label">
++      <a href="{{ include.url | relative_url }}">{{ include.title }}</a>
++    </h2>
++    {% if include.description %}
++    <p class="topic-column__description">{{ include.description }}</p>
++    {% endif %}
++  </header>
++
++  {% assign featured = include.posts | first %}
++
++  {% if featured %}
++  <article class="topic-post">
++    <a class="topic-post__link" href="{{ featured.url | relative_url }}">
++      {% if featured.image %}
++      <div class="topic-post__image">
++        <img src="{{ featured.image | relative_url }}" alt="{{ featured.title | escape }}" loading="lazy">
++      </div>
++      {% endif %}
++      <div class="topic-post__content">
++        <h3 class="topic-post__title">{{ featured.title }}</h3>
++        {% if featured.description %}
++        <p class="topic-post__excerpt">{{ featured.description | strip_html | truncatewords: 22 }}</p>
++        {% elsif featured.excerpt %}
++        <p class="topic-post__excerpt">{{ featured.excerpt | strip_html | truncatewords: 22 }}</p>
++        {% endif %}
++        <time class="topic-post__date" datetime="{{ featured.date | date_to_xmlschema }}">{{ featured.date | date_to_long_string }}</time>
++      </div>
++    </a>
++  </article>
++
++  <div class="topic-column__list">
++    {% for post in include.posts offset: 1 limit: 3 %}
++      {% include article-list-item.html post=post %}
++    {% endfor %}
++  </div>
++
++  <a class="topic-column__view-all" href="{{ include.url | relative_url }}">
++    View all {{ include.title | downcase }} <i class="ion ion-ios-arrow-forward"></i>
++  </a>
++
++  {% else %}
++  <p class="topic-column__empty">New posts coming soon.</p>
++  {% endif %}
++
++</section>
+diff --git a/_layouts/home.html b/_layouts/home.html
+index 5ec12e3..7b46004 100644
+--- a/_layouts/home.html
++++ b/_layouts/home.html
+@@ -3,49 +3,51 @@ layout: default
+ ---
+ 
+ {%- comment -%}
+-  This section now filters all paginated posts to ONLY include those
+-  with the category 'en'.
++  Posts keep their language category (category: en / vi) and are grouped
++  on the homepage by a separate topic field (topic: research / ideas / life).
++  site.posts is used instead of paginator.posts so every English post is
++  available to its column regardless of pagination.
+ {%- endcomment -%}
+-{%- assign english_posts = paginator.posts | where: "category", "en" -%}
+-
+-{%- assign featured_post = english_posts.first -%}
+-{%- assign regular_posts = english_posts | slice: 1, english_posts.size -%}
+ 
++{%- assign english_posts = site.posts | where: "category", "en" -%}
++{%- assign research_posts = english_posts | where: "topic", "research" -%}
++{%- assign ideas_posts    = english_posts | where: "topic", "ideas" -%}
++{%- assign life_posts     = english_posts | where: "topic", "life" -%}
+ 
+ <!-- Hero Section -->
+ {% include hero.html %}
+ 
+-<!-- Featured Post Section -->
+-{% if featured_post %}
+-<section class="featured-post-section">
++<!-- Topic Columns -->
++<section class="topic-section">
+   <div class="container">
+-    <a class="featured-post" href="{{ featured_post.url | relative_url }}">
+-      {% if featured_post.image %}
+-      <div class="featured-post__image">
+-        <img src="{{ featured_post.image | relative_url }}" alt="{{ featured_post.title }}">
+-      </div>
+-      {% endif %}
+-      <div class="featured-post__content">
+-        <p class="featured-post__tag">Latest Post</p>
+-        <h2 class="featured-post__title">{{ featured_post.title }}</h2>
+-        <p class="featured-post__excerpt">{{ featured_post.description }}</p>
+-        <div class="featured-post__meta">
+-          <time datetime="{{ featured_post.date | date_to_xmlschema }}">{{ featured_post.date | date_to_long_string }}</time>
+-        </div>
+-      </div>
+-    </a>
++
++    <div class="topic-columns animate">
++
++      {% include topic-column.html
++        title="Research"
++        description="Projects, methods, and notes on urban resilience, food systems, and environmental assessment."
++        topic="research"
++        url="/research/"
++        posts=research_posts
++      %}
++
++      {% include topic-column.html
++        title="Essays & Ideas"
++        description="Essays, guides, and exploratory writing on scholarship, education, and communication."
++        topic="ideas"
++        url="/ideas/"
++        posts=ideas_posts
++      %}
++
++      {% include topic-column.html
++        title="Life"
++        description="Personal observations, travel, photography, and everyday experiences."
++        topic="life"
++        url="/life/"
++        posts=life_posts
++      %}
++
++    </div>
++
+   </div>
+ </section>
+-{% endif %}
+-
+-<!-- Regular Post Grid -->
+-<div class="container">
+-  <div class="post-grid animate">
+-    {% for post in regular_posts %}
+-        {% include article-grid-item.html post=post %}
+-    {% endfor %}
+-  </div>
+-</div>
+-
+-<!-- Pagination -->
+-{% include pagination.html %}
+diff --git a/_layouts/topic.html b/_layouts/topic.html
+new file mode 100644
+index 0000000..c745fc8
+--- /dev/null
++++ b/_layouts/topic.html
+@@ -0,0 +1,28 @@
++---
++layout: default
++---
++
++{%- assign topic_posts = site.posts | where: "category", "en" | where: "topic", page.topic -%}
++
++<!-- begin topic archive -->
++<div class="container animate">
++
++  <div class="page__info">
++    <h1 class="page__title">{{ page.title | escape }}</h1>
++    {% if page.description %}
++    <p class="page-description">{{ page.description }}</p>
++    {% endif %}
++  </div>
++
++  {% if topic_posts.size > 0 %}
++  <div class="post-grid">
++    {% for post in topic_posts %}
++      {% include article-grid-item.html post=post %}
++    {% endfor %}
++  </div>
++  {% else %}
++  <p class="topic-archive__empty">New posts coming soon.</p>
++  {% endif %}
++
++</div>
++<!-- end topic archive -->
+diff --git a/_pages/about.md b/_pages/about.md
+new file mode 100644
+index 0000000..7649596
+--- /dev/null
++++ b/_pages/about.md
+@@ -0,0 +1,56 @@
++---
++layout: page
++title: About
++permalink: /about/
++description: Kien Pham (Ray) — environmental researcher, educator, and writer interested in cities, resilience, learning, and the ways people relate to places.
++---
++
++<section class="cv-section">
++  <h2>Background</h2>
++  <p>
++    I am Kien Pham (Ray), a doctoral candidate at Gustave Eiffel University working under the ClearDoc project.
++    I am an environmental researcher, educator, and writer interested in cities, resilience, learning,
++    and the ways people relate to places. I am also a fan of science communication, visualization, writing, and health.
++  </p>
++</section>
++
++<hr class="paragraph-divider">
++
++<section class="cv-section">
++  <h2>Research interests</h2>
++  <p>
++    My research focuses on urban resilience and sustainability, including the systematic assessment of
++    urban food gardens and the ecosystem services they provide. I enjoy turning research methods and
++    findings into accessible writing and interactive visualizations — you can find examples in the
++    <a href="/research/">Research</a> section.
++  </p>
++</section>
++
++<hr class="paragraph-divider">
++
++<section class="cv-section">
++  <h2>Teaching and project work</h2>
++  <p>
++    Alongside research, I take part in teaching, workshops, and academic service. A summary of these
++    engagements, together with professional development activities and the results of my mentees,
++    is available in my <a href="/cv/">CV</a>.
++  </p>
++</section>
++
++<hr class="paragraph-divider">
++
++<section class="cv-section">
++  <h2>Collaboration and services</h2>
++  <p>
++    Since 2016 I have written about preparing study-abroad applications, and over the years I have
++    supported six mentees in winning full government scholarships, with many others receiving admission
++    offers with funding for master's and PhD programs. I offer one-on-one coaching for motivation
++    letters, study plans, and scholarship essays.
++  </p>
++  <p>
++    If you would like to work with me, please reach out through the <a href="/contact/">contact form</a>
++    or by email at contact@kien-pham.com. The original description of this service is also available
++    in Vietnamese on the <a href="/service/">Service</a> page. If you find my writing useful, you can
++    support me on <a href="https://ko-fi.com/kienphamtrung"><b>Ko-fi</b></a>.
++  </p>
++</section>
+diff --git a/_pages/ideas.md b/_pages/ideas.md
+new file mode 100644
+index 0000000..bc07d6d
+--- /dev/null
++++ b/_pages/ideas.md
+@@ -0,0 +1,7 @@
++---
++layout: topic
++title: Essays & Ideas
++permalink: /ideas/
++topic: ideas
++description: Essays, guides, and exploratory writing on scholarship, education, management, technology, and communication.
++---
+diff --git a/_pages/life.md b/_pages/life.md
+new file mode 100644
+index 0000000..e5bd01a
+--- /dev/null
++++ b/_pages/life.md
+@@ -0,0 +1,7 @@
++---
++layout: topic
++title: Life
++permalink: /life/
++topic: life
++description: Personal observations, travel, photography, and everyday experiences.
++---
+diff --git a/_pages/research.md b/_pages/research.md
+new file mode 100644
+index 0000000..d501122
+--- /dev/null
++++ b/_pages/research.md
+@@ -0,0 +1,7 @@
++---
++layout: topic
++title: Research
++permalink: /research/
++topic: research
++description: Research projects, methods, and notes on urban resilience, food systems, and environmental assessment.
++---
+diff --git a/_posts/2022-08-01-TaiwanICDF-en.md b/_posts/2022-08-01-TaiwanICDF-en.md
+index 4493626..3a982e2 100644
+--- a/_posts/2022-08-01-TaiwanICDF-en.md
++++ b/_posts/2022-08-01-TaiwanICDF-en.md
+@@ -2,6 +2,7 @@
+ layout: post
+ title: Taiwan ICDF Scholarship
+ category: en
++topic: ideas
+ description: A merit-based, non-repayable scholarship offered annually for specific fields at the bachelor's, master's, and PhD levels. This comprehensive package covers tuition, living expenses, accommodation, books, and airfare.
+ date: 2022-08-01 19:30:00 +0700
+ translation_url: https://kien-pham.com/TaiwanICDF-vi
+diff --git a/_posts/2022-08-20-TaiwanMOE-en.md b/_posts/2022-08-20-TaiwanMOE-en.md
+index 7468b42..d714427 100644
+--- a/_posts/2022-08-20-TaiwanMOE-en.md
++++ b/_posts/2022-08-20-TaiwanMOE-en.md
+@@ -2,6 +2,7 @@
+ layout: post
+ title: Taiwan MOE Scholarship
+ category: en
++topic: ideas
+ description: A merit-based, non-repayable scholarship offered annually for all majors at the bachelor's, master's, and PhD levels. The scholarship includes a tuition waiver and a monthly living stipend.
+ date: 2022-08-20 14:30:00 +0700
+ translation_url: https://kien-pham.com/TaiwanMOE-vi
+diff --git a/_posts/2025-08-25-InteractiveIceBreaker.md b/_posts/2025-08-25-InteractiveIceBreaker.md
+index 3c88682..de3dc92 100644
+--- a/_posts/2025-08-25-InteractiveIceBreaker.md
++++ b/_posts/2025-08-25-InteractiveIceBreaker.md
+@@ -2,6 +2,7 @@
+ layout: post
+ title: Icebreaker Activity
+ category: en
++topic: research
+ description: This page is designed to run the icebreaker activity for ESP summer school 2025.
+ date: 2025-08-28 19:30:00 +0700
+ tags:
+diff --git a/_posts/2025-08-31-UFGs.md b/_posts/2025-08-31-UFGs.md
+index fb6fab0..fc1953b 100644
+--- a/_posts/2025-08-31-UFGs.md
++++ b/_posts/2025-08-31-UFGs.md
+@@ -2,6 +2,7 @@
+ layout: post
+ title: UFG Nexus Assessment Indicators
+ category: en
++topic: research
+ description: An interactive visualization of input indicators for the systematic assessment of urban food gardens.
+ date: 2025-09-16 18:35:00 +0200
+ tags: [visualization, urban planning, data, svg, research]
+diff --git a/_sass/4-layouts/_home-topics.scss b/_sass/4-layouts/_home-topics.scss
+new file mode 100644
+index 0000000..587e676
+--- /dev/null
++++ b/_sass/4-layouts/_home-topics.scss
+@@ -0,0 +1,220 @@
++/*
++ * =================================================
++ * Topic-based Homepage Layout
++ * =================================================
++ */
++
++/* Main topic section */
++.topic-section {
++  padding: 64px 0 72px;
++
++  @media only screen and (max-width: $tablet) {
++    padding: 48px 0 56px;
++  }
++
++  @media only screen and (max-width: $mobile) {
++    padding: 40px 0 48px;
++  }
++}
++
++/* Three-column layout */
++.topic-columns {
++  display: grid;
++  grid-template-columns: repeat(3, minmax(0, 1fr));
++  align-items: start;
++  gap: 40px;
++
++  @media only screen and (max-width: $desktop) {
++    gap: 28px;
++  }
++
++  @media only screen and (max-width: $tablet) {
++    grid-template-columns: 1fr;
++    gap: 48px;
++  }
++}
++
++/* Individual topic column */
++.topic-column {
++  min-width: 0;
++}
++
++.topic-column__header {
++  margin-bottom: 24px;
++  padding-bottom: 20px;
++  border-bottom: 2px solid var(--border-color);
++}
++
++.topic-column__label {
++  margin-bottom: 12px;
++  font-family: $base-font-family;
++  font-size: 14px;
++  line-height: 1;
++  font-weight: 700;
++  letter-spacing: 2px;
++  text-transform: uppercase;
++
++  a {
++    border: none;
++    color: var(--heading-font-color);
++    transition: color 0.2s ease;
++
++    &:hover {
++      color: var(--brand-color);
++    }
++  }
++}
++
++.topic-column__description {
++  margin-bottom: 0;
++  font-size: 15px;
++  line-height: 1.6;
++  color: var(--text-alt-color);
++}
++
++/* Featured post card */
++.topic-post {
++  padding-bottom: 24px;
++  margin-bottom: 20px;
++  border-bottom: 1px solid var(--border-color);
++}
++
++.topic-post__link {
++  display: block;
++  border: none;
++  text-decoration: none;
++
++  &:hover {
++    .topic-post__title {
++      color: var(--brand-color);
++    }
++
++    .topic-post__image img {
++      transform: scale(1.025);
++    }
++  }
++}
++
++.topic-post__image {
++  position: relative;
++  overflow: hidden;
++  margin-bottom: 18px;
++  border-radius: $global-radius;
++  background-color: var(--background-alt-color);
++
++  img {
++    width: 100%;
++    height: 200px;
++    margin: 0;
++    object-fit: cover;
++    transition: transform 0.25s ease;
++  }
++}
++
++.topic-post__title {
++  margin-bottom: 10px;
++  font-family: $base-font-family;
++  font-size: $font-size-h4;
++  line-height: 1.25;
++  color: var(--heading-font-color);
++  transition: color 0.2s ease;
++}
++
++.topic-post__excerpt {
++  display: -webkit-box;
++  overflow: hidden;
++  margin-bottom: 12px;
++  font-size: 15px;
++  line-height: 1.6;
++  color: var(--text-color);
++  -webkit-box-orient: vertical;
++  -webkit-line-clamp: 3;
++}
++
++.topic-post__date {
++  display: block;
++  font-size: 12px;
++  line-height: 1.4;
++  color: var(--text-alt-color);
++}
++
++/* Compact list items */
++.topic-column__list {
++  display: flex;
++  flex-direction: column;
++  margin-bottom: 20px;
++}
++
++.list-item {
++  padding: 12px 0;
++  border-bottom: 1px solid var(--border-color);
++
++  &:first-child {
++    padding-top: 0;
++  }
++}
++
++.list-item__link {
++  display: block;
++  border: none;
++  text-decoration: none;
++
++  &:hover .list-item__title {
++    color: var(--brand-color);
++  }
++}
++
++.list-item__title {
++  margin-bottom: 4px;
++  font-family: $base-font-family;
++  font-size: 16px;
++  line-height: 1.35;
++  color: var(--heading-font-color);
++  transition: color 0.2s ease;
++}
++
++.list-item__date {
++  display: block;
++  font-size: 12px;
++  line-height: 1.4;
++  color: var(--text-alt-color);
++}
++
++/* View-all link */
++.topic-column__view-all {
++  display: inline-block;
++  border: none;
++  font-size: 14px;
++  font-weight: 700;
++  color: var(--brand-color);
++
++  i {
++    vertical-align: middle;
++  }
++
++  &:hover {
++    color: var(--heading-font-color);
++  }
++}
++
++.topic-column__empty,
++.topic-archive__empty {
++  margin: 0;
++  padding: 16px 0;
++  font-size: 15px;
++  font-style: italic;
++  color: var(--text-alt-color);
++}
++
++/* Reduced-motion accessibility */
++@media (prefers-reduced-motion: reduce) {
++  .topic-post__image img,
++  .topic-post__title,
++  .list-item__title {
++    transition: none;
++  }
++
++  .topic-post__link:hover .topic-post__image img {
++    transform: none;
++  }
++}
+-- 
+2.43.0
+
