@@ -14,7 +14,7 @@ author:
   avatar: '/images/Author.jpeg'
   
 social:
-- {icon: "ion-ios-contact", label: ORCID, link: "https://orcid.org/0000-0001-7740-102X"}
+- {icon: "ion-ios-finger-print", label: ORCID, link: "https://orcid.org/0000-0001-7740-102X"}
 - {icon: "ion-logo-linkedin", label: Linkedin, link: "https://www.linkedin.com/in/phamkien/"}
 - {icon: "ion-logo-instagram", label: Instagram, link: "https://www.instagram.com/ray_theurbanist/"}
 - {icon: "ion-ios-cafe", label: Ko-fi, link: "https://ko-fi.com/kienphamtrung"}
