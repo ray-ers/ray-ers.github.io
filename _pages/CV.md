@@ -209,10 +209,8 @@ permalink: /cv/
 <section class="cv-section">
     <h2 class="cv-section__title">Skills</h2>
     <div class="cv-skills">
-        <span class="cv-skill-badge">Urban Planning</span>
         <span class="cv-skill-badge">Resource Nexus Analysis</span>
-        <span class="cv-skill-badge">Sustainability Assessment</span>
-        <span class="cv-skill-badge">Environmental Monitoring</span>
+        <span class="cv-skill-badge">Optical Satellite Imagery Analysis </span>
         <span class="cv-skill-badge">Data Analysis</span>
         <span class="cv-skill-badge">GIS</span>
         <span class="cv-skill-badge">Project Management</span>
