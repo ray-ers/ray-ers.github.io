@@ -21,7 +21,7 @@ social:
 
 #-------------------------------
 # Footer Settings
-footer_text: "Thanks for visiting. Feel free to explore my work and let me know what you think."
+footer_text: "A space for research, teaching, writing, and observations about human, cities and nature."
 tags_widget_title: "Explore Tags"
 
 #-------------------------------
@@ -35,10 +35,10 @@ hero:
 #-------------------------------
 # Newsletter (_includes/footer-widgets/widget-subscribe.html)
 mailchimp: true # To enable the mailchimp form, use the value 'true'.
-mailchimp__title: Get interesting news # Add your Title
-mailchimp__text: Subscribe to our newsletter and we’ll send you the emails of latest posts. # Add your description.
+mailchimp__title: New writing and projects
+mailchimp__text: Receive occasional updates when I publish new research notes, essays, resources, or visual projects.
 mailchimp__identifier: kien-pham.us9.list-manage.com/subscribe/post?u=448369886e33234793205a1e9&amp;id=9ac65d85d2 # Add your MailChimp form identifier.
-mailchimp__button__text: Join # Add your button text
+mailchimp__button__text: Subscribe # Add your button text
 
 
 #-------------------------------
