@@ -6,23 +6,54 @@ permalink: /cv/
 <section class="cv-section">
     <p>
         <center> This CV is a summary of my engagements in academic service, professional development activities within the environmental science community, and the results of my mentees. 
-            For research and work experience, please see my <a href="https://linkedin.com/in/phamkien" target="_blank" rel="noopener noreferrer">LinkedIn profile</a> or <a href="https://orcid.org/0000-0001-7740-102X" target="_blank" rel="noopener noreferrer">ORCID repository</a>
+            For a fuller employment history, see my <a href="https://linkedin.com/in/phamkien" target="_blank" rel="noopener noreferrer">LinkedIn profile</a>. My research outputs and academic identifiers are available through my <a href="https://orcid.org/0000-0001-7740-102X" target="_blank" rel="noopener noreferrer">ORCID record</a>
         </center>
     </p>
+</section>
+<!-- Selected Publications -->
+<section class="cv-section">
+    <h2 class="cv-section__title">Selected Publications</h2>
+    <div class="cv-item">
+        <h3 class="cv-item__title">
+            <a href="https://doi.org/10.1016/j.landusepol.2023.106599"
+               target="_blank"
+               rel="noopener noreferrer">
+                Effects of urbanisation on ecosystem service values: A case study of Nha Trang, Vietnam
+            </a>
+        </h3>
+        <p class="cv-item__meta">Land Use Policy | 2023</p>
+    </div>
+    <div class="cv-item">
+        <h3 class="cv-item__title">
+            <a href="https://doi.org/10.53941/eesus.2026.100015"
+               target="_blank"
+               rel="noopener noreferrer">
+                Untangling the Food-Water-Soil Nexus through the Lens of Ecosystem Services and Disservices in Urban Gardens
+            </a>
+        </h3>
+        <p class="cv-item__meta">Earth: Environmental Sustainability | 2026</p>
+    </div>
+    <div class="cv-item">
+        <h3 class="cv-item__title">
+            <a href="https://doi.org/10.1007/s11625-025-01693-9"
+               target="_blank"
+               rel="noopener noreferrer">
+                The perspective of youth: envisioning transformative pathways and desirable futures for people and nature
+            </a>
+        </h3>
+        <p class="cv-item__meta">Sustainability Science  | 2025</p>
+    </div>
 </section>
 <!-- Affiliations & Membership Section -->
 <section class="cv-section">
     <h2 class="cv-section__title">Affiliations & Membership</h2>
     <div class="cv-item">
         <h3 class="cv-item__title">Ecosystem Services Partnerships</h3>
-        <p class="cv-item__meta">Interim Executive Member | Nov 2024 - Present</p>
-        <ul class="cv-item__list">
-            <!-- Add details here -->
-        </ul>
+        <p class="cv-item__meta">Interim Executive Member | 2024 - Present</p>
     </div>
     <div class="cv-item">
         <h3 class="cv-item__title">Young Ecosystem Services Specialists</h3>
-        <p class="cv-item__meta">Executive Member | Aug 2021 - July 2025</p>
+        <p class="cv-item__meta">Executive Member | 2021 - 2025</p>
     </div>
         <div class="cv-item">
         <h3 class="cv-item__title">Society for Urban Ecology</h3>
