@@ -10,6 +10,22 @@ permalink: /cv/
         </center>
     </p>
 </section>
+<!-- Education Section -->
+<section class="cv-section">
+    <h2 class="cv-section__title">Education</h2>
+    <div class="cv-item">
+        <h3 class="cv-item__title">Doctor of Philosophy in Environment and Earth Science</h3>
+        <p class="cv-item__meta">Gustave Eiffel University | Nov 2022 - Oct 2025</p>
+    </div>
+    <div class="cv-item">
+        <h3 class="cv-item__title">Master of Science in Environment and Sustainable Development</h3>
+        <p class="cv-item__meta">National Central University | Sep 2019 - Jun 2021</p>
+    </div>
+    <div class="cv-item">
+        <h3 class="cv-item__title">Bachelor of Engineering in Environmental Technology</h3>
+        <p class="cv-item__meta">Nha Trang University | Sep 2013 - May 2018</p>
+    </div>
+</section>
 <!-- Selected Publications -->
 <section class="cv-section">
     <h2 class="cv-section__title">Selected Publications</h2>
@@ -177,20 +193,16 @@ permalink: /cv/
     </div>
 
 </section>
-<!-- Education Section -->
+<!-- Research Interests -->
 <section class="cv-section">
-    <h2 class="cv-section__title">Education</h2>
-    <div class="cv-item">
-        <h3 class="cv-item__title">Doctor of Philosophy in Environment and Earth Science</h3>
-        <p class="cv-item__meta">Gustave Eiffel University | Nov 2022 - Oct 2025</p>
-    </div>
-    <div class="cv-item">
-        <h3 class="cv-item__title">Master of Science in Environment and Sustainable Development</h3>
-        <p class="cv-item__meta">National Central University | Sep 2019 - Jun 2021</p>
-    </div>
-    <div class="cv-item">
-        <h3 class="cv-item__title">Bachelor of Engineering in Environmental Technology</h3>
-        <p class="cv-item__meta">Nha Trang University | Sep 2013 - May 2018</p>
+    <h2 class="cv-section__title">Research Interests</h2>
+    <div class="cv-skills">
+        <span class="cv-skill-badge">Urban ecosystem services</span>
+        <span class="cv-skill-badge">Nature-based solutions</span>
+        <span class="cv-skill-badge">Urban resilience</span>
+        <span class="cv-skill-badge">Ecosystem service assessment</span>
+        <span class="cv-skill-badge">Sustainable urban planning</span>
+        <span class="cv-skill-badge">Composite Indicators</span>
     </div>
 </section>
 <!-- Skills Section -->
