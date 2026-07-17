@@ -10,10 +10,11 @@ url: "https://kien-pham.com" # the base hostname & protocol for your site, e.g. 
 # Author Settings
 author:
   name: Kien Pham (Ray)
-  bio: I am a doctoral candidate working at Gustave Eiffel University under the ClearDoc project. Fan of science communication, visualization, writing, and health.
+  bio: I hold a PhD in Earth and Environmental Sciences from Gustave Eiffel University. My work examines how nature-based solutions can support more resilient and sustainable cities. Alongside research, I am interested in teaching, science communication, and making complex environmental ideas more accessible.
   avatar: '/images/Author.jpeg'
   
 social:
+- {icon: "ion-ios-contact", label: ORCID, link: "https://orcid.org/0000-0001-7740-102X"}
 - {icon: "ion-logo-linkedin", label: Linkedin, link: "https://www.linkedin.com/in/phamkien/"}
 - {icon: "ion-logo-instagram", label: Instagram, link: "https://www.instagram.com/ray_theurbanist/"}
 - {icon: "ion-ios-cafe", label: Ko-fi, link: "https://ko-fi.com/kienphamtrung"}
