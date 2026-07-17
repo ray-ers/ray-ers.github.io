@@ -2,6 +2,7 @@
 layout: post
 title: Taiwan ICDF Scholarship
 category: en
+topic: ideas
 description: A merit-based, non-repayable scholarship offered annually for specific fields at the bachelor's, master's, and PhD levels. This comprehensive package covers tuition, living expenses, accommodation, books, and airfare.
 date: 2022-08-01 19:30:00 +0700
 translation_url: https://kien-pham.com/TaiwanICDF-vi

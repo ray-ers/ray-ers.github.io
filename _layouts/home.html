@@ -3,49 +3,51 @@ layout: default
 ---
 
 {%- comment -%}
-  This section now filters all paginated posts to ONLY include those
-  with the category 'en'.
+  Posts keep their language category (category: en / vi) and are grouped
+  on the homepage by a separate topic field (topic: research / ideas / life).
+  site.posts is used instead of paginator.posts so every English post is
+  available to its column regardless of pagination.
 {%- endcomment -%}
-{%- assign english_posts = paginator.posts | where: "category", "en" -%}
 
-{%- assign featured_post = english_posts.first -%}
-{%- assign regular_posts = english_posts | slice: 1, english_posts.size -%}
-
+{%- assign english_posts = site.posts | where: "category", "en" -%}
+{%- assign research_posts = english_posts | where: "topic", "research" -%}
+{%- assign ideas_posts    = english_posts | where: "topic", "ideas" -%}
+{%- assign life_posts     = english_posts | where: "topic", "life" -%}
 
 <!-- Hero Section -->
 {% include hero.html %}
 
-<!-- Featured Post Section -->
-{% if featured_post %}
-<section class="featured-post-section">
+<!-- Topic Columns -->
+<section class="topic-section">
   <div class="container">
-    <a class="featured-post" href="{{ featured_post.url | relative_url }}">
-      {% if featured_post.image %}
-      <div class="featured-post__image">
-        <img src="{{ featured_post.image | relative_url }}" alt="{{ featured_post.title }}">
-      </div>
-      {% endif %}
-      <div class="featured-post__content">
-        <p class="featured-post__tag">Latest Post</p>
-        <h2 class="featured-post__title">{{ featured_post.title }}</h2>
-        <p class="featured-post__excerpt">{{ featured_post.description }}</p>
-        <div class="featured-post__meta">
-          <time datetime="{{ featured_post.date | date_to_xmlschema }}">{{ featured_post.date | date_to_long_string }}</time>
-        </div>
-      </div>
-    </a>
+
+    <div class="topic-columns animate">
+
+      {% include topic-column.html
+        title="Research"
+        description="Projects, methods, and notes on urban resilience, food systems, and environmental assessment."
+        topic="research"
+        url="/research/"
+        posts=research_posts
+      %}
+
+      {% include topic-column.html
+        title="Essays & Ideas"
+        description="Essays, guides, and exploratory writing on scholarship, education, and communication."
+        topic="ideas"
+        url="/ideas/"
+        posts=ideas_posts
+      %}
+
+      {% include topic-column.html
+        title="Life"
+        description="Personal observations, travel, photography, and everyday experiences."
+        topic="life"
+        url="/life/"
+        posts=life_posts
+      %}
+
+    </div>
+
   </div>
 </section>
-{% endif %}
-
-<!-- Regular Post Grid -->
-<div class="container">
-  <div class="post-grid animate">
-    {% for post in regular_posts %}
-        {% include article-grid-item.html post=post %}
-    {% endfor %}
-  </div>
-</div>
-
-<!-- Pagination -->
-{% include pagination.html %}

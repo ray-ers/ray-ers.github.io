@@ -2,6 +2,7 @@
 layout: post
 title: Taiwan MOE Scholarship
 category: en
+topic: ideas
 description: A merit-based, non-repayable scholarship offered annually for all majors at the bachelor's, master's, and PhD levels. The scholarship includes a tuition waiver and a monthly living stipend.
 date: 2022-08-20 14:30:00 +0700
 translation_url: https://kien-pham.com/TaiwanMOE-vi

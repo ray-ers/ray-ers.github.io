@@ -1,0 +1,220 @@
+/*
+ * =================================================
+ * Topic-based Homepage Layout
+ * =================================================
+ */
+
+/* Main topic section */
+.topic-section {
+  padding: 64px 0 72px;
+
+  @media only screen and (max-width: $tablet) {
+    padding: 48px 0 56px;
+  }
+
+  @media only screen and (max-width: $mobile) {
+    padding: 40px 0 48px;
+  }
+}
+
+/* Three-column layout */
+.topic-columns {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: start;
+  gap: 40px;
+
+  @media only screen and (max-width: $desktop) {
+    gap: 28px;
+  }
+
+  @media only screen and (max-width: $tablet) {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+}
+
+/* Individual topic column */
+.topic-column {
+  min-width: 0;
+}
+
+.topic-column__header {
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.topic-column__label {
+  margin-bottom: 12px;
+  font-family: $base-font-family;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  a {
+    border: none;
+    color: var(--heading-font-color);
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: var(--brand-color);
+    }
+  }
+}
+
+.topic-column__description {
+  margin-bottom: 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text-alt-color);
+}
+
+/* Featured post card */
+.topic-post {
+  padding-bottom: 24px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.topic-post__link {
+  display: block;
+  border: none;
+  text-decoration: none;
+
+  &:hover {
+    .topic-post__title {
+      color: var(--brand-color);
+    }
+
+    .topic-post__image img {
+      transform: scale(1.025);
+    }
+  }
+}
+
+.topic-post__image {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 18px;
+  border-radius: $global-radius;
+  background-color: var(--background-alt-color);
+
+  img {
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    object-fit: cover;
+    transition: transform 0.25s ease;
+  }
+}
+
+.topic-post__title {
+  margin-bottom: 10px;
+  font-family: $base-font-family;
+  font-size: $font-size-h4;
+  line-height: 1.25;
+  color: var(--heading-font-color);
+  transition: color 0.2s ease;
+}
+
+.topic-post__excerpt {
+  display: -webkit-box;
+  overflow: hidden;
+  margin-bottom: 12px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text-color);
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.topic-post__date {
+  display: block;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--text-alt-color);
+}
+
+/* Compact list items */
+.topic-column__list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.list-item {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border-color);
+
+  &:first-child {
+    padding-top: 0;
+  }
+}
+
+.list-item__link {
+  display: block;
+  border: none;
+  text-decoration: none;
+
+  &:hover .list-item__title {
+    color: var(--brand-color);
+  }
+}
+
+.list-item__title {
+  margin-bottom: 4px;
+  font-family: $base-font-family;
+  font-size: 16px;
+  line-height: 1.35;
+  color: var(--heading-font-color);
+  transition: color 0.2s ease;
+}
+
+.list-item__date {
+  display: block;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--text-alt-color);
+}
+
+/* View-all link */
+.topic-column__view-all {
+  display: inline-block;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--brand-color);
+
+  i {
+    vertical-align: middle;
+  }
+
+  &:hover {
+    color: var(--heading-font-color);
+  }
+}
+
+.topic-column__empty,
+.topic-archive__empty {
+  margin: 0;
+  padding: 16px 0;
+  font-size: 15px;
+  font-style: italic;
+  color: var(--text-alt-color);
+}
+
+/* Reduced-motion accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .topic-post__image img,
+  .topic-post__title,
+  .list-item__title {
+    transition: none;
+  }
+
+  .topic-post__link:hover .topic-post__image img {
+    transform: none;
+  }
+}

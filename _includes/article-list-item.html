@@ -1,0 +1,6 @@
+<article class="list-item">
+  <a class="list-item__link" href="{{ include.post.url | relative_url }}">
+    <h3 class="list-item__title">{{ include.post.title }}</h3>
+    <time class="list-item__date" datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date_to_long_string }}</time>
+  </a>
+</article>
