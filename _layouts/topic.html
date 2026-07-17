@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+{%- assign topic_posts = site.posts | where: "category", "en" | where: "topic", page.topic -%}
+
+<!-- begin topic archive -->
+<div class="container animate">
+
+  <div class="page__info">
+    <h1 class="page__title">{{ page.title | escape }}</h1>
+    {% if page.description %}
+    <p class="page-description">{{ page.description }}</p>
+    {% endif %}
+  </div>
+
+  {% if topic_posts.size > 0 %}
+  <div class="post-grid">
+    {% for post in topic_posts %}
+      {% include article-grid-item.html post=post %}
+    {% endfor %}
+  </div>
+  {% else %}
+  <p class="topic-archive__empty">New posts coming soon.</p>
+  {% endif %}
+
+</div>
+<!-- end topic archive -->

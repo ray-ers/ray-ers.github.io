@@ -1,0 +1,17 @@
+# Main navigation. Order here is the order in the menu.
+- title: Home
+  url: /
+- title: About
+  url: /about/
+- title: Research
+  url: /research/
+- title: Essays & Ideas
+  url: /ideas/
+- title: Life
+  url: /life/
+- title: Atelier
+  url: /atelier/
+- title: CV
+  url: /cv/
+- title: Contact
+  url: /contact/

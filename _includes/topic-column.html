@@ -1,0 +1,48 @@
+<section class="topic-column topic-column--{{ include.topic }}">
+
+  <header class="topic-column__header">
+    <h2 class="topic-column__label">
+      <a href="{{ include.url | relative_url }}">{{ include.title }}</a>
+    </h2>
+    {% if include.description %}
+    <p class="topic-column__description">{{ include.description }}</p>
+    {% endif %}
+  </header>
+
+  {% assign featured = include.posts | first %}
+
+  {% if featured %}
+  <article class="topic-post">
+    <a class="topic-post__link" href="{{ featured.url | relative_url }}">
+      {% if featured.image %}
+      <div class="topic-post__image">
+        <img src="{{ featured.image | relative_url }}" alt="{{ featured.title | escape }}" loading="lazy">
+      </div>
+      {% endif %}
+      <div class="topic-post__content">
+        <h3 class="topic-post__title">{{ featured.title }}</h3>
+        {% if featured.description %}
+        <p class="topic-post__excerpt">{{ featured.description | strip_html | truncatewords: 22 }}</p>
+        {% elsif featured.excerpt %}
+        <p class="topic-post__excerpt">{{ featured.excerpt | strip_html | truncatewords: 22 }}</p>
+        {% endif %}
+        <time class="topic-post__date" datetime="{{ featured.date | date_to_xmlschema }}">{{ featured.date | date_to_long_string }}</time>
+      </div>
+    </a>
+  </article>
+
+  <div class="topic-column__list">
+    {% for post in include.posts offset: 1 limit: 3 %}
+      {% include article-list-item.html post=post %}
+    {% endfor %}
+  </div>
+
+  <a class="topic-column__view-all" href="{{ include.url | relative_url }}">
+    View all {{ include.title | downcase }} <i class="ion ion-ios-arrow-forward"></i>
+  </a>
+
+  {% else %}
+  <p class="topic-column__empty">New posts coming soon.</p>
+  {% endif %}
+
+</section>
