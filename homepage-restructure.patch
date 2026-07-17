@@ -238,7 +238,7 @@ index 5ec12e3..7b46004 100644
 +
 +      {% include topic-column.html
 +        title="Research"
-+        description="Projects, methods, and notes on urban resilience, nature-based solutions, and environmental assessment."
++        description="Notes on urban resilience, nature-based solutions, and environmental assessment."
 +        topic="research"
 +        url="/research/"
 +        posts=research_posts
